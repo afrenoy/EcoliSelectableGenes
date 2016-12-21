@@ -1,0 +1,1061 @@
+<b>TABLE 1</b> Selections giving rise to mutants of <i>E.coli</i> and <i>S.typhimurium</i>
+Type;Selection purpose and technique;Mutant gene
+Expansion of metabolic capacity
+Acetate + gluconate as C source in <i>ppc</i>;<i>gntR</i>
+Acetate + gluconate as C source in <i>ppc</i>;<i>gntS</i>
+Acetyl(<i>N</i>)histidine + ornithine satisfaction of <i>his</i>;<i>argB</i>
+Acetyl(<i>N</i>)histidine + ornithine satisfaction of <i>his</i>;<i>argC</i>
+Acetyl(<i>N</i>)histidine + ornithine satisfaction of <i>his</i>;<i>argE</i>
+Acetyl(<i>N</i>)histidine + ornithine satisfaction of <i>his</i>;<i>argH</i>
+Acetylhistidine satisfaction of <i>his</i>;<i>argR</i>
+Acetyl(<i>N</i>)lactonate as sole N source ;<i>lacI,</i> operator
+Acetylmethionine satisfaction of <i>met</i>;<i>argR</i>
+Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);<i>argA</i>
+Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);<i>argB</i>
+Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);<i>argC</i>
+Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);<i>argD</i>
+Adenosine as C source in <i>upp deoD</i>;<i>xapR</i>
+Aminobutyrate as N source;<i>gabC</i>
+Arabinitol (D) resistance;<i>mtlA</i>
+Arabinose (L) as C source in <i>cya</i> or <i>crp</i>;<i>rpoD</i>
+Arabinose (L) as C source in presence of <i>lac</i> operon inducer;<i>lacY</i>
+Arabinose (D) as C source;<i>fucA</i>
+Arabitol as C source;<i>gatACD</i>
+Arabitol (D) as C source in <i>fuc</i>;<i>dgd</i>
+Arbutin as a C source;<i>bglBC</i>
+Arbutin as C source);<i>osmZ</i> (<i>bglY)</i>
+Arginine as N source;<i>hisP</i>
+Arginine-independent growth of <i>pyrH</i> in presence of uracil;<i>pyrB</i>
+Arginine-independent growth of <i>pyrH</i> in presence of uracil;<i>pyrC</i>
+Arginine-independent growth of <i>pyrH</i> in presence of uracil;<i>pyrD</i>
+Arginine-resistant, proline-independent growth of ∆<i>pro</i>;<i>argR</i>
+β-Glycerol-phosphate as C source in presence of high phosphate;<i>phoA</i>
+β-Glycerol-phosphate as C source in presence of high phosphate;<i>phoR</i>
+β-Glycerol-phosphate as C source in presence of high phosphate;<i>phoS</i>
+β-Glycerol-phosphate as C source in presence of high phosphate;<i>phoT</i>
+Biotin sulfoxide utilization in <i>chl bio</i>;<i>chlE</i>
+Branched-chain amino acid satisfaction of ∆<i>ilvDC hisT</i>;<i>ilvA</i>
+Butyrate as C source in <i>fadR</i>(Con);<i>atoC</i>
+Butyrate or valerate as better C source;<i>iclR</i>
+Cellobiose as C source;<i>celABCDF</i>
+Chemostat growth improved;<i>mut</i>
+Citrate as C source;<i>cit</i>
+Citrate as C source in presence of low cAMP;<i>cpd</i>
+D-Amino acid satisfaction of amino acid auxotrophy;<i>dadA</i>
+DAP-independent growth of ∆(<i>mal-asd</i>) in the presence of serine, methionine,and glycine D-Histidine + glycylglutamine satisfaction of <i>his</i> auxotrophs;<i>glnA</i>
+Decanoate as C source;<i>fadR</i>
+Deoxyadenosine (low) satisfaction of purine requirement;<i>add</i>
+Deoxyadenosine + hypoxanthine satisfaction of purine requirement;<i>add</i>
+Diamino (2,6)purine satisfaction of purine auxotrophy;<i>deoR</i>
+Erythromycin growth dependence;<i>mac</i>
+Ethanol as C source;<i>adh</i>
+Ethyleneglycol as C source in propanediol utilizer;<i>fucA</i>
+Fructose as C source in <i>ptsF</i> or <i>ptsM</i>;<i>srlD</i>
+Fructose 1-phosphate as C source;<i>uhpR</i>
+Fucose (L) as C source in propanediol utilizer;<i>fucA</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglA</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglB</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglC</i>
+Galactose as C source for <i>gal</i> (leader)::IS;<i>rho</i>
+Galacturonide as C source;<i>uidA</i>
+Galacturonide as C source;<i>uidR</i>
+Glucanate as C source in <i>eda</i>;<i>edd</i>
+Glucosamine as C source;<i>ptsG</i>
+Glucosamine 6-phosphate as C source;<i>uhpR</i>
+Glucosamine as anaerobic C source in <i>ptsG</i>;<i>dgsA</i>
+Glucose 1-phosphate as C source;<i>uhpR</i>
+Glucose as C source in ∆<i>ptsHI</i>;<i>galC</i>
+Glucose as C source in <i>ppc</i>;<i>iclR</i>
+Glucose as C source in ∆<i>ptsHI</i>;<i>galR</i>
+Glucosides (β) as C source;<i>gyrA</i> (<i>hisU</i>)
+Glucosides (β) as C source;<i>gyrB</i> (<i>hisW)</i>
+Glutamate as C source;<i>gadS</i>
+Glutamate as C source;<i>gltH</i>
+Glutamate as C source;<i>gltS</i>
+Glutamate as C source at 42°C;<i>gltR</i>
+Glutamine as C source;<i>glnP</i>
+Glycerol as C source in <i>ppc</i>;<i>iclR</i>
+Glycerol + gluconate as C source in <i>eda</i>;<i>gntM</i>
+Glycerol + methylglucuronide as C source in <i>eda</i>;<i>gurBCD</i>
+Glycerol 3-phosphate as C source in <i>glpT ugpAB</i>;Hemin satisfaction of <i>hemA</i> auxotroph;<i>hemB</i>
+Hemin satisfaction of <i>hemA</i> auxotroph;<i>rfa</i>
+Hexuronate as C source in noninducible strain;<i>exuR</i>
+Histidinal satisfaction of <i>his</i> auxotroph requirement at 30°C;<i>his</i> structural genes
+Histidinal satisfaction of <i>his</i> auxotroph requirement at 30°C;<i>hisG</i>
+Histidine (D) satisfaction of <i>his</i> auxotroph requirement;<i>his</i> structural genes
+Histidine (D) satisfaction of <i>his</i> auxotroph requirement;<i>hisG</i>
+Histidine (D) satisfaction of <i>his</i> auxotroph requirement;<i>dhuA</i>
+Histidine as C source;<i>hut</i>
+Histidine as N source;<i>hut</i>
+Improved growth in <i>icd</i>;<i>gltA</i>
+Inosine as C source in <i>upp deoD</i>;<i>xapR</i>
+Inosine as improved C source;<i>deoR</i>
+Keto(2)-3-deoxygalactonate as C source;<i>kdgR</i>
+Keto(2)-3-deoxygalactonate as C source;<i>dgoR</i>
+Lactate + fumarate as anaerobic energy source;<i>chlABDE</i>
+Lactate + nitrate as anaerobic energy source (<i>chl</i> to <i>chl</i>+);<i>chlE</i>
+Lactitol as C source;<i>lacI,</i> operator
+Lactobionic acid as C source;<i>lacI,</i> operator
+Lactobionic acid as C source;<i>lacZ</i>
+Lactose utilization after conjugation of F′<i>lac</i> into <i>Salmonella</i> sp.;<i>hsd</i>
+Lactose utilization in ∆<i>lacZ</i>;<i>ebgA</i>
+Leucine (D) satisfaction of <i>leu</i> auxotrophs;<i>lrp</i> (<i>livR, lstR, lss, mbl, oppl)</i>
+Lyxose (D) as C source;<i>manC</i>
+Malate (L) as improved C source;<i>dct</i>
+Malate (D) as C source;<i>dml</i>
+Maltose as C source in <i>malT</i>;<i>malP</i>
+Maltose as C source in <i>malT</i>;<i>malQ</i>
+Maltose utilization in <i>malT</i>;<i>bymA</i>
+Mannitol (limiting) as C source;<i>mtlC</i>
+Mannose as C source;<i>ptdG</i>
+Melibiose as C source;<i>lacI,</i> operator
+Melibiose as C source and acetyl(<i>N</i>)lactonate as N source;<i>lacI,</i> operator
+Methyl-β-galactoside-supported growth;<i>mglD</i>
+Methylgalacturonide as C source;<i>uidA</i>
+Methylgalacturonide as C source;<i>uidR</i>
+Methylgalacturonide as C source;<i>uxuR</i>
+Methyl(β)glucoside as C source;<i>bglT</i>
+Methylglucuronide + glycerol-supported growth;<i>uidA</i>
+Neolactose as C source;<i>lacI,</i> operator
+Nicotinamide as sole N source;<i>pncA</i>
+Phenylgalactoside as C source;<i>lacI,</i> operator
+Proline as sole N source with glucose as C source;<i>putA</i>
+Proline-independent growth of <i>proAB</i>;<i>argD</i>
+Propanediol as C source;<i>fucA</i>
+Propionate as C source;<i>prp</i>
+Raffinose as C source in <i>lacI</i>;<i>mel</i> (generic)
+Raffinose as C source;<i>lacI,</i> operator
+Ribitol utilization;<i>gatACD</i>
+Salicin as C source;<i>bglB,C</i>
+Salicin as C source;<i>osmZ</i>
+Serine (L) as C source;<i>cpxA</i>
+Serine (L) as C source;<i>ecfB</i>
+Sorbose (L) as C source in crosses with wild strains;<i>sorAT</i>
+Streptomycin independence of <i>rpsL</i>;<i>rpsD</i>
+Streptomycin independence of <i>rpsL</i>;<i>rpsE</i>
+Succinate as improved C source;<i>cpd</i>
+Succinate-independent growth in <i>lpd</i>;<i>sdh</i>
+Sucrose as C source;<i>dsdA</i>
+Sucrose as C source;<i>dsdC</i>
+Threonine as N source;<i>ilvA</i>
+Tyramine as N source;<i>tyn</i>
+Uridine as C source, improved utilization;<i>cytR</i>
+Valerate as C source in <i>fadR</i>(Con);<i>atoC</i>
+Xylitol as C source in propanediol utilizer;<i>fucA</i>
+Resistance to inorganic chemicals
+Acid resistance;<i>atr</i>
+Acid resistance;<i>phoE</i>
+Arsenate resistance;<i>glpT</i>
+Arsenate resistance;<i>phoR</i>
+Arsenate resistance;<i>phoS</i>
+Arsenate resistance;<i>phoT</i>
+Arsenate resistance;<i>pstABCS</i>
+Arsenate resistance;<i>pit</i>
+Azide resistance;<i>atpA–atpE</i>
+Azide resistance;<i>cysB</i>
+Azide resistance;<i>cysK</i>
+Azide resistance;<i>secA</i>
+Chlorate resistance;<i>chlABCDEG</i>
+Chlorate resistance;<i>narCG</i>
+Chlorate resistance;<i>narH</i>
+Chromate + selenate resistance;<i>cysL</i>
+Chromate resistance;<i>cysA</i>
+Chromate resistance;<i>cysB</i>
+Chromate resistance;<i>cysC</i>
+Chromate resistance;<i>cysD</i>
+Chromate resistance;<i>cysH</i>
+Chromate resistance;<i>cysI</i>
+Chromate resistance;<i>cysJ</i>
+Copper resistance in <i>ompC</i>;<i>ompF</i>
+Copper resistance;<i>ompR</i>
+Diazoborine resistance;<i>envM</i>
+Lithium resistance (multicopy);<i>nhaA</i>
+Lithium-resistant utilization of melibiose;<i>melB</i>
+Manganese resistance;<i>corABCD</i>
+Manganese resistance;<i>fur</i>
+Manganese resistance;<i>mng</i>
+Nickel resistance;<i>corABCD</i>
+Osmotolerance;<i>crp</i>
+Osmotolerance;<i>cyaA</i>
+Osmotolerance;<i>osmB</i>
+Osmotolerance;<i>proA</i>
+Osmotolerance;<i>proB</i>
+Peroxide resistance;<i>oxyR</i>
+Selenate resistance;<i>cysA</i>
+Selenate resistance;<i>cysB</i>
+Selenate resistance in <i>cysM</i>;<i>cysB</i>
+Selenate resistance;<i>cysK</i>
+Selenate resistance;<i>cysL</i>
+Selenite resistance;<i>cysK</i>
+Selenite resistance;<i>gshA</i>
+Selenite resistance;<i>gshB</i>
+Tellurite resistance;<i>phoB</i>
+Tributyl tin resistance;<i>atpA–atpE</i>
+Resistance to biological and organic chemicals
+Acetylnorvaline resistance in <i>argR</i>(Con);<i>argE</i>
+Acetylnorvaline resistance in <i>argR</i>(Con);<i>argR</i>
+Acridine resistance;<i>dnaE</i>
+Actinomycin D resistance in the presence of EDTA;<i>pldA</i>
+Adenine resistance in <i>hpt gpt</i>;<i>apt</i>
+Adenine resistance in <i>hpt gpt</i>;<i>purR</i>
+Alafosfalin resistance;<i>pepA</i>
+Alafosfalin resistance;<i>tpp</i>
+Alanyl-2-aminopropionate resistance;<i>oppA</i>
+Albicidin resistance;<i>tsx</i>
+Albomycin resistance;<i>exbB</i>
+Albomycin resistance;<i>fhuA</i>
+Albomycin resistance;<i>fhuB</i>
+Albomycin resistance;<i>pepN</i>
+Albomycin resistance;<i>sidCF</i>
+Albomycin resistance;<i>sidK</i>
+Albomycin resistance;<i>tonB</i>
+Aldohexuronate resistance in <i>eda</i>;<i>exuT</i>
+Aldohexuronate resistance in <i>eda</i>;<i>exuR</i>
+Allyl alcohol resistance;<i>adhE</i>
+Amidinopenicillin tolerance;<i>sloB</i>
+Amikacin resistance;<i>cpxA</i>
+Amino(2)purine resistance in <i>dam</i>;<i>mutH</i>
+Amino(2)purine resistance in <i>dam</i>;<i>mutL</i>
+Amino(2)purine resistance in <i>dam</i>;<i>mutS</i>
+Amino(4)phenylalanine resistance;<i>aroF</i>
+Amino(4)phenylalanine resistance;<i>tyrA</i>
+Amino(4)phenylalanine resistance;<i>tyrR</i>
+Amino(6)nicotinamide resistance;<i>nadA</i>
+Amino(6)nicotinamide resistance;<i>nadD</i>
+Amino(6)nicotinamide resistance;<i>pncA</i>
+Amino(6)nicotinamide resistance;<i>pncB</i>
+Amino(6)nicotinamide resistance;<i>pncX</i>
+Amino(6)nicotinate resistance;<i>pncB</i>
+Aminobutyrate resistance;<i>ilv</i> structural genes
+Aminobutyrate resistance;<i>ilvB</i>
+Aminobutyrate resistance;<i>ilvH</i>
+Aminobutyrate resistance;<i>ilvI</i>
+Aminoethylcysteine (thialysine) resistance;<i>lysC</i>
+Aminoethylcysteine (thialysine) resistance;<i>lysP</i>
+Aminoethylcysteine (thialysine) resistance;<i>lysS</i>
+Aminoglycoside resistance;<i>nek</i>
+Amino(2)hydroxy(3)pentoate resistance;<i>thr</i> structural genes
+Aminopterin resistance;<i>thyA</i>
+Aminotriazole resistance;<i>amtA, amtB</i>
+Aminotriazole resistance;<i>his</i> structural genes
+Aminotriazole resistance in <i>relA</i>;<i>gyrB</i>
+Ampicillin resistance;<i>ampC</i>
+Ampicillin resistance;<i>ampD</i>
+Ampicillin resistance;<i>ampE</i>
+Ampicillin resistance;<i>envZ</i>
+Ampicillin resistance;<i>galU</i>
+Ampicillin resistance;<i>hipA</i>
+Ampicillin resistance;<i>hipQ</i>
+Ampicillin resistance;<i>ompC</i>
+Ampicillin resistance;<i>ompF</i>
+Ampicillin resistance;<i>ompR</i>
+Ampicillin resistance;<i>ptsI</i>
+Ampicillin resistance;<i>rfa</i> (general)
+Ampicillin resistance;<i>tolD</i>
+Ampicillin resistance;<i>tolE</i>
+Arabinitol (D) resistance;<i>mtlA</i>
+Arbitol (D) resistance;<i>gatACD</i>
+Arbutin resistance in <i>dgk</i>;<i>mdoB</i>
+Arginine-resistant, proline-independent growth of ∆<i>pro</i>;<i>argR</i>
+Auroventin resistance;<i>atpA–atpE</i>
+Aza(5)cytidine resistance;<i>dcm</i>
+Azadeoxycytidine resistance;<i>cdd</i>
+Aza(6)uracil resistance;<i>gpt</i>
+Aza(8)guanine resistance;<i>ndk</i>
+Aza(8)guanine resistance;<i>upp</i>
+Azaleucine resistance;<i>aroP</i>
+Azaleucine resistance;<i>azl</i>
+Azaleucine resistance;<i>tolB</i>
+Azaleucine resistance;<i>leuS</i>
+Azaleucine resistance;<i>livG</i>
+Azaleucine resistance;<i>livH</i>
+Azaserine + tryptophan resistance;<i>dhuA</i>
+Azaserine + tryptophan resistance in <i>dhuA</i>;<i>hisJ</i>
+Azaserine resistance;<i>aroP</i>
+Azaserine resistance;<i>azaAB</i>
+Azaserine resistance;<i>cysA</i>
+Azaserine resistance;<i>cysB</i>
+Azaserine resistance;<i>cysC</i>
+Azaserine resistance;<i>cysD</i>
+Azaserine resistance;<i>cysE</i>
+Azaserine resistance;<i>cysG</i>
+Azaserine resistance;<i>cysH</i>
+Azaserine resistance;<i>cysI</i>
+Azaserine resistance;<i>cysJ</i>
+Azaserine resistance;<i>cysK</i>
+Azaserine resistance;<i>cysM</i>
+Azaserine resistance;<i>mut</i> (generic)
+Azetidine carboxylate resistance;<i>proB</i>
+Azetidine carboxylate resistance;<i>putA</i>
+Azetidine carboxylate resistance;<i>putP</i>
+Azidothymidine resistance;<i>tdk</i>
+Bacilysin resistance;<i>dppA</i>
+Bacitracin resistance;<i>rfa</i>
+Bacteriocin resistance;<i>tol</i>
+Bacteriocin 4-59 resistance;<i>ompA</i>
+Bacteriocin 4-59 resistance;<i>tonB</i>
+Bacteriocin JF246 resistance;<i>ompA</i>
+Baikiain resistance in constitutive background;<i>putA</i>
+β-Glycerol-phosphate resistance in <i>glpD</i>;<i>phoA</i>
+Beta-lactam conjugate resistance;<i>fhuA</i>
+Beta-lactam resistance (see mecillinam resistance);<i>crp</i>
+Beta-lactam resistance;<i>cyaA</i>
+Beta-lactam resistance;<i>lyt</i>
+Beta-lactam resistance;<i>alaS</i>
+Beta-lactam resistance;<i>argS</i>
+Bialaphos resistance;<i>dppA</i>
+Borrelidin resistance;<i>thrS</i>
+Bromodeoxyuridine + UV light resistance;<i>ung</i>
+Cadaverine resistance;<i>cadB</i>
+Caffeine resistance;<i>glnV</i>
+Calmodulin inhibitor resistance;<i>leuW</i>
+cAMP + glucose 6-phosphate + D-xylose + L-arabinose resistance;<i>crp</i>
+cAMP + glucose 6-phosphate resistance;<i>crp</i>
+Camphor resistance;<i>mbrABCD</i>
+Canavanine + azauracil resistance;<i>argR</i>
+Canavanine + thiouracil resistance;<i>upp</i>
+Canavanine + thiouracil resistance;<i>argP</i>
+Canavanine resistance;<i>argS</i>
+Canavanine resistance;<i>argP</i>
+Canavanine resistance;<i>argR</i>
+CCCP resistance;<i>atpA–atpE</i>
+CCCP resistance due to gene dosage;<i>emrB</i>
+Cephalosporin E-0702 resistance;<i>tonB</i>
+Cephalothin resistance;<i>rfa</i>
+Chelator resistance;<i>ompA</i>
+Chloramphenicol resistance;<i>cmlA</i>
+Chloramphenicol resistance;<i>marA</i>
+Chloramphenicol resistance;<i>rrn</i>
+Chloramphenicol resistance;<i>ompF</i>
+Chloramphenicol resistance;<i>ompR</i>
+Chloro(β)-D-alanine resistance;<i>dadA</i>
+Chloro(β)-D-alanine resistance;<i>metC</i> (<i>ecfA</i>)
+Chloro-3-hydroxyacetone resistance in <i>uhp</i>(Con);<i>uhpT</i>
+Chloroacetaldehyde resistance;<i>adhCE</i>
+Chloroacetate(β) resistance;<i>cbt</i>
+Chlorobiocin resistance;<i>gyrB</i>
+Chloroethanol resistance;<i>adhCE</i>
+Chlorohydroxyacetone phosphate resistance;<i>glpT</i>
+Chlorpromazine resistance;<i>lon</i>
+Chuangxinmycin resistance;<i>trpR</i>
+Cloacin DF13 resistance;<i>ompF</i>
+Coenzyme A feedback resistance;<i>coaA</i>
+Colicin “ K-type” tolerance;<i>hemB</i>
+Colicin (multiple) resistance;<i>envZ</i>
+Colicin (other) resistance;<i>exbB</i>
+Colicin (other) resistance;<i>exbC</i>
+Colicin A tolerance;<i>cpxA</i>
+Colicin A tolerance;<i>ompF</i>
+Colicin A group tolerance;<i>cirA</i>
+Colicin A group tolerance;<i>tolQ</i>
+Colicin B resistance;<i>exbC</i>
+Colicin B resistance;<i>fepABCDG</i>
+Colicin B resistance;<i>tonB</i>
+Colicin B tolerance;<i>cbt</i>
+Colicin D resistance;<i>cbt</i>
+Colicin D tolerance;<i>tolB</i>
+Colicin E resistance;<i>tolC</i>
+Colicin E1 tolerance;<i>cet</i>
+Colicin E1 tolerance;<i>tolQAB</i>
+Colicin E2 tolerance;<i>ompF</i>
+Colicin E3 tolerance;<i>btuB</i>
+Colicin E3 tolerance;<i>tolR</i>
+Colicin E2 and E3 tolerance;<i>tolE</i>
+Colicin E2 and E3 tolerance;<i>tolZ</i>
+Colicin E2, E3, D, Ia, and Ib tolerance;<i>tolI</i>
+Colicin I resistance;<i>exbB</i>
+Colicin I resistance;<i>exbC</i>
+Colicin I resistance;<i>ecfB</i>
+Colicin Ia and Ib tolerance;<i>tolJ</i>
+Colicin K resistance;<i>metC</i> (<i>ecfA</i>)
+Colicin K resistance;<i>tsx</i>
+Colicin K resistance;<i>ompA</i>
+Colicin K tolerance;<i>ompA</i>
+Colicin K tolerance;<i>ompF</i>
+Colicin L tolerance;<i>envZ</i>
+Colicin L tolerance;<i>ompF</i>
+Colicin L tolerance;<i>fhuA</i>
+Colicin L, A, and S4 tolerance;<i>fepABCDG</i>
+Colicin M resistance;<i>tonB</i>
+Colicin M resistance;<i>tolM</i>
+Colicin M tolerance;<i>tolD</i>
+Coumermycin resistance;<i>gyrB</i>
+Coumermycin resistance;<i>hisW</i>
+Cyclopentane glycine resistance;<i>ilv</i> structural genes
+Cyclopentane glycine resistance;<i>ilvA</i>
+Cycloserine resistance;<i>hipA</i>
+Cycloserine (D) resistance;<i>cycA</i>
+Dapsone resistance;<i>thdA</i>
+Dehydrobiotin resistance;<i>bio </i>operon
+Dehydrobiotin resistance;<i>bioP</i>
+Dehydrobiotin resistance;<i>birA</i>
+Dehydroproline + azetidine carboxylate resistance at high osmolarity in <i>putA</i><i>putP</i>;<i>proU</i>
+Dehydroproline resistance;<i>proB</i>
+Dehydroproline resistance in <i>putA putP</i>;<i>proP</i>
+Deoxy(2)adenosine resistance in <i>deoC</i>;<i>deoD</i>
+Deoxyadenosine + fluorouracil resistance in <i>upp</i>;<i>deoA</i>
+Deoxyadenosine + fluorouracil resistance in <i>upp</i>;<i>deoD</i>
+Deoxydihydroxyphosphonyl methyl fructose resistance;<i>uhpT</i>
+Deoxy(3)-3-fluoroglucose-independent utilization of lactate;<i>ptsHIG</i>
+Deoxy(3)-3-fluoroglucose-independent utilization of fructose;<i>ptsG</i>
+Deoxy(3)-3-fluoroglucose resistance;<i>ptsI</i>
+Deoxy(2)galactitol resistance in galicitol utilizer;<i>gatACD</i>
+Deoxy(2)galactose resistance;<i>gal</i> operon
+Deoxy(2)galactose resistance;<i>galE</i>
+Deoxy(2)galactose resistance;<i>galK</i>
+Deoxy(2)galactose resistance;<i>galP</i>
+Deoxy(2)glucose-resistant utilization of melibiose;<i>melB</i>
+Deoxyglucose resistance;<i>manXYZ</i>
+Deoxy(2)glucose-6-phosphate resistance;<i>uhpT</i>
+Deoxy(2)glucose-resistant fructose utilization;<i>fruA</i>
+Deoxy(2)glucose-resistant fructose utilization;<i>ptsG</i>
+Deoxy(2)-2-iodoacetamidoglucose resistance;<i>nagE</i>
+Diamino(2,6)purine resistance;<i>apt</i>
+Diamino(2,6)purine resistance in <i>pnp</i>;<i>apt</i>
+Dicyclohexylcarbodiimide resistance in <i>rfa</i>;<i>rfb</i>
+Dideoxy(2′,3′)thymidine resistance;<i>tmk</i>
+Dihydroproline resistance;<i>putP</i>
+Dihydroxybutylphosphonate resistance;<i>cls</i>
+Dihydroxybutylphosphonate resistance;<i>glpT</i>
+Dihydroxybutylphosphonate resistance in <i>glpT</i>;<i>ugpA,B</i>
+Dihydroxybutylphosphonate resistance in <i>uhp</i>(Con);<i>uhpT</i>
+Dimethyl sulfoxide resistance;<i>pss</i>
+Dinitropyrene resistance;<i>atoB</i>
+Dipeptide (valine containing) resistance;<i>dppA</i>
+Drug-resistant gene maintenance;<i>dor</i>
+Erythromycin growth dependence;<i>rrn</i>
+Erythromycin resistance;<i>eryC</i>
+Erythromycin resistance;<i>eryD</i>
+Erythromycin resistance;<i>mac</i>
+Erythromycin resistance;<i>rplD</i>
+Erythromycin resistance;<i>rplV</i>
+Erythromycin resistance;<i>rplC</i>
+Ethanol resistance;<i>pss</i>
+Ethionine resistance;<i>metG</i>
+Ethionine resistance;<i>metJ</i>
+Fluoroacetate resistance;<i>ack</i>
+Fluoroacetate resistance;<i>pta</i>
+Fluorocitrate resistance;<i>tct</i>
+Fluoro(5)cytosine resistance;<i>codA</i>
+Fluoro(5)cytosine resistance;<i>cod</i>
+Fluorodeoxycytidine resistance;<i>cdd</i>
+Fluorodeoxycytidine resistance;<i>nupC</i>
+Fluorodeoxycytidine resistance;<i>nupG</i>
+Fluoro(5)deoxyuridine resistance;<i>tdk</i>
+Fluorodeoxyuridine resistance;<i>nupC</i>
+Fluorodeoxyuridine resistance;<i>nupG</i>
+Fluorodeoxyuridine + uracil resistance in <i>deoA</i>;<i>tdk</i>
+Fluoro(2)-L-erythrocitrate resistance;<i>tct</i>
+Fluoro-3-hydroxyacetone resistance in <i>uhp</i>(Con);<i>uhpT</i>
+Fluorohydroxyacetone phosphate resistance;<i>ugpAB</i>
+Fluorohydroxyacetone phosphate resistance;<i>glpT</i>
+Fluoro(3)malate resistance;<i>dct</i>
+Fluoro(5)orotic acid resistance;<i>pyrF</i>
+Fluoro(5)orotic acid resistance;<i>pyrH</i>
+Fluoro(4)phenylalanine resistance;<i>tyrR</i>
+Fluoro(4)phenylalanine resistance;<i>pheA</i>
+Fluoro(4)phenylalanine resistance;<i>pheR</i>
+Fluoro(4)phenylalanine resistance;<i>pheS</i>
+Fluoro(4)phenylalanine resistance;<i>pheU</i>
+Fluorophenylalanine resistance;<i>aroF</i>
+Fluorophenylalanine resistance;<i>aroG</i>
+Fluorophenylalanine resistance;<i>aroP</i>
+Fluorophenylalanine resistance;<i>tyrA</i>
+Fluoro(5)tryptophan resistance;<i>aroP</i>
+Fluoro(6)tryptophan resistance;<i>trp</i> (generic)
+Fluorotyrosine resistance;<i>tyrR</i>
+Fluorotyrosine resistance;<i>tyrS</i>
+Fluoro(5)uracil + fluoro(5)uridine resistance;<i>guaB</i>
+Fluoro(5)uracil + 5′-AMP resistance in <i>upp</i>;<i>ushA</i>
+Fluoro(5)uracil + 5-fluorouridine resistance in <i>udp</i>;<i>pyrH</i>
+Fluoro(5)uracil + nucleotide resistance;<i>ompF</i>
+Fluoro(5)uracil + nucleotide resistance;<i>ompR</i>
+Fluoro(5)uracil + adenosine resistance;<i>udp</i>
+Fluorouracil + adenosine resistance in <i>upp deoD xapR</i>(Con);<i>xapA</i>
+Fluoro(5)uracil + adenosine resistance in <i>upp, phoS,</i> or <i>phoT</i>;<i>phoA</i>
+Fluoro(5)uracil + adenosine resistance in <i>upp, phoS,</i> or <i>phoT</i>;<i>phoB</i>
+Fluoro(5)uracil and 3′-AMP resistance;<i>cpdB</i>
+Fluoro(5)uracil + 5′-AMP + 3′-AMP resistance;<i>crp</i>
+Fluoro(5)uracil + carbamylaspartate resistance;<i>ubiF</i>
+Fluoro(5)uracil resistance;<i>upp</i>
+Fluorouracil resistance;<i>nupC</i>
+Fluorouracil resistance;<i>nupG</i>
+Fluorouracil resistance;<i>pyrH</i>
+Fluorouracil resistance;<i>rpoB</i>
+Fluoro(5)uridine + uracil resistance;<i>udk</i>
+Fluoro(5)uridine resistance;<i>udhA</i>
+Fluoro(5)uridine resistance in <i>upp</i>;<i>udk</i>
+Fluorouridine resistance;<i>pyrH</i>
+Fluorouridine resistance;<i>nupC</i>
+Fluorouridine resistance;<i>nupG</i>
+Fosfomycin resistance due to increased gene dosage;<i>murZ</i>
+Fosfomycin + fructose-6-phosphate resistance;<i>pgi</i>
+Fosfomycin resistance;<i>crp</i>
+Fosfomycin resistance;<i>cyaA</i>
+Fosfomycin resistance;<i>glpT</i>
+Fosfomycin resistance;<i>hipA</i>
+Fosfomycin resistance;<i>mrb</i>
+Fosfomycin resistance;<i>ptsI</i>
+Fosfomycin resistance;<i>uhpT</i>
+Fucitol resistance in galactitol-utilizing strains;<i>gatACD</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglA</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglB</i>
+Fucose + arabinose-supported growth in <i>galP</i>;<i>mglC</i>
+Fucose resistance (arabinose as C source);<i>araC</i>
+Fusaric acid resistance of Tn<i>10</i> insertion mutants;<i>tet</i>
+Fusidic acid resistance;<i>fusA</i>
+Galactose resistance in <i>galE</i>;<i>galK</i>
+Galactose resistance in <i>galT</i>;<i>galK</i>
+Galactose resistance in <i>galU</i>;<i>gal</i> operon
+Galactose resistance in <i>galU</i>;<i>galK</i>
+Galactose resistance in <i>galT+K</i>+<i>E</i>+/<i>galU</i> <i>galT+K</i>+<i>E</i>+ merodiploid;<i>galR</i>
+Galactose utilization in presence of thiomethylglucoside;<i>gal</i> operon
+Gentamicin resistance;<i>rplF</i>
+Gentamicin resistance;<i>ubiF</i>
+Globomicin resistance;<i>dnaE</i>
+Globomicin resistance;<i>lpp</i>
+Glucarate (D) resistance in <i>ppc</i>;<i>garA</i>
+Glucose + gluconate-independent motility;<i>pts</i> (general)
+Glucose-resistant satisfaction of <i>trp</i> by indole + 5-methyltryptophan;<i>tna</i>
+Glutamate (D) resistance in <i>gltS</i> (increased);<i>gltS</i>
+Glutamine (D) resistance;<i>glnP</i>
+Glutamyl(γ)hydrazide resistance;<i>glnF</i>
+Glutamyl(γ)hydrazide resistance;<i>glnH</i>
+Glutamyl(γ)hydrazide resistance;<i>glnP</i>
+Glutamyl(γ)methyl ester resistance;<i>gltX</i>
+Glutamyl(γ)methyl ester resistance;<i>metJ</i>
+Glutamyl(γ)methyl ester resistance;<i>metK</i>
+Glyceraldehyde (DL) 3-phosphate resistance;<i>glpT</i>
+Glyceraldehyde (L) 3-phosphate resistance in <i>uhp</i>(Con);<i>uhpT</i>
+Glyceraldehyde (L) resistance;<i>glpF</i>
+Glyceraldehyde (L) resistance;<i>glpK</i>
+Glycerol 3-phosphorothioate resistance;<i>glpT</i>
+Glycine tolerance;<i>qmeACDE</i>
+Glycylglycyl-<i>N</i>-phosphonoacetylornithine resistance;<i>argR</i>
+Glycylleucine resistance;<i>ilvA</i>
+Glycylleucine resistance;<i>ilvB</i>
+Glycylleucine resistance;<i>ilvH</i>
+Glycylleucine resistance;<i>ilvI</i>
+Glycylleucine resistance;<i>oppA</i>
+Glycylleucine resistance in <i>ilv</i>;<i>gleR</i>
+Glycylglycyl histidinol phosphate ester resistance;<i>oppA</i>
+Glycylglycyl-<i>N</i>-phosphonoacetylornithine resistance;<i>oppA</i>
+Glyphosate resistance;<i>aroA</i>
+Hexuronate resistance in <i>eda</i>;<i>uxaBC</i>
+Hexuronate resistance in <i>eda</i>;<i>uxuAB</i>
+Homocysteic acid resistance;<i>gltS</i>
+Hydrazino (α) imidazole propionic acid resistance;<i>argT</i>
+Hydrazino (α) imidazole propionic acid resistance;<i>hisG</i>
+Hydrazino (α) imidazole propionic acid resistance;<i>hisJ</i>
+Hydrazino (α) imidazole propionic acid resistance;<i>hisQ</i>
+Hydrazino (α) imidazole propionic acid resistance in <i>dhuA</i>;<i>hisP</i>
+Hydroxy (β) norvaline resistance;<i>metL</i>
+Hydroxyaspartate resistance;<i>pan</i>
+Hydroxybutylphosphonate resistance in <i>uhp</i>(Con);<i>uhpT</i>
+Hydroxyurea resistance;<i>nrdA</i>
+Hydroxyurea resistance;<i>nrdB</i>
+Indole acrylic acid resistance;<i>aroT</i>
+Indolmycin resistance;<i>trpS</i>
+Indospicine resistance;<i>argR</i>
+Iodoacetylglucosamine resistance;<i>nagA</i>
+Iodoacetylglucosamine resistance;<i>nagB</i>
+Iodoacetylglucosamine resistance;<i>nagE</i>
+Isoniazid resistance;<i>pdx</i>
+Kanamycin resistance;<i>atpA–atpE</i>
+Kanamycin resistance;<i>cpxA</i>
+Kanamycin resistance;<i>ecfB</i>
+Kanamycin resistance;<i>hemA</i>
+Kanamycin resistance;<i>hemB</i>
+Kanamycin resistance;<i>hemL</i>
+Kanamycin resistance;<i>topA</i>
+Kasugamycin resistance;<i>ksgA</i>
+Kasugamycin resistance;<i>ksgB</i>
+Kasugamycin resistance;<i>ksgC</i>
+Kasugamycin resistance;<i>ksgD</i>
+Kasugamycin resistance;<i>rplK</i>
+Kasugamycin resistance;<i>rplB</i>
+Kasugamycin resistance;<i>rpsN</i>
+Kasugamycin resistance;<i>rpsM</i>
+Kasugamycin resistance;<i>rpsR</i>
+Kasugamycin resistance and dependence;<i>rpsI</i>
+Keto(2)butyrate resistance;<i>ilvA</i>
+Kirromycin resistance;<i>tufAB</i>
+Lambda <i>c</i>II phage + rifampin coresistance;<i>rpoB</i>
+Lambda phage + nalidixic acid resistance;<i>crp</i>
+Lambda phage + nalidixic acid resistance;<i>cyaA</i>
+Levallorphan resistance;<i>lev</i>
+Lincomycin resistance;<i>linB</i>
+Lincomycin resistance;<i>rplN</i>
+Lincomycin resistance;<i>rplO</i>
+Lincomycin resistance;<i>rpsG</i>
+Lithium-resistant use of proline as C source;<i>putP</i>
+Lysine hydroxamate resistance;<i>lysC</i>
+Mecillinam resistance (see beta-lactam resistance);<i>alaS</i>
+Mecillinam resistance;<i>argS</i>
+Mecillinam resistance;<i>crp</i>
+Mecillinam resistance;<i>cyaA</i>
+Mecillinam resistance;<i>envB</i>
+Mecillinam resistance;<i>mrdA</i>
+Mecillinam resistance;<i>mrdB</i>
+Mecillinam resistance;<i>mreB</i>
+Mecillinam resistance;<i>mreC</i>
+Mecillinam resistance;<i>mreD</i>
+Menadionine resistance;<i>marA</i>
+Mercaptopurine resistance in <i>gpt</i>;<i>hpt</i>
+Methionine sulfoximine + methyl(α)methionine resistance;<i>metJ</i>
+Methionine sulfoximine resistance;<i>asm</i>
+Methionine sulfoximine resistance;<i>glnP</i>
+Methionine sulfoximine resistance;<i>metP</i>
+Methionine sulfoximine resistance in <i>glnG</i>;<i>glnA</i>
+Methylammonium resistance;<i>glnA</i>
+Methyl(3)anthranilate resistance;<i>trpE</i>
+Methyl(3)anthranilate resistance;<i>aroG</i>
+Methyl(α)glutamate resistance in <i>gltS</i> (increased);<i>gltS</i>
+Methylglucoside(α)-resistant utilization of lactose;<i>lacIO</i>
+Methylglucoside(α)-resistant utilization of maltose;<i>malE</i>
+Methylglucoside(α)-resistant utilization of maltose;<i>malF</i>
+Methylglucoside(α)-resistant utilization of maltose;<i>malG</i>
+Methylglucoside(α)-resistant utilization of maltose;<i>malK</i>
+Methylglucoside(α)-resistant utilization of mannitol + lactose;<i>ptsG</i>
+Methylglucoside(α) resistance;<i>ptsG</i>
+Methylglucoside(α)-resistant utilization of glycerol in ∆<i>ptsHI</i>;<i>crr</i>
+Methylglucoside(α)-resistant utilization of lactose in <i>ptsH</i>;<i>lacI,</i> operator
+Methylglucoside(α)-resistant utilization of melibiose;<i>mel</i>
+Methylglyoxal resistance;<i>gsh</i>
+Methyl(2)histidine resistance + aminotriazole resistance;<i>hisR</i>
+Methyl methanesulfonate resistance in <i>lon</i>;<i>sulA</i>
+Methyl methanesulfonate resistance in <i>lon</i>;<i>ftsZ</i>
+Methyl(α)methionine resistance;<i>metA</i>
+Methyl(α)methionine resistance;<i>metD</i> (<i>metP</i>)
+Methyl(α)methionine resistance;<i>metK</i>
+Methyl(6)purine resistance;<i>apt</i>
+Methyl(6)purine + hypoxanthine resistance;<i>purA</i>
+Methyl(<i>o</i>)threonine resistance;<i>brnQ</i>
+Methyl(4)tryptophan resistance in <i>aroP</i>;<i>aroT</i>
+Methyl(5)tryptophan resistance;<i>mtr</i>
+Methyl(5)tryptophan resistance;<i>aroP</i>
+Methyl(5)tryptophan resistance;<i>trp</i> (generic)
+Methyl(5)tryptophan resistance;<i>trpE</i>
+Methyl(5)tryptophan resistance;<i>trpR</i>
+Methyl(5)tryptophan + thienylalanine resistance;<i>aroP</i>
+Methyl viologen resistance;<i>mvrA</i>
+Methyl viologen resistance (multicopy);<i>mvrC</i>
+Methyl viologen resistance;<i>gor</i>
+Metronidazole resistance;<i>nar</i> (general)
+Microcin B17 resistance;<i>sbmA</i>
+Microcin E492 resistance;<i>semA</i>
+Mitomycin C resistance of <i>lexA</i>(Con);<i>lexA</i>
+Mocimycin resistance;<i>tufA,B</i>
+Nalidixic acid resistance;<i>hisU</i>
+Nalidixic acid resistance;<i>icdE</i>
+Nalidixic acid tolerance;<i>sloB</i>
+Nalidixic acid resistance;<i>gyrA</i>
+Nalidixic acid resistance;<i>gyrB</i>
+Nalidixic acid resistance;<i>nalB</i>
+Nalidixic acid resistance;<i>nalD</i>
+Nalidixic acid resistance;<i>purB</i>
+Nalidixic acid resistance due to gene dosage;<i>emrB</i>
+Neamine resistance;<i>rpsL</i>
+Neamine resistance;<i>rpsQ</i>
+Neamine resistance;<i>neaB</i>
+Negamycin resistance;<i>prfB</i>
+Neomycin resistance;<i>atpA–atpE</i>
+Neomycin resistance;<i>ecfB</i>
+Neomycin resistance;<i>hemA</i>
+Neomycin resistance;<i>hemC</i>
+Neomycin resistance;<i>hemD</i>
+Neomycin resistance;<i>hemE</i>
+Neomycin resistance;<i>hemG</i>
+Neomycin resistance;<i>metC</i> (<i>ecfA</i>)
+Neomycin resistance;<i>topA</i>
+Neomycin resistance;<i>ubi</i> (generic)
+Neutrophil granule protein resistance;<i>pmrA</i>
+Nitro(4)pyridine <i>N</i>-oxide resistance;<i>proA</i>
+Nitro(4)pyridine <i>N</i>-oxide resistance;<i>proB</i>
+Nitro(<i>o</i>)-phenyl galactoside resistance;<i>lacZ</i>
+Nitro(<i>o</i>)-phenylthiogalactoside resistance;<i>lacY</i>
+Nitro(<i>o</i>)-phenylthiogalactoside resistance in <i>lacI</i>(Con) or <i>lacO</i>(Con) ;<i>lacI,</i> operator
+Nitrofurantoin resistance;<i>nfnA</i>
+Nitrofurantoin resistance;<i>nfnB</i>
+Nitrofurantoin resistance in <i>lon</i>;<i>sulA</i>
+Nitrofurantoin resistance in <i>lon</i>;<i>ftsZ</i>
+Nitrofuranzone resistance;<i>nfsA</i>
+Nitrofuranzone resistance;<i>nfsB</i>
+Nitrosoguanidine resistance;<i>ada</i>
+Nitrosoguanidine resistance;<i>gsh</i> (generic)
+Norfloxacin resistance;<i>hipQ</i>
+Norleucine resistance;<i>metJ</i>
+Norleucine resistance;<i>metK</i>
+Norleucine resistance;<i>nol</i>
+Norleucylglycyl glycine resistance;<i>oppA</i>
+Novobiocin resistance;<i>cysB</i>
+Novobiocin resistance;<i>cysE</i>
+Novobiocin resistance;<i>gyrB</i>
+Novobiocin resistance;<i>nov</i>
+Novobiocin resistance;<i>ompA</i>
+Oxolinic acid resistance;<i>gyrA</i>
+Paromycin resistance or dependence;<i>rpsL</i>
+Pentachlorophenol resistance;<i>atpA–atpE</i>
+Penten(4)oate resistance in <i>atoC</i>(Con);<i>atoC</i>
+Pentylpantothenamide resistance;<i>pan</i>
+Peptide (toxic, valine containing) resistance;<i>pepA</i>
+Peptide (toxic, valine containing) resistance;<i>pepD</i>
+Peptide (toxic, valine containing) resistance;<i>pepN</i>
+Peptide (toxic, valine containing) resistance;<i>pepQ</i>
+Peroxide (organic) resistance;<i>oxyR</i>
+Phaseolotoxin resistance;<i>oppA</i>
+Phenethyl alcohol resistance;<i>dnaB</i>
+Phenethyl alcohol resistance;<i>dnaP</i>
+Phenethyl alcohol resistance;<i>secA</i>
+Phenethylyl galactoside resistance;<i>lacY</i>
+Phenethylyl galactoside resistance;<i>lacZ</i>
+Phenyl galactoside resistance of <i>lacP lacI</i>(nonsense) <i>supE</i>;<i>hisT</i>
+Phenyl galactoside resistance of <i>lacP lacI</i>(nonsense) <i>supE</i>;<i>prfA</i>
+Phenyl galactoside resistance of <i>lacP lacI</i>(nonsense) <i>supE</i>;<i>rpsL</i>
+Phenyl galactoside resistance of <i>lacI </i>q/<i>lacP lacI</i>(nonsense) <i>supL</i>;<i>lysS</i>
+Phenyl galactoside resistance of <i>lacI </i>q/<i>lacP lacI</i>(nonsense) <i>supL</i>;<i>strM</i>
+Phenyl galactoside resistance of <i>lacI </i>q/<i>lacP lacI</i>(nonsense) <i>supL</i>;<i>trmE</i>
+Phenyl galactoside resistance;<i>lacY</i>
+Phenyl galactoside resistance;<i>lacZ</i>
+Phenylalanylleucine resistance;<i>ilvB</i>
+Phenylalanylleucine resistance;<i>ilvH</i>
+Phenylalanylleucine resistance;<i>ilvI</i>
+Plasmid maintenance;<i>polA</i>
+Polymyxin resistance;<i>pmrA</i>
+Promethazine resistance;<i>lon</i>
+Pseudomonic acid resistance;<i>ileS</i>
+Psicofuranine resistance;<i>guaAB</i>
+Psoralen + UV irradiation resistance;<i>puvA</i>
+Pyrithiamine resistance;<i>thi</i>
+Quinaldic acid resistance of Tn<i>10</i> insertion mutants;<i>tet</i>
+Quinolone resistance;<i>gyrA</i>
+Ribitol resistance in <i>araC</i>(Con);<i>araB</i>
+Ribitol resistance in <i>araC</i>(Con);<i>araC</i>
+Rifampin + kasugamycin dependence;<i>ridA</i>
+Rifampin dependence;<i>ridB</i>
+Rifampin resistance;<i>crp</i>
+Rifampin resistance;<i>cyaA</i>
+Rifampin resistance;<i>rpoB</i>
+Rifampin resistance in <i>rpoB</i>+/<i>rpoB</i> (<i>rif</i>) diploids;<i>rpoB</i>
+Salicylate resistance;<i>pan</i>
+Serine (D) resistance;<i>cycA</i>
+Serine + methionine + glycine resistance in <i>relA</i>;<i>glyA</i>
+Serine hydroxamate resistance;<i>serA</i>
+Serine hydroxamate resistance;<i>serS</i>
+Serine resistance;<i>sbaA</i>
+Serine resistance;<i>thrA</i>
+Serine resistance in <i>relA</i>;<i>crp</i>
+Serine resistance in <i>relA</i>;<i>cyaA</i>
+Serine resistance in <i>relA</i>;<i>relA</i>
+Serine resistance in <i>relA</i>;<i>rpoB</i>
+Serine resistance in <i>relA</i>;<i>rpoC</i>
+Showdomycin resistance;<i>nupC</i>
+Showdomycin resistance;<i>pnp</i>
+Siderophore–beta-lactam conjugate resistance;<i>cirA</i>
+Sorbitol + xylitol resistance;<i>srlA</i>
+Sorbose (L) resistance;<i>fruA</i>
+Sorbose resistance;<i>ptsG</i>
+Spectinomycin resistance;<i>rpsE</i>
+Spectinomycin resistance;<i>rrn</i>
+Spectinomycin resistance;<i>spcB</i>
+Spectinomycin resistance and sucrose dependence;<i>rpsC</i>
+Spectinomycin resistance and sucrose dependence;<i>rpsD</i>
+Spectinomycin resistance and sucrose dependence;<i>rpsE</i>
+Streptolydigin resistance;<i>rpoB</i>
+Streptomycin + cAMP resistance;<i>crp</i>
+Streptomycin resistance;<i>hem</i> (generic)
+Streptomycin resistance;<i>rpsL</i>
+Streptomycin resistance;<i>strB</i>
+Streptomycin resistance;<i>strC</i>
+Streptomycin resistance;<i>strM</i>
+Streptomycin resistance;<i>ubiF</i>
+Streptomycin resistance;<i>mut</i> (generic)
+Streptomycin resistance;<i>topA</i>
+Streptovaricin resistance;<i>rpoB</i>
+Streptozotocin resistance;<i>fba</i>
+Streptozotocin resistance;<i>galT</i>
+Streptozotocin resistance;<i>manA</i>
+Streptozotocin resistance;<i>nagA</i>
+Streptozotocin resistance;<i>nagE</i>
+Streptozotocin resistance;<i>pfkA</i>
+Streptozotocin resistance;<i>ptsI</i>
+Streptozotocin resistance;<i>glpD</i>
+Sulfanilamide + hypoxanthine resistance;<i>hpt</i>
+Sulfanilamide + hypoxanthine resistance;<i>pspABCDE</i>
+Sulfanilamide resistance;<i>folP</i>
+Sulfanilamide resistance;<i>gpt</i>
+Sulfometuron methyl + valine resistance;<i>ilv</i> structural genes
+Sulfometuron methyl + valine resistance;<i>ilvG</i>
+Sulfonamide resistance;<i>folA</i>
+Sulfonamide resistance;<i>pab</i>
+Tartrate resistance;<i>dct</i>
+Tetracycline resistance;<i>cmlA</i>
+Tetracycline resistance;<i>marA</i>
+Tetracycline resistance;<i>ompF</i>
+Thiaisoleucine resistance;<i>ileS</i>
+Thiaisoleucine resistance;<i>ilvU</i>
+Thialysine resistance;<i>thrA</i>
+Thiazolealanine resistance;<i>hisG</i>
+Thiazolealanine resistance;<i>hisR</i>
+Thienylalanine resistance;<i>aroP</i>
+Thienylalanine resistance;<i>aroG</i>
+Thiodigalactoside resistance;<i>lacY</i>
+Thio(5)glucose resistance;<i>crr</i>
+Thiolactomycin resistance;<i>emrB</i>
+Thiolactomycin resistance (due to gene dosage);<i>fadB</i>
+Thiolactomycin resistance (due to gene dosage);<i>emrB</i>
+Thiolutin resistance;<i>tlnA</i>
+Thiomaltose resistance;<i>lamB</i>
+Thiomaltose resistance;<i>malE</i>
+Thiomaltose resistance;<i>malF</i>
+Thiomaltose resistance;<i>malG</i>
+Thiomaltose resistance;<i>malK</i>
+Thiomaltose resistance;<i>malT</i>
+Thiomethylgalactoside-independent utilization of galactose in <i>galR</i>(Con);<i>galR</i>
+Thiopeptin resistance;<i>rplE</i>
+Thiosine resistance;<i>argP</i>
+Thymidine resistance in <i>deoC</i>;<i>deoA</i>
+Thymidine resistance in <i>deoC</i>;<i>deoB</i>
+Thymineless death prevention by low thymine levels in <i>thyA</i>;<i>deoB</i>
+Thymineless death prevention by low thymine levels in <i>thyA</i>;<i>deoC</i>
+Thymineless death resistance in <i>thyA</i>;<i>recF</i>
+Thymineless death resistance in <i>thyA</i>;<i>recJ</i>
+Thymineless death resistance in <i>thyA</i>;<i>recO</i>
+Thymineless death resistance in <i>thyA</i>;<i>recQ</i>
+Thymineless death resistance in <i>thyA</i>;<i>alaS</i>
+Thymineless death resistance in <i>thyA</i>;<i>pheS</i>
+Thymineless death resistance in <i>thyA</i>;<i>valS</i>
+Tiamulin resistance;<i>rplC</i>
+Tiamulin resistance;<i>rplD</i>
+Triazole resistance;<i>cysB</i>
+Triazole resistance;<i>cysE</i>
+Triazole resistance;<i>cysG</i>
+Triazole resistance;<i>trzA</i>
+Triazole resistance in <i>cysM</i>;<i>cysB</i>
+Triazole resistance in <i>cysM</i>;<i>cysE</i>
+Triazolealanine + aminotriazole resistance;<i>gyrA</i>
+Triazolealanine + aminotriazole resistance;<i>gyrB</i>
+Triazolealanine + aminotriazole resistance;<i>his</i> structural genes
+Triazolealanine + aminotriazole resistance;<i>hisR</i>
+Triazolealanine + aminotriazole resistance;<i>hisS</i>
+Triazolealanine + aminotriazole resistance;<i>hisT</i>
+Triazolealanine + aminotriazole resistance;<i>hisU</i>
+Triazolealanine + aminotriazole resistance;<i>hisW</i>
+Trifluorocitrate resistance;<i>tct</i>
+Trifluoroleucine resistance;<i>flrB</i>
+Trifluoroleucine resistance;<i>ileR</i>
+Trifluoroleucine resistance;<i>leuA</i>
+Trifluoroleucine resistance;<i>leuJ</i>
+Trifluoroleucine resistance;<i>leu</i> (generic)
+Trifluoroleucine resistance;<i>leuS</i>
+Trilysine resistance;<i>oppA</i>
+Trimethoprim resistance;<i>folA</i>
+Trimethoprim resistance;<i>thyA</i>
+Triornithine resistance;<i>oppA</i>
+Triornithine resistance in <i>opp</i>;<i>tpp</i>
+Tripeptide (toxic amino acid containing) resistance;<i>oppAE</i>
+Tripeptide (toxic amino acid containing) resistance;<i>tppA</i>
+Tripeptide (toxic amino acid containing) resistance;<i>tppB</i>
+Tryptophan analog resistance;<i>aroH</i>
+Uncoupler resistances;<i>atpA–atpE</i>
+Uridine resistance of <i>thyA deoB</i>;<i>deoR</i>
+Valine resistance;<i>ilv</i> structural genes
+Valine resistance;<i>ilvB</i>
+Valine resistance;<i>ilvF</i>
+Valine resistance;<i>ilvG</i>
+Valine resistance;<i>ilvH</i>
+Valine resistance;<i>ilvI</i>
+Valine resistance;<i>ilvJ</i>
+Valine resistance;<i>livG</i>
+Valine resistance;<i>livH</i>
+Valine resistance;<i>livJ</i>
+Valine resistance;<i>livK</i>
+Valine resistance;<i>brnQ</i>
+Vinylglycolate resistance;<i>dld</i>
+Vinylglycolate resistance;<i>lct</i>
+Xylitol resistance;<i>fruA</i>
+Xylose resistance in <i>fda</i>;<i>xylE</i>
+Xylose (D) + cAMP resistance;<i>cxm</i>
+Resistance to biological agents
+9NA phage resistance;<i>pmi</i>
+9NA phage resistance in <i>galE</i>;<i>kdsA</i>
+Bf23 phage resistance;<i>btuB</i>
+C21 phage resistance;<i>rfaD</i>
+Chi phage resistance;<i>fliC (hag)</i>
+Chi phage resistance;<i>motA</i>
+Chi phage resistance;<i>motB</i>
+ES18 phage resistance;<i>fhuA</i>
+ES18 phage resistance;<i>prbA,B</i>
+ES18 phage resistance;<i>sidK</i>
+ES18 phage resistance;<i>tonB</i>
+Felix O phage resistance;<i>galE</i>
+Felix O phage resistance;<i>galU</i>
+Felix O phage resistance;<i>rfaC,D,E,F,H</i>
+Filamentous phage tolerance;<i>tolR</i>
+Filamentous phage tolerance;<i>tolQ</i>
+HK009 phage resistance;<i>prh</i>
+HK068 phage resistance;<i>prk</i>
+Host range phage (from <i>Serratia marcescens</i>) resistance;<i>ompC</i>
+K10 phage resistance;<i>lamB</i>
+K3 phage resistance;<i>ompA</i>
+Lambda + 434 phage resistance;<i>mopA</i>
+Lambda + 434 phage resistance;<i>mopB</i>
+Lambda <i>c</i>II + rifampin coresistance;<i>rpoB</i>
+Lambda mutant infection resistance;<i>gyrB</i> (<i>hisW</i>)
+Lambda mutant phage infection, survival of;<i>himA</i>
+Lambda mutant phage resistance;<i>hflC</i>
+Lambda mutant phage resistance;<i>hflK</i>
+Lambda mutant phage resistance;<i>hflX</i>
+Lambda mutant prophage induction, survival of;<i>grpD</i>
+Lambda mutant prophage induction, survival of;<i>grpE</i>
+Lambda phage + nalidixic acid resistance;<i>crp</i>
+Lambda phage + nalidixic acid resistance;<i>cyaA</i>
+Lambda phage + 434 phage cross-resistance;<i>rpoB</i>
+Lambda phage gamma mutant resistance;<i>polA</i>
+Lambda phage induction, resistance to;<i>dnaJ</i>
+Lambda phage induction, resistance to;<i>dnaK</i>
+Lambda phage resistance;<i>envZ</i>
+Lambda phage resistance;<i>gprAB</i>
+Lambda phage resistance;<i>lamB</i>
+Lambda phage resistance;<i>malK</i>
+Lambda phage resistance;<i>malT</i>
+Lambda phage resistance;<i>rap</i>
+Lambda phage resistance with maltose and arabinose as C sources;<i>crp</i>
+Lambda phage resistance with maltose and arabinose as C sources;<i>cyaA</i>
+Lambda prophage induction deficiency during thymine deprivation;<i>recA</i>
+Lambda prophage induction, resistance to;<i>rpsJ</i>
+Lambda prophage induction, resistance to;<i>rpsM</i>
+Lambda prophage induction, survival of;<i>nusA</i>
+Lambda prophage induction, survival of;<i>nusB</i>
+Lambda <i>sus N7 nin-5</i> resistance in P2 lysogen;<i>rho</i>
+Lambda <i>vir</i> resistance after infection with heteromodified lambda <i>c</i>I857;<i>hsd</i>
+Lambdoid phage resistance;<i>nusB</i>
+Lambdoid phage mixture coinfection resistance;<i>dnaB</i>
+Lambdoid phage mixture coinfection resistance;<i>dnaJ</i>
+Lambdoid phage mixture coinfection resistance;<i>dnaK</i>
+Lambda <i>c</i>I71 resistance;<i>rpoD</i>
+Lambda <i>Nmar</i> mutant phage resistance;<i>rpoB</i>
+Male-specific phage resistance;<i>arcA</i> (<i>fexA</i>)
+Me1 phage resistance;<i>envZ</i>
+Me1 phage resistance;<i>ompC</i>
+Me1 phage resistance;<i>ompF</i>
+Me1 phage resistance;<i>ompR</i>
+Mu phage lytic growth resistance;<i>himA</i>
+Mu phage lytic growth resistance;<i>himD</i>
+Mu prophage induction, survival of;<i>himA</i>
+Mu prophage induction, survival of;<i>himD</i>
+N4 phage resistance;<i>manXYZ</i>
+Ox2 phage resistance;<i>ompA</i>
+P1 phage resistance;<i>galE</i>
+P1 phage resistance;<i>galU</i>
+P1 phage resistance;<i>lpcA</i>
+P1 phage resistance;<i>rfaD</i>
+P1 phage specialized transduction of drug resistance to <i>Salmonella</i> sp.;<i>sspA</i>
+P2 <i>vir1</i> phage resistance;<i>rpoA</i>
+P2 phage + lambda phage coinfection resistance;<i>dnaJ</i>
+P2 phage + lambda phage coinfection resistance;<i>dnaK</i>
+P2 phage resistance;<i>rep</i>
+P22 phage resistance;<i>galE</i>
+P22 phage resistance;<i>pmi</i>
+P221 phage resistance;<i>praAB</i>
+PH105 phage resistance;<i>ompB</i> (<i>ompR</i> of <i>E. coli</i>)
+PH105 phage resistance;<i>ompC</i>
+PH105 phage resistance;<i>ompF</i>
+PH105 phage resistance;<i>praAB</i>
+PH51 phage resistance;<i>ompB</i> (<i>ompR</i> of <i>E. coli</i>)
+PH51 phage resistance;<i>ompC</i>
+PH51 phage resistance;<i>ompF</i>
+PH51 phage resistance;<i>praAB</i>
+PH51 phage resistance;<i>prdB</i>
+φX174 phage resistance;<i>phxB</i>
+φ80 phage resistance;<i>fhuA</i>
+φ80 phage resistance;<i>tonB</i>
+Q phage resistance;<i>cpxA</i> (<i>ecfB, ssd, eup</i>)
+T-even phage resistance;<i>ompA</i>
+T1 phage (UV irradiated) resistance;<i>phr</i>
+T1 phage resistance;<i>fhuA</i>
+T1 phage resistance;<i>tonB</i>
+T2 phage resistance in <i>ompF</i>+ or <i>ompF</i>;<i>fadL</i>
+T3 phage resistance;<i>lpcA</i>
+T4 mutant phage resistance;<i>lit</i>
+T4 phage <i>lig</i> mutant nibbling of colonies yielding <i>lig</i>-overproducing strain;<i>lig</i>
+T4 phage <i>lig</i> mutant resistance from <i>lig</i>-overproducing strain;<i>lig</i>
+T4 phage resistance;<i>lpcA</i>
+T4 phage resistance;<i>lpcB</i>
+T4 phage resistance;<i>mopA</i>
+T4 phage resistance;<i>mopB</i>
+T4 phage resistance;<i>rho</i>
+T4 phage resistance;<i>tabC</i>
+T4 phage resistance;<i>lit</i>
+T4 phage (uracil containing) resistance;<i>ung</i>
+T5 phage resistance;<i>fhuA</i>
+T6 phage resistance;<i>crp</i>
+T6 phage resistance;<i>cyaA</i>
+T6 phage resistance;<i>tsx</i>
+T7 phage gene 1.2 mutant resistance;<i>optA</i>
+T7 phage gene 2 resistance;<i>rpoC</i>
+T7 phage resistance;<i>groM</i>
+T7 phage resistance;<i>lpcA</i>
+T7 phage resistance;<i>lpcB</i>
+T7 phage resistance;<i>rpoB</i>
+T7 phage resistance;<i>trxA</i>
+TC45 phage resistance;<i>phoB</i>
+TC45 phage resistance;<i>phoE</i>
+TC45 phage resistance;<i>phoR</i>
+TC45 phage resistance;<i>phoS</i>
+TC45 phage resistance;<i>phoT</i>
+TC45 phage resistance;<i>pstABCS</i>
+TP1 phage resistance;<i>envZ</i>
+TuIa phage resistance;<i>envZ</i>
+TuIa phage resistance;<i>ompC</i>
+TuIa phage resistance;<i>ompF</i>
+TuIa phage resistance;<i>ompR</i>
+TuIa phage resistance;<i>tolQAB</i>
+TuIb phage resistance;<i>ompF</i>
+TuII* phage resistance;<i>ompA</i>
+U3 phage + K3 phage coresistance;<i>rfaP</i>
+U3 phage resistance;<i>galE</i>
+U3 phage resistance;<i>galU</i>
+U3 phage resistance;<i>pgi</i>
+U3 phage resistance;<i>pgm</i>
+U3 phage resistance;<i>rfa</i> (general)
+UV-irradiated lytic phage resistance;<i>uvrA</i>
+UV-irradiated lytic phage resistance;<i>uvrB</i>
+UV-irradiated lytic phage resistance;<i>uvrC</i>
+UV-irradiated lytic phage resistance;<i>uvrD</i>
+Resistance to physical extremes
+Cold resistance in <i>rpsE</i> cold-sensitive mutants;<i>rpsB</i>
+Cold-resistant growth;<i>crg</i>
+Filter retention;<i>fts</i> (generic)
+Freeze-thaw resistance;<i>envZ</i>
+Gamma irradiation resistance;<i>garA</i>
+Gamma irradiation resistance;<i>garB</i>
+Growth at 42°C in <i>his</i>-overexpressing strain;<i>his</i> structural genes
+Near-UV irradiation resistance;<i>nuvA</i>
+Near-UV irradiation resistance;<i>nuvC</i>
+Near-UV irradiation resistance;<i>relA</i>
+Osmotolerance;<i>crp</i>
+Osmotolerance;<i>cyaA</i>
+Osmotolerance;<i>osmB</i>
+Osmotolerance;<i>proA</i>
+Osmotolerance;<i>proB</i>
+Phage (UV-irradiated T1) resistance;<i>phr</i>
+Psoralen + UV irradiation resistance;<i>puvA</i>
+Temperature resistance in <i>rpoD</i> (Ts);<i>rpoH</i>
+Thermotolerance;<i>gyrA</i>
+UV light resistance;<i>crp</i>
+UV light resistance;<i>cyaA</i>
+UV light resistance;<i>envB</i>
+UV light resistance ;<i>relA</i>
+UV irradiation resistance in <i>lon</i>;<i>sulA</i>
+UV irradiation resistance in <i>lon</i>;<i>ftsZ</i>
+UV light + bromodeoxyuridine resistance;<i>tdk</i>
+UV light + bromodeoxyuridine resistance;<i>ung</i>
+UV light + psoralen resistance;<i>puvA</i>
+UV-irradiated lytic phage resistance;<i>uvrA</i>
+UV-irradiated lytic phage resistance;<i>uvrB</i>
+UV-irradiated lytic phage resistance;<i>uvrC</i>
+UV-irradiated lytic phage resistance;<i>uvrD</i>
+Movement
+Migration in a chemical gradient;<i>che</i>
+Static cultivation (prolonged);<i>fliC</i>
