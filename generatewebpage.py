@@ -15,7 +15,7 @@ import time
 import string
 def getsource(gscholar,nref):
     number=int(nref.rstrip(string.ascii_lowercase))
-    if number>90:
+    if number>233:
       os.system('wget -e robots=off -H --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" "%s" -O "%s"'%(gscholar,'gs_html/'+nref+'.html'))
       time.sleep(0.2)
 
