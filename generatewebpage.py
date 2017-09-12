@@ -9,7 +9,12 @@ if len(sys.argv)<4:
     print("3 arguments expected: 1st table, 2nd table, and references")
     exit(-1)
 
-print('<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Title of the document</title>\n</head>\n<body>\n')
+# Get the pdf from google scholar...
+import os
+import time
+def getsource(gscholar,nref):
+    os.system('wget -e robots=off -H --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" "%s" -O "%s"'%(gscholar,'gs_html/'+nref+'.html'))
+    time.sleep(1)
 
 # Table 1
 def printtable1(ftab1):
@@ -17,7 +22,7 @@ def printtable1(ftab1):
     tab=[translate(t) for t in f.readlines()]
     f.close()
 
-    print('<h1>%s</h1>'%tab[0])
+    print('<h1><a name="tab1"></a>%s</h1>'%tab[0])
     print('<table>')
     for line in tab[1:]:
         print('<tr>')
@@ -29,15 +34,13 @@ def printtable1(ftab1):
         print('</tr>')
     print('</table>')
 
-printtable1(sys.argv[1])
-
 # Table 2
 def printtable2(ftab2):
     g=open(ftab2,'r')
     tab=g.readlines()
     g.close()
 
-    print('<h1>%s</h1>'%tab[0])
+    print('<h1><a name="tab2"></a>%s</h1>'%tab[0])
     print('<table>')
 
     tokens=tab[1].split(';')
@@ -70,15 +73,13 @@ def printtable2(ftab2):
         print('</tr>')
     print('</table>')
 
-printtable2(sys.argv[2])
-
 # References
 def printtableref(fref):
     h=open(fref,'r')
     refs=h.readlines()
     h.close()
 
-    print('<h1>References</h1>')
+    print('<h1><a name="ref"></a>References</h1>')
     print('<table>')
     references=dict()
     for ref in refs:
@@ -88,9 +89,16 @@ def printtableref(fref):
         tokens[3]=tokens[3].lstrip(' .')
         references[tokens[0]]=(tokens[1],int(tokens[2]),tokens[3])
         strquery=tokens[3].rstrip(' .').replace('<i>','').replace('</i>','')
-        print('<tr><td><a name="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="https://scholar.google.ch/scholar?hl=en&q=%s">google scholar</a></td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],strquery))
+        gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%strquery
+        print('<tr><td><a name="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar))
+        getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>')
 
+print('<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n')
+print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#tab1">Selections giving rise to mutants</a></li><li><a href="#tab2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>\n<div id="main">')
+print('<h1 id="about">About this document</h1><p>This is data from chapter 139 of E coli and Salmonella, reproduced without permission. </br>The pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.</p><p>The raw data can be downloaded as csv files:</p><ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>')
+printtable1(sys.argv[1])
+printtable2(sys.argv[2])
 printtableref(sys.argv[3])
+print('</div></body>\n</html>')
 
-print('</body>\n</html>')
