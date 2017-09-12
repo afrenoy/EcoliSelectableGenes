@@ -1,0 +1,35 @@
+#main {
+  position: absolute;
+  top: 4%;
+  height:96%;
+  overflow: auto;
+}
+
+nav ul {
+  position:fixed;
+  top:0;
+  left:0;
+  margin:0;
+  padding:0;
+  height:4%;
+  list-style-type: none;
+  width:100%;
+  overflow: hidden;
+  background-color: #333333;
+  z-index:1;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  color: white;
+  padding: 16px;
+  font-size:200%;
+  text-decoration:none;
+}
+/*
+li a:hover {
+  background-color: #111111;
+}*/
