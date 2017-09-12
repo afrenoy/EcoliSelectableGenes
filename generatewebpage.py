@@ -9,14 +9,6 @@ if len(sys.argv)<4:
     print("3 arguments expected: 1st table, 2nd table, and references")
     exit(-1)
 
-# Get the pdf from google scholar...
-import os
-import time
-import string
-def getsource(gscholar,nref):
-    number=int(nref.rstrip(string.ascii_lowercase))
-    os.system('wget -e robots=off -H --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" "%s" -O "%s"'%(gscholar,'gs_html/'+nref+'.html'))
-    time.sleep(0.2)
 
 # Table 1
 def printtable1(ftab1):
@@ -77,6 +69,7 @@ def printtable2(ftab2):
 
 # References
 def printtableref(fref):
+    import refs
     h=open(fref,'r')
     refs=h.readlines()
     h.close()
@@ -93,7 +86,7 @@ def printtableref(fref):
         strquery=tokens[3].rstrip(' .').replace('<i>','').replace('</i>','')
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%strquery
         print('<tr><td><a name="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar))
-        getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
+        refs.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>')
 
 print('<!DOCTYPE html>\n<html>\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n')
