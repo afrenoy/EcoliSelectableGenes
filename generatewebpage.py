@@ -5,8 +5,8 @@ def translate(string):
     return markdown.markdown(string).replace('<p>','').replace('</p>','')
 
 import sys
-if len(sys.argv)<4:
-    print("3 arguments expected: 1st table, 2nd table, and references")
+if len(sys.argv)<5:
+    print("4 arguments expected: selection table, gene table, reference table, and output file")
     exit(-1)
 
 
@@ -71,7 +71,7 @@ def printtable2(ftab2):
 # References
 def printtableref(fref):
     output=io.StringIO()
-    import refs
+    import refs as refparser
     h=open(fref,'r')
     refs=h.readlines()
     h.close()
@@ -88,7 +88,7 @@ def printtableref(fref):
         strquery=tokens[3].rstrip(' .').replace('<i>','').replace('</i>','')
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%(strquery.replace(' ','%20'))
         print('<tr><td><a id="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar),file=output)
-        #refs.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
+        refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>',file=output)
     return(output.getvalue())
 
@@ -100,5 +100,8 @@ print(printtable1(sys.argv[1]),file=output)
 print(printtable2(sys.argv[2]),file=output)
 print(printtableref(sys.argv[3]),file=output)
 print('</div></body>\n</html>',file=output)
-print(output.getvalue())
+
+outputfile=open(sys.argv[4],'w')
+outputfile.write(output.getvalue())
+outputfile.close()
 

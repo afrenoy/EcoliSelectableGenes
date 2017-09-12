@@ -1,7 +1,7 @@
 all: larossa.html
 
 larossa.html: references-4.csv table1-4.csv table2-4.csv
-	./generatewebpage.py table1-4.csv table2-4.csv references-4.csv > larossa.html
+	./generatewebpage.py table1-4.csv table2-4.csv references-4.csv larossa.html
 
 clean:
 	rm -f table1-2.csv table1-3.csv table2-2.html table2-3.csv references-1.html references-2.html references-3.html references-4.csv table1-4.csv table2-4.csv
