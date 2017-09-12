@@ -1,0 +1,1040 @@
+<strong>TABLE 2</strong> Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i>
+Gene;Organism;Selection;References;Alteration
+ackA;E, S;Fluoroacetate resistance;96, 281, 463, 797;L
+ada;E;Nitrosoguanidine resistance;693
+add;E;Deoxyadenosine + hypoxanthine satisfaction of <i>purB</i> requirement;370;L
+add;S;Deoxyadenosine (low) satisfaction of <i>purA</i> requirement;326;L
+adhCE;E;Chloracetaldehyde resistance;157
+adhCE;E;Chlorethanol resistance;157
+adhE;E;Allyl alcohol resistance;476;L
+adh;E;Ethanol as C source;132;C
+alaS;E;Thymineless death resistance in <i>thyA</i>;394;S
+alaS;E;Mecillinam resistance (beta-lactam resistance);802;S
+ampC;E;Ampicillin resistance;139, 570;D
+ampC;E;Ampicillin resistance;210, 212, 362;C
+amtAB;S;Aminotriazole resistance;828
+apeA;E, S;<i>N</i>-Acetyl-L-phenylalanine-β-naphthyl ester hydrolysis;421, 516;L
+apt;E;6-Methylpurine resistance;60;L
+apt;E;Adenine resistance in <i>hpt gpt</i>;462
+apt;E;2,6-Diaminopurine resistance in <i>pnp</i>;470;L
+apt;E, S;2,6-Diaminopurine resistance;107, 390;L
+araB;E;Ribitol resistance from <i>araC</i>(Con);396;L
+araC;E;Fucose resistance (arabinose as C source);67;C
+araC;E;Ribitol resistance from <i>araC</i>(Con);396;L
+arcA;E;Male-specific phage resistance, also called <i>fexA</i>;110, 651, 711;L
+argA;E;Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);153;L
+argB;E;<i>N</i>-Acetylhistidine + ornithine satisfaction of <i>his</i>;50;C
+argB;E;Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);153;L
+argC;E;<i>N</i>-Acetylhistidine + ornithine satisfaction of <i>his</i>;50;C
+argC;E;Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);153;L
+argD;E, S;Proline-independent growth of ∆<i>proAB</i>;62, 403;L
+argD;E;Acetylornithine + uracil satisfaction of <i>car</i> (<i>pyrA</i>);153;L
+argE;E;<i>N</i>-Acetylhistidine + ornithine satisfaction of <i>his</i>;50;C
+argE;E;Acetylnorvaline resistance in <i>argR</i>(Con);402;L
+argH;E;<i>N</i>-Acetylhistidine + ornithine satisfaction of <i>his</i>;50;C
+argP;E;Canavanine resistance;483, 655;L
+argP;E;Thiosine resistance;293, 716;L
+argP;E;Canavanine + thiouracil resistance;605;L
+argR;E, S;Arginine-resistant, proline-independent growth of ∆<i>pro</i>;62, 403;C
+argR;E;Acetylhistidine satisfaction of <i>his</i>;49, 50, 403;C
+argR;E;Acetylmethionine satisfaction of <i>met</i>;402;C
+argR;E;Indospicine resistance;454;C
+argR;E;Canavanine resistance;482, 523;C
+argR;E;Glycylglycyl-<i>N</i>-phosphonoacetylornithine resistance;604;C
+argR;E;Canavanine + azauracil resistance;605;C
+argR;E;Canavanine + thiouracil resistance;605;C
+argR;E;Acetylnorvaline resistance in <i>argR</i>(Con);402
+argS;E;Canavanine resistance;322;S
+argS;E;Mecillinam resistance (beta-lactam resistance);802;S
+argT;S;Hydrazino (α) imidazole propionic acid resistance;432, 433
+aroA;E, S;Glyphosate resistance;512, 731,869;C, D
+aroF;E;Amino(4)phenylalanine resistance;504;C
+aroF;S;Fluoro(4)phenylalanine resistance;270, 729;C
+aroG;E, S;Methyl(3)anthranilate resistance;307;FBI, S
+aroG;E;Thienylalanine resistance;215;FBI, S
+aroG;E;Fluorophenylalanine resistance;351;FBI, S
+aroH;E;Tryptophan analog resistance;637;FBI, S
+aroP;E, S;Methyl(5)tryptophan resistance;12, 94, 288, 303, 393, 437-439;L, C
+aroP;E, S;Fluoro(5)tryptophan resistance;12, 94, 288, 303, 393, 437-439;L
+aroP;E, S;Azaserine resistance;12, 94, 288, 303, 393, 437-439, 836, 837;L
+aroP;E, S;Thienylalanine resistance;12, 94, 288, 303, 393, 437-439;L
+aroP;E, S;Fluorophenylalanine resistance;12, 94, 288, 303, 393, 437-439;L
+aroP;E, S;Azaleucine resistance;12, 94, 288, 303, 393, 437-439;L
+aroP;E, S;Methyl(5)tryptophan + thienylalanaine resistance;12, 94, 288, 303, 393, 437-439;L
+aroT;E, S;Indole acrylic acid resistance;769;L
+aroT;E;Methyl(4)tryptophan resistance in <i>aroP</i>;594;L
+asm;S;Methionine sulfoxamine resistance;188
+atoB;S;Dinitropyrene resistance;590;L
+atoC;E;Butyrate as C source in <i>fadR</i>(Con);602;C
+atoC;E;Valerate as C source in <i>fadR</i>(Con);602;C
+atoC;E;Penten(4)oate resistance in <i>atoC</i>(Con);669;L
+<i>atpA-atpE</i>;E;Uncoupler resistances, including DCCD;225, 226, 229, 355, 537;L
+<i>atpA-atpE</i>;E;Tributyl tin resistance;355
+<i>atpA-atpE</i>;E;CCCP resistance;355
+<i>atpA-atpE</i>;E;Pentachlorophenol resistance;355
+<i>atpA-atpE</i>;E;Auroventin resistance;451, 685, 818;L
+<i>atpA-atpE</i>;E;Kanamycin resistance;768;L
+<i>atpA-atpE</i>;E;Neomycin resistance;392;L
+<i>atpA-atpE</i>;E;Azide resistance;355
+atr;S;Acid resistance;233
+azaAB;E;Azaserine resistance;836
+azl;E;Azaleucine resistance;610
+bglBC;E;Arbutin as C source;523, 616, 640
+bglBC;E;Salicin as C source;523, 616, 640
+bglT;E;Methyl(β)glucoside as C source;686;C
+bio operon;E;Dehydrobiotin resistance;206
+bioP;E;Dehydrobiotin resistance;206;L
+birA;E;Dehydrobiotin resistance;206, 597
+brnQ;E;Methyl(<i>o</i>)threonine resistance;278;L
+brnQ;E;Valine resistance;277;L
+btuB;E;Colicin E3 tolerance;46, 47, 109, 284, 388, 620
+btuB;E, S;Bf23 phage resistance;46, 47, 109, 284, 388, 528, 620
+bymA;E;Maltose utilization in <i>malT</i>;327
+cbt;E;Chloroacetate(β) resistance;68;L
+cbt;E;Colicin B tolerance;623;L
+cbt;E;Colicin D tolerance;623;L
+cdd;E;Aza(5)-2′-deoxycytidine resistance;196;L
+cdd;E, S;Fluoro(5)deoxycytidine resistance;53, 579;L
+celABCDF;E;Cellobiose as C source;426
+cet;E;Colicin E2 tolerance;201
+che;S;Migration in a chemotaxis gradient;34
+chlABDEG;E, S;Chlorate resistance;2, 121, 122, 228, 266, 523, 743, 744;L
+chlABDE;E;Lactate + fumarate as anaerobic energy source;436;L
+chlC;S;Chlorate resistance;45;L
+chlE;E;Lactate + nitrate as anaerobic energy source;799
+chlE;E;Biotin sulfoxide utilization in <i>chl bio</i>;180
+cirA;E;Colicin I resistance;77, 93, 620;L
+cirA;E;Siderophore-beta-lactam conjugate resistance;93;L
+cit;E;Citrate as C source;290
+cls;E;Dihydroxy(3,4)butyl-1-phosphonate resistance;345;L
+cmlA;E;Chloramphenicol resistance;48
+cmlA;E;Tetracycline resistance;523, 638
+coaA;E;Coenzyme A feedback resistance;789, 790;FBI, S
+codA(<i>cod</i>);E, S;Fluoro(5)cytosine resistance;4, 54;L
+corABCD;E, S;Cobalt resistance;262, 600, 817
+corABCD;E;Manganese resistance;600
+corABCD;E;Nickel resistance;817
+cpd;S;Succinate as improved C source;8, 530;L
+cpd;S;Citrate as C source in presence of low cAMP;8;L
+cpdB;E;Fluorouracil(5) and 3′-AMP resistance;51;L
+cpxA;E;Amikacin resistance;629
+cpxA;E;Colicin A tolerance;629
+cpxA;E;Kanamycin resistance;768
+cpxA;E;Q phage resistance;508, 711
+cpxA;E;Serine (L) as C source;567
+crg;E;Cold-resistant growth;398
+crp;S;Fosfomycin resistance;10;L
+crp;E;Serine (L) resistance in <i>relA</i>;167;L
+crp;E;Lambda phage + nalidixic acid resistance;429;L
+crp;E;Streptomycin + cAMP resistance;31;L
+crp;E;Lambda phage resistance with maltose and arabinose as C sources;92, 766;L
+crp;E;cAMP + glucose 6-phosphate resistance;1a;L
+crp;E;cAMP + glucose 6-phosphate + D-xylose + L-arabinose resistance;1a;L
+crp;E;Fluorouracil(5) + 5′-AMP + 3′-AMP resistance;52;L
+crp;E;Osmotolerance;282;L
+crp;E;Beta-lactam resistance;362;L
+crp;E;Mecillinam resistance;25, 168, 857;L
+crp;E;UV light resistance;627;L
+crp;E;Rifampin resistance;413;L
+crp;E;T6 phage resistance;6;L
+crr;E;Thio(5)glucose resistance;419;L
+crr;S;Methylglucoside(α)-resistant utilization of glycerol in <i>ptsHI</i>;563;L
+cxm;E;Xylose (D) + cAMP resistance;1a;L
+cyaA;E;Lambda phage resistance with maltose and arabinose as C sources;92;L
+cyaA;E;Lambda phage + nalidixic acid resistance;429;L
+cyaA;E;Serine (L) resistance in <i>relA</i>;167;L
+cyaA;S;Fosfomycin resistance;10;L
+cyaA;E;Osmotolerance;282;L
+cyaA;E;Beta-lactam resistance;362;L
+cyaA;E;Mecillinam resistance;25, 168, 857;L
+cyaA;E;UV light resistance;627;L
+cyaA;E;Rifampin resistance;413;L
+cyaA;E;T6 phage resistance;6;L
+cycA;E;Cycloserine (D) resistance;150, 646, 813;L
+cycA;E;Serine (D) resistance;689;L
+cysA;S;Chromate resistance;581;L
+cysA;E;Selenate resistance;728;L
+cysA;S;Azaserine resistance;340, 689;L
+cysB;S;Chromate resistance;340;L
+cysB;S;Azide resistance;227;C
+cysB;S;Selenate resistance;339;L
+cysB;E;Novobiocin resistance;631;L
+cysB;S;Triazole resistance;227;C
+cysB;S;Azaserine resistance;340;L
+cysC;S;Azaserine resistance;340;L
+cysC;S;Chromate resistance;581;L
+cysD;S;Azaserine resistance;340;L
+cysD;S;Chromate resistance;581;L
+cysE;S;Triazole resistance in <i>cysM</i>;717, 825;C
+cysE;S;Triazole resistance;341;C
+cysE;E;Novobiocin resistance;631;L
+cysG;S;Azaserine resistance;340;L
+cysH;S;Azaserine resistance;340;L
+cysH;S;Chromate resistance;581;L
+cysI;S;Azaserine resistance;340;L
+cysI;S;Chromate resistance;581;L
+cysJ;S;Azaserine resistance;340;L
+cysJ;S;Chromate resistance;581;L
+cysK;S, E;Azaserine resistance;340, 827;L
+cysK;S;Azide resistance;147, 227;L
+cysK;E;Selenate resistance;230;L
+cysK;E, S;Triazole resistance;147, 227, 826, 827;L, C
+cysK;E;Selenite resistance;230;L
+cysL;S;Selenate resistance;673, 674
+cysL;S;Chromate + selenate resistance;338
+cysM;S;Azaserine resistance;340;L
+cytR;E;Uridine as C source, improved utilization;546
+dadA;E, S;Chloro(β)-D-alanine resistance;832;L
+dadA;E, S;D-Amino acid satisfaction of amino acid auxotrophy;428, 831;C
+dcm;E;Aza(5)cytidine resistance;247;L
+dct;E;Fluoro(3)malate resistance;401;L
+dct;E;Tartrate resistance;687;L
+dct;S;Malate (L) as improved C source;745;D
+deoA;E;Deoxyadenosine + fluorouracil resistance in <i>upp</i>;3;L
+deoA;E;Thymidine resistance in <i>deoC</i>;3
+deoB;E;Thymidine resistance in <i>deoC</i>;3, 651;L
+deoB;E, S;Thymineless death prevention by low thymine levels in <i>thyA</i>;71, 471
+deoC;E;Thymineless death prevention by low thymine levels in <i>thyA</i>;325, 471, 651;L
+deoD;E;Deoxy(2)adenosine resistance in <i>deoC</i>;651;L
+deoD;E;Deoxyadenosine + fluorouracil resistance in <i>upp</i>;3;L
+deoR;E;Inosine as improved C source;546;C
+deoR;S;Diamino(2,6)purine satisfaction of purine auxotrophy;251
+deoR;S;Uridine resistance in <i>thyA deoB</i>;71
+dgd;E;Arabitol (D) as C source in <i>fuc</i>;849
+dgoR;E;Keto(2)-3-deoxygalactonate as C source;144;C
+dgsA;E;Glucosamine as anaerobic C source in <i>ptsG</i>;652;L
+dhuA;E, S;Histidine (D) satisfaction of <i>his</i> auxotrophs;422, 428, 546
+dhuA;S;Azaserine + tryptophan resistance;432
+dld;E;Vinylglycolate resistance;696;L
+dml;S;Malate (D) as C source;737
+dnaB;E;Lambdoid phage mixture coinfection resistance;259
+dnaB;E;Phenethyl alcohol resistance;494
+dnaE;E;Acriflavin (acridine) resistance;553-555
+dnaE;E;Globomycin resistance;668;S
+dnaJ;E;Lambda phage induction, resistance to;667;S
+dnaJ;E;Lambdoid phage mixture coinfection resistance;257, 259;S
+dnaJ;E;P2 phage + lambda phage coinfection resistance;753;S
+dnaK;E;Lambda phage induction, resistance to;667;S
+dnaK;E;Lambdoid phage mixture coinfection resistance;257, 259;S
+dnaK;E;P2 phage + lambda phage coninfection resistance;753;S
+dnaP;E;Phenethyl alcohol resistance;809
+dor;S;Drug-resistant gene maintenance;814
+dppA;E, S;Bacilysin resistance;1;L
+dppA;E, S;Bialaphos resistance;1;L
+dppA;E, S;Valine-containing dipeptide resistance;1;L
+dppA;E;Lysyl-2-aminoxypropionate resistance;603;L
+dppA;E;Glycylleucine resistance;269;L
+dppA;E;Phenylalanylleucine resistance;269;L
+dppA;E;Glycylvaline resistance in <i>opp</i>;178;L
+dsdA;E;Sucrose as C source;5;L
+dsdC;E;Sucrose as C source;5
+ebgA;E;Lactose utilization in ∆<i>lacZ</i>;118;Q
+ecfB;E;Serine (L) as C source;567, 768
+ecfB;E;Kanamycin resistance;567, 768
+ecfB;E;Neomycin resistance;608
+ecfB;E;Colicin K resistance;608
+edd;E;Gluconate as C source in <i>eda</i>;239, 240;L
+emrB;E;CCCP resistance due to gene dosage;472;D
+emrB;E;Nalidixic acid resistance due to gene dosage;472;D
+emrB;E;Thiolactomycin resistance due to gene dosage;250;D
+emrB;E;Thiolactomycin resistance;250
+envB;E, S;Mecillinam resistance;359, 587
+envB;E;UV light resistance;24
+envM;E, S;Diazoborine resistance;63;S
+envZ;E;Ampicillin resistance;362, 363
+envZ;E;Colicin L tolerance;812
+envZ;E;Lambda phage resistance;812
+envZ;E;Me1 phage resistance;801
+envZ;E;TPI phage resistance;812
+envZ;E;TuIa phage resistance;801
+envZ;E;Freeze-thaw resistance;112
+envZ;E;Colicin (multiple) resistance;626
+eryC;E;Erythromycin resistance;599
+eryD;E;Erythromycin resistance;830
+exbB;E;Albomycin resistance;205
+exbB;E;Colicin I resistance;283, 624
+exbB;E;Colicin (other) resistance;283, 624
+exbC;E;Colicin B resistance;624
+exbC;E;Colicin I resistance;283, 624
+exbC;E;Colicin (other) resistance;283, 624
+exuR;E;Aldohexuronate resistance in <i>eda</i>;612
+exuR;E;Hexuronate as C course in noninducible <i>exuR eda</i>;612;C
+exuT;E;Aldohexuronate resistance in <i>eda</i>;612;L
+fadB;E;Thiolactomycin resistance (due to gene dosage);778;D
+fadL;E;T2 phage resistance in <i>ompF</i>+ or <i>ompF</i>;70, 534;L
+fadR;E;Decanoate as C source;713;L
+fba;E;Streptozotocin resistance;456;L
+fepABCDG;E;Colicin B resistance;623, 624;L
+fepABDCG;E;Colicin D resistance;623;L
+fhuA;E, S;Albomycin resistance;87, 387, 388, 478,479;S
+fhuA;S;ES18 phage resistance;87, 478, 479;S
+fhuA;E;T1 phage resistance;93, 409,870;S, L
+fhuA;E;T5 phage resistance;93, 151, 387,870;L
+fhuA;E;Φ80 phage resistance;151, 387, 409,870;L, S
+fhuA;E;Colicin M resistance;151, 387, 409;L, S
+fhuA;E;Beta-lactam conjugate resistance;93;L
+fhuB;E;Albomycin resistance;618;L
+fliC;E, S;Chi phage resistance;347, 349, 416, 417, 513, 710
+fliC;S;Prolonged static cultivation;249
+flrB;S;Trifluoroleucine resistance;115, 117
+folA;E;Sulfonamide resistance;607, 697;S, D
+folA;S;Trimethoprim resistance;405, 654, 718, 719;S, D
+folP;E;Sulfonamide resistance;756;S
+fruA;E;Deoxy(2)glucose-independent fructose utilization;11
+fruA;E;Xylitol resistance;614, 639;L
+fruA;E;Sorbose (L) resistance;715;L
+fts (generic);E;Filter retention;55
+ftsZ;E;UV irradiation resistance in <i>lon</i>;373
+ftsZ;E;Methyl methanesulfonate resistance in <i>lon</i>;373
+ftsZ;E;Nitrofurantoin resistance in <i>lon</i>;252
+fucA;E;Propanediol as C source;287
+fucA;E;Ethyleneglycol as C source in propanediol utilizer;79
+fucA;E;Fucose (L) as C source in propanediol utilizer;287
+fucA;E;Xylitol as C source in propanediol utilizer;848
+fucA;E;Arabinose (D) as C source;450
+fur;E;Manganese resistance;300;C
+fusA;E;Fusidic acid resistance;65, 434, 695, 761;S
+gabC;E;Aminobutyrate as N source;197
+gadS;E;Glutamate as C source;292;L
+gal operon;E;Galactose utilization in the presence of thiomethylglucoside;636;D
+gal operon;S;Deoxy(2)galactose resistance;9, 552;L
+gal operon;E;Galactose resistance in <i>galU</i>;664;L
+galC;S;Glucose as C source in ∆<i>ptsHI</i>;613
+galE;E, S;P1 phage infection of <i>Salmonella</i> sp. monitored by drug resistance;527;L
+galE;E;U3 phage resistance;816;L
+galE;S;Deoxy(2)galactose resistance;408;L
+galE;S;Felix O phage resistance;334, 527, 591, 833;L
+galE;S;P22 phage resistance;334, 527, 591, 833;L
+galK;S;Deoxy(2)galactose resistance;408;L
+galK;E, S;Galactose resistance in <i>galE</i>;569, 752;L
+galK;E;Galactose resistance in <i>galT</i>;859;L
+galK;E;Galactose resistance in <i>galU</i>;664;L
+galP;S;Deoxy(2)galactose resistance;552;L
+galR;E;Thiomethylgalactoside-independent utilization of galactose in <i>galR</i>(Con);108
+galR;S;Glucose utilization in ∆<i>ptsHI</i>;613
+galR;E;Galactose resistance in <i>galT</i>+<i>K</i>+<i>E</i>+/<i>galT</i>+<i>K</i>+<i>E</i>+ <i>galU</i>;664
+galT;E;Streptozotocin resistance;456;L
+galU;E;Ampicillin resistance;212;L
+galU;E;P1 phage resistance;242;L
+galU;E;U3 phage resistance;816;L
+galU;S;Felix O phage resistance;334;L
+garA;S;Gamma irradiation resistance;346
+garA;E;Glucarate (D) resistance in <i>ppc</i>;647;L
+garB;S;Gamma irradiation resistance;346
+gatACD;E;Fucitol resistance in galactitol-utilizing strains;184;L
+gatACD;E;Deoxy(2)galactitol resistance in galactitol-utilizing strains;184;L
+gatACD;E;Arabitol utilization;466, 845
+gatACD;E;Ribitol utilization;466, 845
+gatACD;E;Arbitol (D) resistance;639;L
+gleR;S;Glycylleucine resistance in <i>ilv</i>;580
+glnA;S;Histidine(D) + glycylglutamine satisfaction of <i>his</i> auxotrophs;819;L
+glnA;E;Methylammonium resistance;694;S
+glnA;E;Methionine sulfoxamine resistance in <i>glnG</i>;592;C
+glnA;S;Glutamyl(γ)hydrazide resistance;518,871;S
+glnF;S;Glutamyl(γ)hydrazide resistance;433;L
+glnH;S;433;L;Glutamyl(γ)hydrazide resistance
+glnP;E;Glutamine as C source;433, 501, 820
+glnP;E, S;Methionine sulfoxamine resistance;37, 501;L
+glnP;E;Glutamyl(γ)hydrazide resistance;501, 821;L
+glnP;E;Glutamine (D) resistance;501;L
+glnV;E;Caffeine resistance;185;S
+glpD;E;Streptozotocin resistance;456;L
+glpF;E;Glyceraldehyde (L) resistance;762;L
+glpK;E;Glyceraldehyde (L) resistance;762;L
+glpK;E, S;Methyl(α)glucoside-resistant glycerol utilization in <i>ptsI</i>;64, 665
+glpT;E, S;Fosfomycin resistance;10, 29, 313, 707, 800;L
+glpT;E;Glyceraldehyde (DL) 3-phosphate resistance;762;L
+glpT;E;Arsenate resistance;838;L
+glpT;E;Dihydroxybutyl phosphonate resistance;285, 453;L
+glpT;E;Fluorohydroxyacetone phosphate resistance;515;L
+glpT;E;Chlorohydroxyacetone phosphate resistance;515;L
+glpT;E;Glycerol 3-phosphorothioate resistance;295;L
+gltA;E;Improved growth in <i>icd</i>;435;L
+gltH;E;Glutamate as C source;496, 497, 687
+gltR;E;Glutamate as C source at 42°C;497
+gltS;E;Glutamate as C source;496, 687;Q
+gltS;E;Glutamate as C source;496, 497, 687
+gltS;E;Glutamate (D) resistance in <i>gltS</i> (increased);525, 716;L
+gltS;E;Methyl(α)glutamate resistance in <i>gltS</i> (increased);391, 525, 716;L
+gltS;E;Homocysteic acid resistance;213;L
+gltX;E;Glutamyl-γ-methyl ester resistance;425
+glyA;E;Serine + methionine + glycine resistance in <i>relA</i>;783
+gntM;E;Glycerol + gluconate as C source in <i>eda</i>;217;L
+gntR;E;Acetate + gluconate as C source in <i>ppc</i>;39
+gntS;E;Acetate + gluconate as C source in <i>ppc</i>;39;L
+gor;E;Methyl viologen tolerance;430;L
+gprAB;E;Lambda phage resistance;578, 670
+gpt;S;Aza(8)guanine resistance;272, 764;L
+gpt;E;Sulfanilamide resistance in presence of guanine;97;L
+groM;E;T7 phage resistance;427
+grpD;E;Lambda mutant prophage induction, survival of;667
+grpE;E;Lambda mutant prophage induction, survival of;667
+gsh (generic);E;Nitrosoguanidine resistance;693;L
+gsh (generic);E;Methylglyoxal resistance;548
+gshAB;E, S;Selenite resistance;423;L
+guaAB;E;Psicofuranine resistance;779
+guaB;S;Fluoro(5)uracil + fluoro(5)uridine resistance;367;L
+gurBCD;E;Glycerol + methylglucuronide a C source in <i>eda</i>;572;L
+gyrA;E, S;Triazolealanine + aminotriazole resistance;660;S
+gyrA;E, S;Nalidixic acid resistance;200, 298;S
+gyrA;E;Quinolone resistance;860;S
+gyrA;E;Oxolinic acid resistance;734;S
+gyrA;E;Glucosides (β) as C source;194
+gyrA;S;Thermotolerance;200
+gyrB;S;Triaolealanine + aminotriazole resistance;660;S
+gyrB;E;Aminotriazole resistance in <i>relA</i>;772;S
+gyrB;E;Novobiocin resistance;255;S
+gyrB;E;Coumermycin resistance;181, 255, 593;D, S
+gyrB;E;Chlorobiocin resistance;589
+gyrB;E;Glucosides (β) as C source;194
+gyrB;E;Lambda mutant infection resistance;521
+gyrB;E;Nalidixic acid resistance;333, 855;S
+hem;E;Streptomycin resistance;57;L;(generic)
+hemA;E;Kanamycin resistance;585;L
+hemA;E, S;Neomycin resistance;683;L
+hemB;E;Kanamycin resistance;585;L
+hemB;E;Kanamycin-resistant, hemin-supported growth of <i>hemA</i>;507;L
+hemB;E;Colicin K-type tolerance;83
+hemC;S;Neomycin resistance;682;L
+hemD;S;Neomycin resistance;681;L
+hemE;S;Neomycin resistance;189, 680;L
+hemBCF;E;Plate method;506;L
+hemG;E;Neomycin resistance;679;L
+hemL;E;Kanamycin resistance;350;L
+hflC;E;Lambda mutant phage resistance;56
+hflK;E;Lambda mutant phage resistance;56
+hflX;E;Lambda mutant phage resistance;56
+himA;E;Mu prophage induction, survival of;520, 522
+himA;E;Mu phage lytic growth resistance;81
+himA;E;Lambda mutant phage infection, survival of;519, 521
+<i>himA (himC)</i>;E;Lambda mutant phage resistance;519, 521
+himD;E;Mu prophage induction, survival of;520, 522
+himD;E;Mu phage lytic growth resistance;81
+hipA;E;Cycloserine resistance;541
+hipA;E;Ampicillin resistance;541
+hipA;E;Fosfomycin resistance;541
+hipQ;E;Norfloxacin resistance;842
+hipQ;E;Ampicillin resistance;842
+his structural genes;E, S;Triazolealanine + aminotriazole resistance;98, 126, 658;C, Q
+his structural genes;S;Aminotriazole resistance;20, 21;D
+his structural genes;S;Growth at 42°C in <i>his</i>-overexpressing strain;804;Q
+his structural genes;S;Histidinal satisfaction of <i>his</i> auxotroph requirement at 30°C;374, 375;Q
+his structural genes;S;Histidine (D) satisfaction of <i>his</i> auxotroph requirement;374, 375;Q
+hisG;E, S;Thiazolealanine resistance;540, 698, 824;S, FBI
+hisG;S;Hydrazino (α) imidazole propionic acid resistance;699;S, FBI
+hisG;S;Histidinal satisfaction of <i>his</i> auxotroph requirement at 30°C;374, 375;L
+hisG;S;Histidine (D) satisfaction of <i>his</i> auxotroph requirement;374, 375;L
+hisG;E;Histidine-resistant adenine → guanine nucleotide;33;S,FBI;conversion in <i>deoD purF add</i>
+hisJ;S;Hydrazino (α) imidazole propionic acid resistance;13, 15;L
+hisJ;S;Azaserine + tryptophan resistance in <i>dhuA</i>;15, 432
+hisP;S;Hydrazino (α) imidazole propionic acid resistance in <i>dhuA</i>;14, 15;L
+hisP;S;Arginine as N source;13, 15, 432;D
+hisQ;S;Hydrazino (α) imidazole propionic acid resistance;13, 15;L
+hisR;S;Triazolealanine + aminotriazole resistance;658;Q
+hisR;S;Thiazolealanine resistance;706;Q
+hisR;S;Methyl(2)histidine resistance + aminotriazole resistance;658;Q
+hisS;S;Triazolealanine + aminotriazole resistance;658;S
+hisS;S;Thiazolealanine resistance;657;S
+hisT;E, S;Triazolealanine + aminotriazole resistance;98, 148, 658, 705, 784;L
+hisT;E;Azaleucine resistance;98, 784;L
+hisT;E;Serine resistance;98, 784;L
+hisT;S;Amino(3)tyrosine resistance;148, 658, 705;L
+hisT;S;Thialysine resistance;148, 658, 705;L
+hisT;S;Trifluoroleucine resistance;148, 658, 705;L
+hisT;S;Norleucine resistance;148, 658, 705;L
+hisT;S;Hydroxy (β) leucine resistance;148, 658, 705;L
+hisT;E;Phenyl galactoside resistance of <i>lacP lacI</i> (nonsense) <i>supE</i>;747
+hisU;S, E;Triazolealanine + aminotriazole resistance;23, 660
+hisU;S;Nalidixic acid resistance;593, 660
+hisW;S, E;Triazolealanine + aminotriazole resistance;23
+hisW;S;Coumermycin resistance;593, 660
+hpt;E;Mercapto(6)purine resistance in <i>gpt</i>;371
+hpt;E;Sulfanilamide + hypoxanthine resistance;97;L
+hsd;E;Lambda <i>vir</i> resistance after infection with;183;L;heteromodified lambda <i>c</i>I857
+hsd;S;Lactose utilization after conjugation of <i>F</i>′<i>lac</i> into <i>Salmonella</i> sp.;103;L
+hut;S;Histidine as sole N or C source;509
+icdE;E, S;Nalidixic acid resistance;91, 311;L
+iclR;E;Butyrate or valerate as better C source;602;C
+iclR;E;Glucose or glycerol as C source in <i>ppc</i>;488
+ileR;E;Trifluoroleucine resistance;412
+ileS;E;Pseudomonic acid resistance;858;S
+ileS;E;Thiaisoleucine resistance;757;S
+ilv structural genes;S;Sulfometuron methyl + valine resistance;872;C
+ilv structural genes;E;Aminobutyrate resistance;633, 780;C
+ilv structural genes;E;Valine resistance;268;C
+ilv structural genes;S;Cyclopentane glycine resistance;586;C
+ilvA;S;Cyclopentane glycine resistance;586;S, FBI
+ilvA;E;Glyclleucine resistance;806;S, FBI
+ilvA;S;Threonine as sole N source;106;S, FBI
+ilvA;E;Growth on minimal medium of <i>ilvA+</i> (multicopy) <i>ilvDC</i> <i>hisT</i> overcoming 2-ketobutyrate accumulation;231;L
+ilvB;E;Aminobutyrate resistance;633, 780;S, FBI
+ilvB;E;Valine resistance;633, 755;S, FBI
+ilvB;E;Glyclleucine resistance;269;S
+ilvB;E;Phenylalanylleucine resistance;269;S
+ilvF;E;Valine resistance;174, 610;G
+ilvG;E, S;Sulfometuron methyl + valine resistance;441, 851,872;S, Q
+ilvG;E;Valine resistance;221, 448, 720;G
+ilvH;E;Aminobutyrate resistance;633, 780;S, FBI
+ilvH;E;Valine resistance;633, 755;S, FBI
+ilvH;E;Glyclleucine resistance;269;S
+ilvH;E;Phenylalanylleucine resistance;269;S
+ilvI;E;Aminobutyrate resistance;633, 780;S
+ilvI;E;Valine resistance;633, 755
+ilvI;E;Glyclleucine resistance;269
+ilvI;E;Phenylalanylleucine resistance;269
+ilvJ;E;Valine resistance;174, 361, 649;G
+ilvU;E;Thiaisoleucine resistance;222
+kdgR;E;Keto(2)-3-deoxygluconate as C source;377, 615;C
+kdsA;S;9NA phage resistance in <i>galE</i>;452, 641
+ksgA;E;Kasugamycin resistance;312, 726, 793;L
+ksgB;E;Kasugamycin resistance;238, 726
+ksgC;E;Kasugamycin resistance;861
+ksgD;E;Kasugamycin resistance;238
+lac;E;Growth in lactose-limited chemostats;330;D
+lacI,operator;E;Methyl(α)glucoside-resistant utilization of lactose in <i>ptsH</i>;665;C;
+lacI,operator;E;Raffinose as C source;459;C
+lacI,operator;E;Neolactose as C source;459;C
+lacI,operator;E;Phenyl galactoside as C source;523;C
+lacI,operator;E;Lactobionic acid as C source;440;C
+lacI,operator;E;Lactitol as C source;457;C
+lacI,operator;E;Melibiose as C source;475;C
+lacIoperator;E;Melibiose as C source and acetyl(<i>N</i>)lactonate as N source;475;C
+lacI,operator;E;Lactobionic acid as C source;474
+lacI,operator;E;Acetyl(<i>N</i>)lactonate as N source;474;Q
+lacI,operator;E;Nitro(<i>o</i>)-phenylthiogalactoside resistance in <i>lacI</i>(Con) or <i>lacO</i>(Con);543, 571;Q
+lacI,operator;E;Methyl(α)glucoside-resistant lactose utilization;406;C
+lacY;E;Nitro(<i>o</i>)-phenylthiogalactoside resistance;523, 543, 721;L
+lacY;E;Phenyl galactoside resistance;376;L
+lacY;E;Phenethylyl galactoside resistance;376;L
+lacY;E;Arabinose (L) growth in the presence of <i>lac</i> operon inducer;812;L
+lacY;E;Thiodigalactoside resistance;241
+lacZ;E;Lactobionic acid as C source;440;D
+lacZ;E;Phenyl galactoside resistance;376, 500;L
+lacZ;E;Phenethylyl galactoside resistance;376, 500;L
+lacZ;E;Nitro(<i>o</i>)-phenyl galactoside resistance;376, 500;L
+lamB;E;Lambda phage resistance;88, 134, 135, 253, 644, 766;L, S
+lamB;E;K10 phage resistance;644
+lamB;E;Thio(5)maltose resistance;223;L
+lct;E;Vinylglycolate resistance;696
+leuA;S;Trifluoroleucine resistance;115;FBI, S
+leuJ;E;Trifluoroleucine resistance;575
+leu(structural genes);S;Trifluoroleucine resistance;115, 116;C
+leuS;S, E;Azaleucine resistance;477, 514;S
+leuS;S;Trifluoroleucine resistance;7;S
+leuW;E;Calmodulin inhibitor resistance;129;S
+lev;E;Levallorphan resistance;164
+lexA;E;Mitomycin C resistance of <i>recA</i> (SOS-induced) <i>sfi</i> <i>lexA3</i>(Con);538;L
+lig;E;T4 phage <i>lig</i> mutant nibbling of colonies yielding <i>lig</i> overproducer;254;Q
+lig;E;T4 phage <i>lig</i> mutant resistance from <i>lig</i> overproducer;254;L
+linB;E;Lincomycin resistance;26, 343
+lit;E;T4 mutant phage resistance;143
+livG;E;Azaleucine resistance;303, 561;L
+livH;E;Valine resistance in <i>leu</i>;17, 595;L
+livH;E;Azaleucine resistance;561;L
+livJ;E;Valine resistance in <i>leu</i>;17, 595;L
+livK;E;Valine resistance in <i>leu</i>;17, 595;L
+lon;E, S;Chlorpromazine resistance;198, 529;L
+lon;E;Promethazine resistance;529;L
+lpp;E;Globomycin resistance;140, 344, 854, 868;L
+lpcA;E;T3 phage resistance;792;L
+lpcA;E;T4 phage resistance;792;L
+lpcA;E;T7 phage resistance;792;L
+lpcA;E;P1 phage resistance;40, 41
+lpcB;E;T4 phage resistance;760
+lpcB;E;T7 phage resistance;760
+lrp;E;Leucine (D) satisfaction of <i>leu</i> auxotrophs;18, 428
+lysC;E;Aminoethylcysteine (thialysine) resistance;82, 765;S, FBI
+lysC;E;Lysine hydroxamate resistance;82, 765;S, FBI
+lysP;E;Aminoethylcysteine (thialysine) resistance;611, 736;L
+lysS;E;Aminoethylcysteine (thialysine) resistance;323;S
+lysS;E;Phenyl galactoside resistance of <i>lacI </i>q<i> lacI</i>(nonsense) lacP supL;748
+lyt;E;Beta-lactam tolerance;700
+mac;E;Erythromycin growth dependence;725
+malE;E, S;Methylglucoside(α)-resistant utilization of maltose;665
+malE;E;Thio(5)maltose resistance;223;L
+malF;E, S;Methylglucoside(α)-resistant utilization of maltose;665
+malF;E;Thio(5)maltose resistance;223;L
+malG;E, S;Methylglucoside(α)-resistant utilization of maltose;665
+malG;E;Thio(5)maltose resistance;223;L
+malK;E;Lambda phage resistance;766;L
+malK;E, S;Methylglucoside(α)-resistant utilization of maltose;177, 665
+malK;E;Thio(5)maltose resistance;223;L
+malP;E;Maltose as C source in <i>malT</i>;327
+malQ;E;Maltose as C source in <i>malT</i>;327
+malT;E;Lambda phage resistance;766;L
+malT;E;Thiomaltose resistance;223;L
+manA;E;Streptozotocin resistance;456
+manC;E;Lyxose (D) as C source;738
+manXYZ;E;Phage N4 resistance;410
+manXYZ;E;Deoxyglucose resistance;158, 379;L
+marA;E;Menadionine resistance;274
+marA;E;Chloramphenicol resistance;286
+marA;E;Tetracycline resistance;286, 329
+mbrABCD;E;Camphor resistance;776, 777
+mdoB;E;Arbutin resistance in <i>dgk</i>;360;L
+mel (generic);E;Raffinose as C source in <i>lacI</i>;459
+mel (generic);S;Methylglucoside(α)-resistant utilization of melibiose;665
+melB;E;Deoxy(2)glucose-resistant utilization of melibiose;431;S
+melB;E;Lithium-resistant utilization of melibiose;397;S
+metA;S;Methyl(α)methionine resistance;127, 447;FBI, S
+metC (<i>ecfA</i>?);E;Neomycin resistance;464
+metC (<i>ecfA</i>?);E;Colicin K resistance;465
+metC (<i>ecfA</i>?);E;Chloro(β)alanine resistance;832
+metG;E;Ethionine resistance;28;S
+metJ;E, S;Ethionine resistance;447
+metJ;E;Glutamyl-γ-methyl ester resistance;425;S
+metJ;E, S;Norleucine resistance;128
+metJ;E;Methionine sulfoximine + methyl(α)methionine resistance;386;S
+metK;E, S;Ethionine resistance;275, 289, 447, 735;S
+metK;E;Glutamyl-γ-methyl ester resistance;425;S
+metK;E, S;Norleucine resistance;128, 447, 735;S
+metK;S;Methyl(α)methionine resistance;447, 735;S
+metL;E;Hydroxy (β) norvaline resistance;138;S, FBI
+metPD;E, S;Methyl(α)methionine resistance;37, 38, 386;L
+metPD;E, S;Methionine sulfoximine resistance;37, 38, 386;L
+mglA;E;Fucose + arabinose-supported growth in <i>galP</i>;209, 613
+mglB;E;Fucose + arabinose-supported growth in <i>galP</i>;209, 613
+mglC;E;Fucose + arabinose-supported growth in <i>galP</i>;209, 613
+mglD;E;Methyl-β-galactoside-supported growth;645;C
+mng;E;Manganese resistance;708
+mopA;E;T4 phage resistance;258;S;(<i>groEL</i>)<i>mopA</i>;E;Lambda + 434 phage resistance;258;S;(<i>groEL</i>)
+mopB;E;T4 phage resistance;258;S;(<i>groES</i>)<i>mopB</i>;E;Lambda + 434 phage resistance;258;S;(<i>groES</i>)
+motAB;E;Chi phage resistance;349, 709, 710
+mrb;E;Fosfomycin resistance;800
+mrdA;E;Mecillinam resistance;759
+mrdB;E;Mecillinam resistance;358, 502, 759
+mreBCD;E;Mecillinam resistance;582, 807
+mtlA;E;Arabinitol (D) resistance;614;L
+mtlC;E;Mannitol (limiting) as C source;722;C
+mtr;E;Methyl(5)tryptophan resistance;305, 320, 523;L
+murZ;E;Fosfomycin resistance due to increased gene dosage;499;D
+mut (generic);E;Streptomycin resistance;309
+mut (generic);E;Azaserine resistance;703
+mut (generic);E;Chemostat growth;152
+mutH;E;Amino(2)purine resistance in <i>dam</i>;267;L
+mutL;E;Amino(2)purine resistance in <i>dam</i>;267;L
+mutS;E;Amino(2)purine resistance in <i>dam</i>;267;L
+mvrC;E;Methyl viologen resistance;532;D
+nadB;S;Amino(6)nicotinamide resistance;142, 336;S
+nadD;S;Amino(6)nicotinamide resistance;336, 337;L
+nagA;E;Streptozotocin resistance;456;L
+nagA;E;Iodoacetylglucosamine resistance;823;L
+nagB;E;Iodoacetylglucosamine resistance;823;L
+nagE;E;Streptozotocin resistance;456;L
+nagE;E;Iodoacetylglucosamine resistance;823;L
+nagE;E;Deoxy(2)-2-iodoacetamideoglucose resistance;379;L
+nalB;E;Nalidixic acid resistance;298
+nalD;E;Nalidixic acid resistance;333
+nar (general);E;Metronidazole resistance;677;L
+narC;E;Chlorate resistance;266, 280;L
+narG;E;Chlorate resistance;739;L
+narH;E;Chlorate resistance;739;L
+ndk;S;Aza(8)guanine resistance;264, 650
+neaB;E, S;Neamine resistance;119, 182, 495
+nek;E;Aminoglycoside resistance;27, 342
+nfnA;E;Nitrofurantoin resistance;684
+nfnB;E;Nitrofurantoin resistance;684
+nfsA;E;Nitrofuranzone resistance;90, 505
+nfsB;E;Nitrofuranzone resistance;90, 505
+nhaA;E;Lithium resistance (multicopy);628;D
+nol;S;Norleucine resistance;324
+nov;E;Novobiocin resistance;630
+nrdA;E;Hydroxyurea resistance;609;D
+nrdB;E;Hydroxyurea resistance;609;D
+nupC;E;Showdomycin resistance;415, 545;L
+nupC;E;Fluorouracil resistance;544;L
+nupC;E;Fluorodeoxyuridine resistance;545;L
+nupC;E;Fluoruridine resistance;544;L
+nupC;E;Fluorodeoxycytidine resistance;544;L
+nupG;E;Fluorouracil resistance;544;L
+nupG;E;Fluorodeoxyuridine resistance;545;L
+nupG;E;Fluorouridine resistance;544;L
+nupG;E;Fluorodeoxycytidine resistance;544;L
+nusA;E;Lambda prophage induction, survival of;244
+nusB;E;Lambda prophage induction, survival of;245, 260
+nusB;E;Lambdoid phage resistance;260
+nuvA;E, S;Near-UV irradiation resistance;424, 468, 767;L
+nuvC;E;Near-UV irradiation resistance;663
+ompA;E;K3 phage resistance;306, 489, 491, 493;L
+ompA;E;T-even-like phage resistance;199, 533, 535;S
+ompA;E;TuII* phage resistance;171, 314, 493;L
+ompA;E;Ox2 phage resistance;199, 493, 642
+ompA;E;Bacteriocin JF246 resistance;124, 491
+ompA;S;Bacteriocin 4-59 resistance;741;L
+ompA;E;Colicin K tolerance;491
+ompA;E;Colicin L tolerance;491
+ompA;E;Chelator resistance;493
+ompA;E;Novobiocin resistance;493
+ompB;S;PH51 phage resistance;372
+ompB;S;PH105 phage resistance;372
+ompC;E;Me1 phage resistance;791, 801;L
+ompC;E;TuIa phage resistance;801;L
+ompC;S;PH51 phage resistance;372;L
+ompC;S;PH105 phage resistance;372;L
+ompC;E;Host range <i>Serratia marcescens</i> phage resistance;702
+ompD;S;PH51 phage resistance;741;L
+ompD;S;Bacteriocin 4-59 resistance;741;L
+ompF;E;Beta-lactam (ampicillin, cefoxitin) resistance;362, 363;L
+ompF;E;Chloramphenicol resistance;235, 523;L
+ompF;E;Tetracycline resistance;235, 523;L
+ompF;E;Fluoro(5)uracil + nucleotide resistance;52;L
+ompF;E;Colicin A tolerance;125, 235
+ompF;E;Cloacin DF13 resistance;846;L
+ompF;E;Colicin L tolerance;235, 291;L
+ompF;E;Colicin K tolerance;235;L
+ompF;E;Colicin E2 tolerance;235
+ompF;E;Colicin E3 tolerance;235
+ompF;E;Me1 phage resistance;801;L
+ompF;E;TuIa phage resistance;801;L
+ompF;E;TuIb phage resistance;237
+ompF;S;PH51 phage resistance;372;L
+ompF;S;PH105 phage resistance;372;L
+ompF;E;Copper resistance in <i>ompC</i>;480
+ompR;E;Me1 phage resistance;801
+ompR;E;TuIa phage resistance;801
+ompR;E;Copper resistance;52, 625
+ompR;E;Beta-lactam (ampicillin, cefoxitin) resistance;362, 363;L
+ompR;E;Chloramphenicol resistance;625
+ompR;E;Fluoro(5)uracil + nucleotide resistance;52
+oppA;E, S;Triornithine resistance;43, 317;L
+oppA;E;Glycylleucine resistance;806;L
+oppA;E;Alanyl-2-aminopropionate resistance;603;L
+oppA;E, S;Trilysine resistance;317;L
+oppA;E, S;Norleucylglycyl glycine resistance;317;L
+oppA;S;Glycylglycyl histidinol phosphate ester resistance;317;L
+oppA;E, S;Phaseolotoxin resistance;733;L
+oppA;E;Tripeptide (toxic amino acid containing) resistance;604;L
+oppA;E;Glycylglycyl-<i>N</i>-<i>S</i>-(phosphonoacetyl)-L-ornithine resistance;604;L
+oppE;E;Tripeptide (toxic amino acid containing) resistance;22;L
+optA;E;T7 phage gene 1.2 mutant resistance;666
+osmB;E;Osmotolerance;384;L
+osmZ;E;Arbutin as C source;179
+osmZ;E;Salicin as C source;179
+oxyR;E, S;Peroxide resistance;131;C
+pab;E;Sulfonamide resistance;97;C
+pan;E;Salicylate resistance;481;C
+pan;E;Hydroxyaspartate resistance;701;C
+pan;E;Pentylpantothenamide resistance;136;C
+pdx;E;Isoniazid resistance;186;C
+pepA;S;Alafosfalin resistance;263;L
+pepA;E, S;Peptide (toxic, valine containing) resistance in <i>pepN</i>;517;L
+pepD;E, S;Peptide (toxic, valine containing) resistance in <i>pepN</i> <i>pepA</i>;517;L
+pepN;E, S;Albomycin resistance;86;L
+pepN;E, S;Peptide (toxic, valine containing) resistance;517;L
+pepN;E, S;Indicator plate;445
+pepQ;E, S;Peptide (toxic, valine containing) resistance;517;L
+pfkA;E;Streptozotocin resistance;456;L
+pgi;E;U3 phage resistance;816;L
+pgi;E;Fosfomycin + fructose-6-phosphate resistance;243;L
+pgm;E;U3 phage resistance;816;L
+pheA;E;Fluoro(4)phenylalanine resistance;351, 564;C, FBI
+pheR;S;Fluoro(4)phenylalanine resistance;271;C
+pheS;E;Fluoro(4)phenylalanine resistance;78, 218, 395;S
+pheS;E;Thymineless death resistance in <i>thyA</i>;394;S
+pheU;S;Fluoro(4)phenylalanine resistance;729
+pho;S;Glycerol(β)-phosphate as C source in the presence of high phosphate;407;C
+phoA;E;Fluoro(5)uracil + adenosine resistance in <i>upp, phoS,</i> or <i>phoT</i>;315
+phoA;E;Glycerol(β)-phosphate as C source in the presence of high phosphate;773;C
+phoA;E;Glycerol(β)-phosphate resistance in <i>glpD</i>;678
+phoB;E;Tellurite resistance;770
+phoB;E;TC45 phage resistance;771;L
+phoB;E;Fluoro(5)uracil + adenosine resistance in <i>upp, phoS,</i> or <i>phoT</i>;316
+phoE;E;Acid resistance;659;D
+phoE;E;TC45 phage resistance;420, 771;S, L
+phoR;E;Arsenate resistance;852
+phoR;E;Glycerol(β)-phosphate as C source in the presence of high phosphate;204, 838
+phoR;E;TC45 phage resistance;621;S
+phoS;E;Arsenate resistance;852
+phoS;E;Glycerol(β)-phosphate as C source in the presence of high phosphate;204, 838
+phoS;E;TC45 phage resistance;621;S
+phoT;E;Arsenate resistance;852
+phoT;E;Glycerol(β)-phosphate as C source in the presence of high phosphate;204, 838
+phoT;E;TC45 phage resistance;621;S
+phr;E;T1 phage (UV irradiated) resistance;332;L
+phxB;E;φX174 phage resistance;547;L
+pit;E;Arsenate resistance;59, 727;L
+pldA;E;Actinomycin D resistance in the presence of EDTA;301, 805;L
+pmi;S;P22 phage resistance;656, 833;L
+pmi;S;9NA phage resistance;656, 833;L
+pmrA;E, S;Polymyxin resistance;219, 297, 485, 785-788
+pmrA;S;Neutrophil granule protein resistance;219
+pncA;E, S;Amino(6)nicotinamide resistance;234, 455, 822;L
+pncA;E;Nicotinamide as sole N source;598;Q
+pncB;E, S;Amino(6)nicotinamide resistance;234, 455;L
+pncB;E, S;Amino(6)nicotinate resistance;234, 455;L
+pncX;S;Amino(6)nicotinamide resistance;336
+pnp;E;Showdomycin resistance;58
+polA;E;Lambda γ mutant phage resistance;867;L
+<i>praA,B</i>;S;P221 phage resistance;576, 674;L
+<i>praA,B</i>;S;PH51 phage resistance;576;L
+<i>praA,B</i>;S;PH105 phage resistance;576;L
+<i>prbA,B</i>;S;ES18 phage resistance;674
+prdB;S;PH51 phage resistance;674
+prfA;E;Phenylgalactoside resistance of <i>lacP lacI</i>(nonsense) <i>supE</i>;747
+prfB;E;Negamycin resistance;145
+prh;S;HK009 phage resistance;674
+prk;S;HK068 phage resistance;674
+proAB;S;Osmotolerance;155
+proA;E;Nitro(4)pyridine <i>N</i>-oxide resistance;62, 222, 321;L
+proB;E, S;Dehydroproline resistance;62, 155, 635;FBI, S
+proB;E;Nitro(4)pyridine <i>N</i>-oxide resistance;62, 222, 321
+proB;E, S;Azetidine carboxylate resistance;62, 155, 635;FBI, S
+proP;E, S;Dehydroproline resistance in <i>putA putP</i>;156, 732;L
+proU;S;Dehydroproline + azetidine carboxylate resistance at high osmolarity in <i>putA putP</i>;156;L
+prp;E;Propionate as C source;400;Q
+pspABCDE;E;Sulfanilamide + hypoxanthine resistance;97
+pss;E;Ethanol resistance;133
+pss;E;Dimethyl sulfoxide resistance;133
+pstABCS;E;Arsenate resistance;727, 838;L
+pstABCS;E;TC45 phage resistance;621;S
+pta;S;Fluoroacetate resistance;96, 281, 463, 797
+pts (general);E;Glucose + gluconate-independent motility;30
+ptsG;E;Methyl(α)-glucoside resistance;102, 104
+ptsG;E;Sorbose resistance;715;L
+ptsG;E, S;Deoxy(2)glucose-independent utilization of fructose;418, 510;L
+ptsG;E, S;Deoxy(3)-3-fluoroglucose-independent utilization of fructose;418, 510;L
+ptsG;E;Methyl(α)-glucoside-independent lactose + mannitol utilization;80;L
+ptsG;E;Glucosamine as C source;379
+ptsG;E;Mannose as C source;379
+ptsHI;E, S;Deoxy(3)-3-fluoroglucose-independent utilization of lactate;510;L
+ptsHI;E, S;Fosfomycin resistance;146, 800;L
+ptsHI;E;Streptozotocin resistance;16,873;L
+ptsI;E;Ampicillin resistance;212
+ptsI;S;Deoxy(3)-3-fluoroglucose resistance;510;L
+purA;E;Methyl(6)purine + hypoxanthine resistance;60
+purB;E;Nalidixic acid resistance;310;L
+purR;E;Adenine resistance in <i>hpt gpt</i>;461, 462
+putA;E, S;Azetidine carboxylic acid resistance;511, 635, 775;L
+putAP;S;Baikiain resistance in constitutive background;187;L
+putA;S;Proline as N source with glucose as C source;566
+putP;E, S;Dehydroproline resistance;193, 511, 635, 732, 775, 843;L
+putP;E, S;Azetidine carboxylic acid resistance;193, 511, 635, 775, 843;L
+putP;S;Lithium-resistant proline utilization as C source;551;S
+puvA;E;Psoralen + UV irradiation resistance;328;C
+pyrB;S;Arginine-independent growth of <i>pyrH</i> in the presence of uracil;366;L
+pyrC;S;Arginine-independent growth of <i>pyrH</i> in the presence of uracil;366;L
+pyrD;S;Arginine-independent growth of <i>pyrH</i> in the presence of uracil;366;L
+pyrF;E;Fluoro(5)orotic acid resistance;74;L
+pyrH;S;Fluoro(5)orotic acid resistance;865;C
+pyrH;S;Fluorouracil resistance;385;C
+pyrH;S;Fluorouridine resistance;385;C
+pyrH;E;Fluoro(5)uracil + 5-fluorouridine resistance in <i>udp</i>;606
+qmeACDE;E;Glycine tolerance;829
+rap;E;Lambda phage resistance;279
+recA;E;Lambda prophage induction deficiency during thymine deprivation;190
+recF;E;Thymineless death resistance in <i>thyA</i>;558
+recJ;E;Thymineless death resistance in <i>thyA</i>;558
+recO;E;Thymineless death resistance in <i>thyA</i>;558
+recQ;E;Thymineless death resistance in <i>thyA</i>;557
+relA;E;UV (near) irradiation resistance;632;L
+relA;E;Serine resistance in <i>relA</i>;167
+rep;E;P2 phage resistance;113
+rfa (general);E, S;U3 and FO phage resistance;35, 484, 486, 588, 833
+rfa (general);E, S;Ampicillin resistance;212, 550, 562
+rfa (general);S;Hemin satisfaction of <i>hemA</i> auxotrophy;364
+rfa (general);S;Cephalothin resistance;562
+rfa (general);S;Bacitracin resistance;562
+rfaCDEF;S;FO phage resistance;676
+rfaD;E;C21 phage resistance;141
+rfaD;E;P1 phage resistance;141
+rfaH;S;FO phage resistance;458, 675
+rfaP;E;U3 phage + K3 phage coresistance;601
+rfb;S;DCCD resistance in <i>rfa</i>;833
+rho;E;T4 phage resistance;740
+rho;E;Lambda <i>sus N7 nin-5</i> resistance in P2 lysogen;352, 353
+rho;E, S;Polarity suppression of <i>gal</i> leader insertion;169, 331
+ridA;E;Rifampin + kasugamycin dependence;162
+ridB;E;Rifampin dependence;160
+rplC;E;Tiamulin resistance;73
+rplD;E;Erythromycin resistance;725, 840;S
+rplE;E;Thiopeptin resistance;467
+rplF;E;Gentamicin resistance;101;S
+rplK;E;Kasugamycin resistance;159
+rplK;E;DAP starvation of ∆(<i>mal-asd</i>) in the presence of serine, methionine, and glycine;165
+rplN;E;Kasugamycin resistance;159
+rplN;E;Lincomycin resistance;343
+rplO;E;Lincomycin resistance;343
+rplV;E;Erythromycin resistance;840
+rpoA;E;P2 <i>vir1</i> phage resistance;754;S
+rpoB;E;Lambda <i>c</i>II + rifampin coresistance;296;S
+rpoB;E;Streptovaricin resistance;863;S
+rpoB;E;Rifampin resistance;216, 359, 369;S
+rpoB;E;Streptolydigin resistance;357, 469, 688;S
+rpoB;S;Fluorouracil resistance;368;S
+rpoB;E;Lambda phage + 434 phage cross-resistance;256;S
+rpoB;E;Lambda <i>Nmar </i>mutant phage resistance;261;S
+rpoB;E;Serine resistance in <i>relA</i>;784;S
+rpoB;E;Rifampin resistance in <i>rpoB</i>+/<i>rpoB</i> (<i>rif</i>) merodiploids;36;L
+rpoB;E;T7 phage resistance;690;S
+rpoC;E;T7 phage gene 2 resistance;100
+rpoD;E;Lambda <i>c</i>I71 resistance;556
+rpoD;E;Arabinose (L) as C source in <i>cya</i> or <i>crp</i>;712;S
+rpoH;E;Temperature resistance in <i>rpoD</i>(Ts);577;S
+rpsB;E;Kasugamycin resistance;583, 861;S
+rpsB;E;Cold resistance in <i>rpsE</i> cold-sensitive mutants;559
+rpsC;E;Spectinomycin resistance and sucrose dependence;195;S
+rpsD;E;Spectinomycin resistance and sucrose dependence;195;S
+rpsD;E;Streptomycin independence of streptomycin-dependent <i>rpsL</i>;304
+rpsE;E;Spectinomycin resistance and sucrose dependence;195, 526;S
+rpsE;E, S;Spectinomycin resistance;172, 495, 634, 672, 853;S
+rpsE;E;Streptomycin independence of streptomycin-dependent <i>rpsL</i>;304
+rpsG;E;Lincomycin resistance;343;S
+rpsI;E;Kasugamycin resistance and dependence;161, 163;S
+rpsJ;E;Lambda prophage induction, resistance to;170, 246;S
+rpsL;E, S;Streptomycin resistance;89, 495, 853;S
+rpsL;E;Neamine dependence;798
+rpsL;E;Paromomycin resistance or dependence;853;S
+rpsL;E;Phenyl galactoside resistance of <i>lacP lacI</i> (nonsense) <i>supE</i>;747
+rpsM;E;Kasugamycin resistance;159
+rpsQ;E;Neamine resistance;76, 119;S
+rpsR;E;Kasugamycin resistance;159
+rrn;E;Erythromycin resistance;704;S
+rrn;E;Chloramphenicol resistance;704;S
+rrn;E;Spectinomycin resistance;704;S
+sbaA;E;Serine resistance;166
+sbmA;E;Microcin B17 resistance;446
+sdh;E;Succinate-independent growth in <i>lpd</i>;154
+secA;E, S;Azide resistance;227, 232, 584, 808, 864
+secA;E;Phenethyl alcohol resistance;808, 864
+semA;E;Microcin E492 resistance;622
+serA;E;Serine hydroxamate resistance;774;FBI, S
+serS;E;Serine hydroxamate resistance;774;S
+sidCF;S;Albomycin resistance;87, 478, 479, 674
+sidK;S;Albomycin resistance;87, 478, 479, 674
+sidK;S;ES18 phage resistance;87, 478, 479, 674
+sloB;E;Nalidixic acid tolerance;473
+sloB;E;Amidinopenicillin tolerance;473
+sorAT;E;Sorbose (L) as C source in crosses with wild strains;844
+spcB;S;Spectinomycin resistance;853
+srlA;E;Sorbitol + xylitol resistance;639;L
+srlD;E;Fructose as C source in <i>ptsF</i> or <i>ptsM</i>;378
+sspA;E;P1 phage resistance;835;L
+strB;S;Streptomycin resistance;273, 853
+strC;S;Streptomycin resistance;648
+strM;E;Streptomycin resistance;671
+strM;E;Phenyl galactoside resistance of <i>lacI</i>q <i>lacI</i>(nonsense) <i>lacP supL</i>;748
+sulA;E;UV irradiation resistance in <i>lon</i>;373;L
+sulA;E;Methyl methanesulfonate resistance in <i>lon</i>;373;L
+sulA;E;Nitrofurantoin resistance in <i>lon</i>;252;L
+tabC;E;T4 phage resistance;258
+tct;S;Fluorocitrate resistance;724;L
+tct;S;Trifluorocitrate resistance;723;L
+tct;S;2-Fluoro-L-erythrocitrate resistance;32;L
+tdk;E, S;Azidothymidine resistance;207;L
+tdk;S;Fluorodeoxyuridine + uracil resistance in <i>deoA</i>;54
+tdk;E;Fluoro(5)deoxyuridine resistance;749;L
+tdk;E;Bromo(5)deoxyuridine + UV irradiation resistance;319, 348;L
+tet;E, S;Fusaric acid resistance;72, 487;L
+tet;S;Quinaldic acid resistance;72;L
+thdA;E;Dapsone resistance;383
+thi;E;Pyrithiamine resistance;399;C
+thrA;E, S;Thialysine resistance;365;S, FBI
+thrA;E;Serine resistance;294;S, FBI
+thrABC;E;Amino(2)-hydroxy(3)-pentoate resistance;847;D
+thrS;E;Borrelidin resistance;248, 276, 560, 596;S, Q
+thyA;E, S;Aminopterin resistance;66, 123, 325, 730;L
+thyA;E;Trimethoprim resistance;66, 730;L
+tinA (<i>tlr</i>);E, S;Thiolutin resistance;381, 382, 714
+tmk;E;Dideoxy(2′,3′)thymidine resistance;176;S
+tnaA;E;Tryptophan-supported growth at 13°C;568;C
+tna;E;Indole + methyl(5)tryptophan-supported, glucose-resistant growth in ∆<i>trp</i>;862
+tol;E;Bacteriocin tolerance;85, 120, 173, 236
+tolQAB;E;Colicin E1 resistance;449
+tolQAB;E;TuIa phage resistance;449
+tolB;E;Colicin E resistance;19;L
+tolB;E;Azaleucine resistance;19;L
+tolC;E;Colicin E1 tolerance;536, 653;L
+tolD;E;Colicin E2 and E3 tolerance;210
+tolD;E;Ampicillin resistance;105, 210
+tolE;E;Colicin E2 and E3 tolerance;210, 211
+tolE;E;Ampicillin resistance;210, 211
+tolI;E;Colicin Ia and Ib tolerance;120
+tolJ;E;Colicin L, A, and S4 tolerance;173
+tolM;E;Colicin M tolerance;302
+tolQ;E;Colicin group A tolerance;84a, 750
+tolQ;E;Filamentous phage tolerance;84a, 750
+tolR;E;Colicin group A tolerance;84a, 750
+tolR;E;Filamentous phage tolerance;84a, 750, 751
+tolZ;E;Colicin E2, E3, D, 1a, and 1b tolerance;503
+tonB;S;ES18 phage resistance;149, 741
+tonB;E;T1 phage resistance;46
+tonB;E;φ80 phage resistance;46
+tonB;E;Colicin B resistance;46, 623
+tonB;E, S;Albomycin resistance;85, 505, 741
+tonB;E;Colicin M resistance;85, 523
+tonB;S;Bacteriocin 4-59 resistance;741
+tonB;E;Cephalosporin E-0702 resistance;815
+topA;S;Kanamycin resistance;202
+topA;S;Neomycin resistance;202
+topA;S;Streptomycin resistance;202
+tpp;E;Alafosfalin resistance;603;L
+tpp;E;Triornithine resistance in <i>opp</i>;44;L
+tppA;S;Tripeptide (toxic) resistance;263
+tppB;S;Tripeptide (toxic) resistance;263
+trmE?;E;Phenyl galactoside resistance of <i>lacl</i>q <i>lacI</i>(nonsense) <i>lacP supL</i>;748
+trp (generic);E, S;Fluoro(6)tryptophan resistance;42, 318;C
+trp (generic);E, S;Methyl(5)tryptophan resistance;42, 318;C
+trpE;E, S;Methyl(5)tryptophan resistance;114, 539;S, FBI
+trpE;E;Methyl(3)anthranilate resistance;308;S, FBI
+trpR;E, S;Methyl(5)tryptophan resistance;42, 137, 523, 746
+trpR;E;Chuangxinmycin resistance;850
+trpS;E;Indolmycin resistance;75;D
+trxA;E;T7 phage resistance;498;L
+trzA;S;Triazole resistance;339
+tsx;E;T6 phage resistance;99, 299, 490, 492, 620;L, S
+tsx;E;Colicin K resistance;99, 299, 490, 492, 620;L, S
+tsx;E;Albicidin resistance;69
+tufAB;E;Kirromycin resistance;220, 356, 763, 795
+tufAB;E, S;Mocimycin resistance;335, 794
+tyn;S;Tyramine as N source;549
+tyrA;E, S;Fluorophenylalanine resistance;270, 729;C
+tyrA;E;Amino(4)phenylalanine resistance;504;C
+tyrR;E, S;Amino(4)phenylalanine resistance;95, 504, 811
+tyrR;E;Fluorotyrosine resistance;130
+tyrR;S;Fluoro(4)phenylalanine resistance;729
+tyrS;E;Fluorotyrosine resistance;662;S
+ubi (generic);E;Neomycin resistance;265;L
+ubiF;S;Fluoro(5)uracil + carbamylaspartate resistance;404, 866;L
+ubiF;E;Gentamicin resistance;542
+ubiF;E;Streptomycin resistance;542
+udhA;S;Fluoro(5)uridine resistance;834;L
+udk;E;Fluoro(5)uridine + uracil resistance;380;L
+udk;E;Fluoro(5)uridine resistance in <i>upp</i>;565;L
+udp;E;Fluoro(5)uracil + adenosine resistance;606, 617;L
+ugpAB;E;Fluorohydroxyacetone phosphate resistance;515;L
+ugpAB;E;Dihydroxybutylphosphonate resistance in <i>glpT</i>;691, 692;L
+ugpAB;E;Glycerol-3-phosphate as C source in <i>glpT</i>;691;C
+uhpR;E;Glucosamine 6-phosphate as C source;191;C
+uhpR;S;Glucose 1-phosphate as C source;192;C
+uhpR;E;Fructose 1-phosphate as C source;224;C
+uhpT;E;Chloro-3-hydroxyacetone resistance in <i>uhp</i>(Con);515;L
+uhpT;E;Fluoro-3-hydroxyacetone resistance in <i>uhp</i>(Con);515;L
+uhpT;E;Dihydroxybutylphosphonate resistance in <i>uhp</i>(Con);285;L
+uhpT;E;Hydroxybutylphosphonate resistance in <i>ubp</i>(Con);285;L
+uhpT;E;Deoxydihydroxyphosphonyl methyl fructose resistance;285;L
+uhpT;E;L-Glyceraldehyde-3-phosphate resistance in <i>uhp</i>(Con);285;L
+uhpT;E;Fosfomycin resistance;230, 389, 800;L
+uhpT;E;Deoxy(2)glucose-6-phosphate resistance;214;L
+uidA;E;Galacturonide as C source;742;C
+uidA;E;Methylgalacturonide as C source;573;C
+uidA;E;Methylglucuronide + glycerol-supported growth in <i>eda</i>;572;L
+uidR;E;Galacturonide as C source;742;C
+uidR;E;Methylgalacturonide as C source;573;C
+ung;E;Bromodeoxyuridine + UV light resistance;856;L
+ung;E;T4 phage (uracil containing) resistance;203;L
+upp;E, S;Fluoro(5)uracil resistance;53, 605, 617;L
+upp;E;Aza(6)uracil resistance;605, 617;L
+upp;E;Canavanine + aza(6)uracil resistance;605, 617;L
+ushA;E;Fluoro(5)uracil + 5′-AMP resistance in <i>upp</i>;52;L
+uvrA;E;UV-irradiated lytic phage resistance;332
+uvrB;E;UV-irradiated lytic phage resistance;332
+uvrC;E;UV-irradiated lytic phage resistance;332
+uvrD;E;UV-irradiated lytic phage resistance;332
+uxaBC;E;Hexuronate resistance in <i>eda</i>;742;L
+uxuAB;E;Hexuronate resistance in <i>eda</i>;742;L
+uxuR;E;Methylgalacturonide as C source;574;C
+valS;E;Thymineless death resistance in <i>thyA</i>;394;S
+xapA;E;Fluoro(5)uracil + adenosine resistance in <i>upp deoD xapR(Con)</i>;111;L
+xapR;E;Adenosine as C source in <i>upp deoD</i>;111;C
+xapR;E;Inosine as C source in <i>upp deoD</i>;111;C
+xylE;E;Xylose resistance in <i>fda</i>;175;L
