@@ -29,6 +29,59 @@ nav li a {
   font-size:200%;
   text-decoration:none;
 }
+
+#table1 td, #table2 td {
+  padding: 0px 10px;
+}
+
+#table1 {
+  width: 1400;
+}
+
+.type {
+  width: 30%;
+}
+
+.selection {
+  width: 50%;
+}
+
+.gene {
+  width: 10%;
+}
+
+.references {
+  width: 13%;
+}
+
+.organism {
+  width: 13%;
+}
+
+.alteration {
+  width: 13%;
+}
+
+.refnumber {
+  width: 10px;
+}
+
+.reftitle {
+  width: 80%;
+}
+
+.reftitle td {
+  padding: 0px 10px;
+}
+
+.reflink {
+  width: 10%;
+}
+
+.refpdf {
+  width: 10%;
+}
+
 /*
 li a:hover {
   background-color: #111111;

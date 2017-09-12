@@ -19,8 +19,14 @@ def printtable1(ftab1):
     f.close()
 
     print('<h1><a id="tab1"></a>%s</h1>'%tab[0],file=output)
-    print('<table>',file=output)
-    for line in tab[1:]:
+    print('<table id="table1">',file=output)
+
+    print('<col class="type">\n<col class="selection">\n<col class="gene">',file=output)
+
+    tokens=tab[1].split(';')
+    print('<tr><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2]),file=output)
+
+    for line in tab[2:]:
         print('<tr>',end='',file=output)
         tokens=line.split(';')
         for t in tokens:
@@ -37,13 +43,15 @@ def printtable2(ftab2):
     g.close()
 
     print('<h1><a id="tab2"></a>%s</h1>'%tab[0].rstrip('\n'),file=output)
-    print('<table>',file=output)
+    print('<table id="table2">',file=output)
 
+    print('<col class="gene">\n<col class="organism">\n<col class="selection">\n<col class="references">\n<col class="alteration">',file=output)
+    
     tokens=tab[1].rstrip('\n').split(';')
-    print('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
+    print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
 
     for line in tab[2:]:
-        if line.count(';')==3:
+        if line.count(';')==3: # For many entries, no value is provided for the selected 'alteration'
             line=line.rstrip('\n')+'; \n'
         print('<tr>',end='',file=output)
         tokens=line.rstrip('\n').split(';')
@@ -72,12 +80,17 @@ def printtable2(ftab2):
 def printtableref(fref):
     output=io.StringIO()
     import refs as refparser
+    import os
     h=open(fref,'r')
     refs=h.readlines()
     h.close()
 
     print('<h1><a id="ref"></a>References</h1>',file=output)
-    print('<table>',file=output)
+    print('<table id="table3">',file=output)
+    
+    print('<col class="refnumber">\n<col class="reftitle">\n<col class="reflink">\n<col class="refpdf">',file=output)
+    print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%("Nº","title","link","pdf"),file=output)
+    
     references=dict()
     for ref in refs:
         tokens=ref.split(';')
@@ -87,8 +100,10 @@ def printtableref(fref):
         references[tokens[0]]=(tokens[1],int(tokens[2]),tokens[3])
         strquery=tokens[3].rstrip(' .').replace('<i>','').replace('</i>','')
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%(strquery.replace(' ','%20'))
-        print('<tr><td><a id="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar),file=output)
-        refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
+        pdf='pdf/%s.pdf'%tokens[0]
+        pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
+        print('<tr><td><a id="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar,pdflink),file=output)
+        #refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>',file=output)
     return(output.getvalue())
 

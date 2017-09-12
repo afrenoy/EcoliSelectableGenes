@@ -13,7 +13,7 @@ def getsource(gscholar,nref):
         return
     print('html %s not found, trying to download'%output)
     number=int(nref.rstrip(string.ascii_lowercase))
-    os.system('wget -e robots=off -H --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" "%s" -O "%s"'%(gscholar,output))
+    os.system('wget --header="Accept: text/html,application/xhtml+xml,application/xml,application/pdf" -e robots=off -H --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0" "%s" -O "%s"'%(gscholar,output))
     time.sleep(0.2)
 
 # Get pdf from google scholar results
