@@ -44,9 +44,7 @@ def printtable2(ftab2):
 
     for line in tab[2:]:
         if line.count(';')==3:
-            #print(line)
             line=line.rstrip('\n')+'; \n'
-            #print(line)
         print('<tr>',end='',file=output)
         tokens=line.rstrip('\n').split(';')
         print('<td>%s</td><td>%s</td><td>%s</td>'%(tokens[0],tokens[1],tokens[2]),end='',file=output)
@@ -97,7 +95,7 @@ def printtableref(fref):
 output=io.StringIO()
 print('<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n',file=output)
 print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#tab1">Selections giving rise to mutants</a></li><li><a href="#tab2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>\n<div id="main">',file=output)
-print('<h1 id="about">About this document</h1><p>This is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>The pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.</p><p>The raw data can be downloaded as csv files:</p><ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>',file=output)
+print('<h1 id="about">About this document</h1>\n<p>\nThis is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>\nThe pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.\n</p>\n<p>\nThe raw data can be downloaded as csv files:\n</p>\n<ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>',file=output)
 print(printtable1(sys.argv[1]),file=output)
 print(printtable2(sys.argv[2]),file=output)
 print(printtableref(sys.argv[3]),file=output)
