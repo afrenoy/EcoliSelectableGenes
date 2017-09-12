@@ -21,12 +21,10 @@ def printtable1(ftab1):
     print('<h1><a id="tab1"></a>%s</h1>'%tab[0],file=output)
     print('<table>',file=output)
     for line in tab[1:]:
-        print('<tr>',file=output)
+        print('<tr>',end='',file=output)
         tokens=line.split(';')
         for t in tokens:
-            print('<td>',file=output)
-            print(t,file=output)
-            print('</td>',file=output)
+            print('<td>%s</td>'%t,end='',file=output)
         print('</tr>',file=output)
     print('</table>',file=output)
     return(output.getvalue())
@@ -38,19 +36,19 @@ def printtable2(ftab2):
     tab=g.readlines()
     g.close()
 
-    print('<h1><a id="tab2"></a>%s</h1>'%tab[0],file=output)
+    print('<h1><a id="tab2"></a>%s</h1>'%tab[0].rstrip('\n'),file=output)
     print('<table>',file=output)
 
-    tokens=tab[1].split(';')
-    print('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),end='',file=output)
+    tokens=tab[1].rstrip('\n').split(';')
+    print('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
 
     for line in tab[2:]:
         if line.count(';')==3:
             #print(line)
             line=line.rstrip('\n')+'; \n'
             #print(line)
-        print('<tr>',file=output)
-        tokens=line.split(';')
+        print('<tr>',end='',file=output)
+        tokens=line.rstrip('\n').split(';')
         print('<td>%s</td><td>%s</td><td>%s</td>'%(tokens[0],tokens[1],tokens[2]),end='',file=output)
         allrefs=[]
         for ur in tokens[3].split(','):
