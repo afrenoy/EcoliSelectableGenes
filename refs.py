@@ -11,7 +11,7 @@ def checkpdf(output):
     mime=magic.from_file('%s'%output,mime=True)
     if mime=='application/pdf':
         return True
-    elif mime=='text/html':
+    elif mime=='text/html' or 'empty' in mime:
         print('It seems that %s is not a valid pdf, mime type is %s'%(output,mime))
         return False
     else: # Bénéfice du doute...
