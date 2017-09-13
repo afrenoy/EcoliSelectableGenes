@@ -17,7 +17,6 @@ def checkpdf(output):
     else: # Bénéfice du doute...
         return True
 
-
 # Search the article on google scholar
 def getsource(gscholar,nref):
     output='gs_html/%s.html'%nref
@@ -49,26 +48,33 @@ def parsehtmlfromgs(nref):
         return
     else:
         result=all_results[0]
+        searchdoi=re.search('10\.1[0-9]{3}(/|%2F)[^/ ?"]*',str(result))
         all_links=[x for x in result.find_all('a') if x.has_attr('href') and 'pdf' in x['href']]
-        if len(all_links)>1:
-            print('several pdfs for %s on google scholar, not doing anything'%output)
-            return
-        elif len(all_links)==0:
-            print('no pdf for %s on google scholar'%output,end='')
-            searchdoi=re.search('10\.1[0-9]{3}/[^/ "]*',str(result))
-            if searchdoi:
-                doi=searchdoi.group(0)
-                print(', but found doi %s, trying to download from sci-hub'%doi)
-                # Try to download from scihub
-                os.system('wget -rHA "*.pdf" -e robots=off "http://sci-hub.bz/%s" -O %s'%(doi,output))
-            else:
-                print(' and no doi found, not doing anything')
-                return
-        else:
-            print('pdf for %s found on google scholar, trying to download'%output)
+        # If we have a single pdf on google scholar, try to download it
+        if len(all_links)==1:
+            print('pdf for %s found on google scholar, trying to download it'%output)
             link=all_links[0]['href']
-            print('link found for %s : %s'%(output,link))
+            #print('link found for %s : %s'%(output,link))
             os.system('wget -e robots=off -H --user-agent="Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.3) Gecko/2008092416 Firefox/3.0.3" "%s" -O %s'%(link,output))
             # Check that we got a valid pdf (sneaky proxies...)
-            checkpdf(output)
+            if checkpdf(output):
+                return
+            print('download of %s from google scholar failed (not a valid pdf)'%output)
+            # Check that the webpage we got instead of the pdf does not contain a doi (thanks springer!)
+            if not searchdoi:
+                fakepdf=open(output,'r').read()
+                searchdoi=re.search('10\.1[0-9]{3}(/|%2F)[^/ ?"]*',fakepdf)
+        # If none (or several) pdfs on google scholar, or if download failed, try sci-hub using the doi if any
+        if len(all_links)>1:
+            print('several pdfs for %s on google scholar'%output)
+        if len(all_links)==0:
+            print('no pdf for %s on google scholar'%output)
+        if searchdoi:
+            doi=searchdoi.group(0).split('.pdf')[0] # Remove .pdf from the doi
+            print(' but found doi %s, trying to download from sci-hub'%doi)
+            # Try to download from scihub
+            os.system('wget -rHA "*.pdf" -e robots=off "http://sci-hub.bz/%s" -O %s'%(doi,output))
+        else:
+            print(' and no doi found for %s, not doing anything'%output)
+            return
 
