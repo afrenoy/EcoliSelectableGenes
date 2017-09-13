@@ -103,7 +103,7 @@ def printtableref(fref):
         pdf='pdf/%s.pdf'%tokens[0]
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
         print('<tr><td><a id="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar,pdflink),file=output)
-        #refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
+        refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>',file=output)
     return(output.getvalue())
 
