@@ -76,7 +76,8 @@ Expansion of metabolic capacity;Glutamine as C source;glnP
 Expansion of metabolic capacity;Glycerol as C source in *ppc*;iclR
 Expansion of metabolic capacity;Glycerol + gluconate as C source in *eda*;gntM
 Expansion of metabolic capacity;Glycerol + methylglucuronide as C source in *eda*;gurBCD
-Expansion of metabolic capacity;Glycerol 3-phosphate as C source in *glpT ugpAB*;Hemin satisfaction of *hemA* auxotroph
+Expansion of metabolic capacity;Glycerol 3-phosphate as C source in *glpT*;ugpAB
+Expansion of metabolic capacity;Hemin satisfaction of *hemA* auxotroph;hemB
 Expansion of metabolic capacity;Hemin satisfaction of *hemA* auxotroph;rfa
 Expansion of metabolic capacity;Hexuronate as C source in noninducible strain;exuR
 Expansion of metabolic capacity;Histidinal satisfaction of *his* auxotroph requirement at 30°C;*his* structural genes

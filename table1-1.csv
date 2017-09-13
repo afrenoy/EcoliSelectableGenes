@@ -77,7 +77,8 @@ Glutamine as C source;<i>glnP</i>
 Glycerol as C source in <i>ppc</i>;<i>iclR</i>
 Glycerol + gluconate as C source in <i>eda</i>;<i>gntM</i>
 Glycerol + methylglucuronide as C source in <i>eda</i>;<i>gurBCD</i>
-Glycerol 3-phosphate as C source in <i>glpT ugpAB</i>;Hemin satisfaction of <i>hemA</i> auxotroph;<i>hemB</i>
+Glycerol 3-phosphate as C source in <i>glpT</i>;<i>ugpAB</i>
+Hemin satisfaction of <i>hemA</i> auxotroph;<i>hemB</i>
 Hemin satisfaction of <i>hemA</i> auxotroph;<i>rfa</i>
 Hexuronate as C source in noninducible strain;<i>exuR</i>
 Histidinal satisfaction of <i>his</i> auxotroph requirement at 30°C;<i>his</i> structural genes
