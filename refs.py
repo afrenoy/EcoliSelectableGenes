@@ -6,6 +6,7 @@ import string
 from bs4 import BeautifulSoup
 import re
 import magic
+import urllib.request
 
 def checkpdf(output):
     mime=magic.from_file('%s'%output,mime=True)
@@ -27,6 +28,15 @@ def getsource(gscholar,nref):
     number=int(nref.rstrip(string.ascii_lowercase))
     os.system('wget --header="Accept: text/html,application/xhtml+xml,application/xml,application/pdf" -e robots=off -H --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:55.0) Gecko/20100101 Firefox/55.0" "%s" -O "%s"'%(gscholar,output))
     time.sleep(0.2)
+
+# Get pdf from sci-hub using doi
+def getpdffromscihub(doi,output):
+    print('try to download pdf %s from sci-hub using doi %s'%(output,doi))
+    os.system('wget -rHA "*.pdf" -e robots=off "http://sci-hub.bz/%s" -O %s'%(doi,output))
+    if not checkpdf(output):
+        os.remove(output)
+        return False
+    return True
 
 # Get pdf from google scholar results or sci hub
 def parsehtmlfromgs(nref):
@@ -71,10 +81,16 @@ def parsehtmlfromgs(nref):
             print('no pdf for %s on google scholar'%output)
         if searchdoi:
             doi=searchdoi.group(0).split('.pdf')[0] # Remove .pdf from the doi
-            print(' but found doi %s, trying to download from sci-hub'%doi)
             # Try to download from scihub
-            os.system('wget -rHA "*.pdf" -e robots=off "http://sci-hub.bz/%s" -O %s'%(doi,output))
+            getpdffromscihub(doi,output)
         else:
-            print(' and no doi found for %s, not doing anything'%output)
+            print(' and no doi found for %s on google scholar'%output)
+            # try to follow the link to the publisher website, and from there get a doi to use sci-hub
+            htmllink=result.find('a')['href'] # Follow first link
+            html=urllib.request.urlopen('http://www.sciencedirect.com/science/article/pii/S000398616480028X').read()
+            searchdoi=re.search('10\.1[0-9]{3}(/|%2F)[^/ ?"]*',str(html))
+            if searchdoi:
+                doi=searchdoi.group(0).split('.pdf')[0] # Remove .pdf from the doi
+                getpdffromscihub(doi,output)
             return
 
