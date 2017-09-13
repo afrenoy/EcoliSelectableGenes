@@ -9,6 +9,19 @@ if len(sys.argv)<5:
     print("4 arguments expected: selection table, gene table, reference table, and output file")
     exit(-1)
 
+# From a gene name, get a string with a link to ecocyc if relevant
+import re
+import genes
+allgenes=genes.getallgenes()
+def formatgene(gene):
+    searchgenename=re.search('[a-z]{3}[A-Z]?',gene)
+    if not searchgenename:
+        return(gene)
+    genename=searchgenename.group(0)
+    if not genename in allgenes:
+        return(gene)
+    (eco,bname)=allgenes[genename]
+    return('<a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=%s">%s</a>'%(eco,gene))
 
 # Table 1
 import io
@@ -27,11 +40,9 @@ def printtable1(ftab1):
     print('<tr><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2]),file=output)
 
     for line in tab[2:]:
-        print('<tr>',end='',file=output)
         tokens=line.split(';')
-        for t in tokens:
-            print('<td>%s</td>'%t,end='',file=output)
-        print('</tr>',file=output)
+        assert(len(tokens)==3)
+        print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[0],tokens[1],formatgene(tokens[2])),file=output)
     print('</table>',file=output)
     return(output.getvalue())
 
@@ -55,7 +66,7 @@ def printtable2(ftab2):
             line=line.rstrip('\n')+'; \n'
         print('<tr>',end='',file=output)
         tokens=line.rstrip('\n').split(';')
-        print('<td>%s</td><td>%s</td><td>%s</td>'%(tokens[0],tokens[1],tokens[2]),end='',file=output)
+        print('<td>%s</td><td>%s</td><td>%s</td>'%(formatgene(tokens[0]),tokens[1],tokens[2]),end='',file=output)
         allrefs=[]
         for ur in tokens[3].split(','):
             ur=ur.strip(' ')
