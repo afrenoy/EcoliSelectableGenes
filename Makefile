@@ -14,7 +14,7 @@ table1-4.csv: table1-1.csv
 table2-4.csv: table2-1.html
 	cat table2-1.html |sed 's/<br\/>//g' > table2-2.html
 	cat table2-2.html |tr '\n' ';' |sed 's/;<i>\([a-z][a-z][a-z]\)/{<i>\1/g' |tr '{' '\n' > table2-3.csv
-	echo "<strong>TABLE 2</strong> Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i>" > table2-4.csv
+	echo "Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i>" > table2-4.csv
 	echo "Gene;Organism;Selection;References;Alteration" >> table2-4.csv
 	cat table2-3.csv |sed 's/^<i>\([a-zA-Z]*\)<\/i>/\1/g' |sed 's/\([;\|,]\)[^;,]*Epelbaum[^;,]*\([;\|,]\)/\1872\2/g' |sed 's/\([;\|,]\)[^;,]*Comai[^;,]*\([;\|,]\)/\1869\2/g' |sed 's/\([;\|,]\)[^;,]*Lin et al[^;,]*\([;\|,]\)/\1870\2/g' |sed 's/\([;\|,]\)[^;,]*Miller[^;,]*\([;\|,]\)/\1871\2/g' |sed 's/\([;\|,]\)[^;,]*Freitag[^;,]*\([;\|,]\)/\1873\2/g' |sed 's/–/-/g' >> table2-4.csv
 

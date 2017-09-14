@@ -1,4 +1,4 @@
-<strong>TABLE 2</strong> Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i>
+Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i>
 Gene;Organism;Selection;References;Alteration
 ackA;E, S;Fluoroacetate resistance;96, 281, 463, 797;L
 ada;E;Nitrosoguanidine resistance;693
@@ -332,7 +332,7 @@ glnA;E;Methylammonium resistance;694;S
 glnA;E;Methionine sulfoxamine resistance in <i>glnG</i>;592;C
 glnA;S;Glutamyl(γ)hydrazide resistance;518,871;S
 glnF;S;Glutamyl(γ)hydrazide resistance;433;L
-glnH;S;433;L;Glutamyl(γ)hydrazide resistance
+glnH;S;Glutamyl(γ)hydrazide resistance;433;L
 glnP;E;Glutamine as C source;433, 501, 820
 glnP;E, S;Methionine sulfoxamine resistance;37, 501;L
 glnP;E;Glutamyl(γ)hydrazide resistance;501, 821;L
@@ -1037,4 +1037,4 @@ valS;E;Thymineless death resistance in <i>thyA</i>;394;S
 xapA;E;Fluoro(5)uracil + adenosine resistance in <i>upp deoD xapR(Con)</i>;111;L
 xapR;E;Adenosine as C source in <i>upp deoD</i>;111;C
 xapR;E;Inosine as C source in <i>upp deoD</i>;111;C
-xylE;E;Xylose resistance in <i>fda</i>;175;L
+xylE;E;Xylose resistance in <i>fda</i>;175;L;
