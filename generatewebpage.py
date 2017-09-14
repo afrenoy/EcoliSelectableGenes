@@ -1,19 +1,26 @@
 #!/usr/bin/env python3
 
 import markdown
+import re
+import io
+
 def translate(string):
     return markdown.markdown(string).replace('<p>','').replace('</p>','')
 
-import sys
-if len(sys.argv)<5:
-    print("4 arguments expected: selection table, gene table, reference table, and output file")
-    exit(-1)
-
 # From a gene name, get a string with a link to ecocyc if relevant
-import re
-import genes
-allgenes=genes.getallgenes()
-def formatgene(gene):
+def getallgenes(ecocycfile):
+    knowngenes=dict()
+    table=open(ecocycfile,'r').readlines()
+    for line in table[1:]:
+        tokens=line.rstrip('\n').split(',')
+        searchgenename=re.search('[a-z]{3}[A-Z]?',tokens[1])
+        if searchgenename:
+            genename=searchgenename.group(0)
+            knowngenes[genename]=(tokens[0],tokens[2]) # Store ecocyc ID and b name
+    return knowngenes
+
+
+def formatgene(gene,allgenes):
     searchgenename=re.search('[a-z]{3}[A-Z]?',gene)
     if not searchgenename:
         return(gene)
@@ -24,8 +31,7 @@ def formatgene(gene):
     return('<a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=%s">%s</a>'%(eco,gene))
 
 # Table 1
-import io
-def printtable1(ftab1):
+def printtable1(ftab1,allgenes):
     output=io.StringIO()
     f=open(ftab1,'r')
     tab=[translate(t) for t in f.readlines()]
@@ -41,12 +47,12 @@ def printtable1(ftab1):
     for line in tab[2:]:
         tokens=line.split(';')
         assert(len(tokens)==3)
-        print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[1],formatgene(tokens[2]),tokens[0]),file=output)
+        print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[1],formatgene(tokens[2],allgenes),tokens[0]),file=output)
     print('</table>',file=output)
     return(output.getvalue())
 
 # Table 2
-def printtable2(ftab2):
+def printtable2(ftab2,allgenes):
     output=io.StringIO()
     g=open(ftab2,'r')
     tab=g.readlines()
@@ -55,7 +61,6 @@ def printtable2(ftab2):
     print('<table>',file=output)
     print('<caption><span class="anchor" id="table2"></span><h1>%s</h1></caption>'%tab[0].rstrip('\n'),file=output)
     print('<col class="gene">\n<col class="organism">\n<col class="selection">\n<col class="references">\n<col class="alteration">',file=output)
-    
     tokens=tab[1].rstrip('\n').split(';')
     print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
 
@@ -64,7 +69,7 @@ def printtable2(ftab2):
             line=line.rstrip('\n')+'; \n'
         print('<tr>',end='',file=output)
         tokens=line.rstrip('\n').split(';')
-        print('<td>%s</td><td>%s</td><td>%s</td>'%(formatgene(tokens[0]),tokens[1],tokens[2]),end='',file=output)
+        print('<td>%s</td><td>%s</td><td>%s</td>'%(formatgene(tokens[0],allgenes),tokens[1],tokens[2]),end='',file=output)
         allrefs=[]
         for ur in tokens[3].split(','):
             ur=ur.strip(' ')
@@ -115,16 +120,19 @@ def printtableref(fref):
     print('</table>',file=output)
     return(output.getvalue())
 
-output=io.StringIO()
-print('<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n',file=output)
-print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>\n<div id="main">',file=output)
-print('<h1><span class="anchor" id="about"></span>About this document</h1>\n<p>\nThis is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>\nThe pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.\n</p>\n<p>\nThe raw data can be downloaded as csv files:\n</p>\n<ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>',file=output)
-print(printtable1(sys.argv[1]),file=output)
-print(printtable2(sys.argv[2]),file=output)
-print(printtableref(sys.argv[3]),file=output)
-print('</div></body>\n</html>',file=output)
+if __name__ == "__main__":
+    output=io.StringIO() # The buffer in which we will write the html
+    print('<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n',file=output)
+    print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li><li><a href="#contribute">Contribute</a></li></ul></nav></div>\n<div id="main">',file=output)
+    print(open('about.html','r').read(),file=output)
+    allgenes=getallgenes('ecocyc.csv') # Load the mapping between ecocyc IDs and gene names so we can add links to ecocyc in the tables
+    print(printtable1('table1.csv',allgenes),file=output)
+    print(printtable2('table2.csv',allgenes),file=output)
+    print(printtableref('references.csv'),file=output)
+    print(open('contribute.html','r').read(),file=output)
+    print('</div></body>\n</html>',file=output)
 
-outputfile=open(sys.argv[4],'w')
-outputfile.write(output.getvalue())
-outputfile.close()
+    outputfile=open('larossa.html','w')
+    outputfile.write(output.getvalue())
+    outputfile.close()
 

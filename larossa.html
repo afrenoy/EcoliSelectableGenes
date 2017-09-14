@@ -7,19 +7,28 @@
 </head>
 <body>
 
-<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>
+<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li><li><a href="#contribute">Contribute</a></li></ul></nav></div>
 <div id="main">
 <h1><span class="anchor" id="about"></span>About this document</h1>
+
 <p>
 This is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>
 The pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.
 </p>
+
 <p>
 The raw data can be downloaded as csv files:
 </p>
-<ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>
+
+<ul>
+  <li><a href="table1.csv">Table 1</a>: Selections giving rise to mutants</li>
+  <li><a href="table2.csv">Table 2</a>: Genes for which selections exist</li>
+  <li><a href="references.csv">Table 3</a>: References</li>
+</ul>
+
+
 <table>
-<caption><span class="anchor" id="table1"></span><h1>Selections giving rise to mutants of <em>E.coli</em> and <em>S.typhimurium</em></h1></caption>
+<caption><span class="anchor" id="table1"></span><h1>Selections giving rise to mutants of <em>E. coli</em> and <em>S. typhimurium</em></h1></caption>
 <col class="selection">
 <col class="gene">
 <col class="type">
@@ -3012,6 +3021,24 @@ The raw data can be downloaded as csv files:
 <tr><td><a id="ref872" class="anchor"></a>872</td><td>Epelbaum, S., Z. Barak, R. Larossa, and D. Chipman. <i>0000</i>. Unpublished data. <span class="journal">XXXX</span></td><td><a href="https://scholar.google.ch/scholar?hl=en&q=Unpublished%20data">google scholar</a></td><td></td></tr>
 <tr><td><a id="ref873" class="anchor"></a>873</td><td>Freitag, C. S.. <i>1982</i>. Thesis. <span class="journal">North Carolina State University</span></td><td><a href="https://scholar.google.ch/scholar?hl=en&q=Thesis">google scholar</a></td><td></td></tr>
 </table>
+
+<h1><span class="anchor" id="contribute"></span>Contribute to this document</h1>
+
+<p>
+These data were automatically extracted and parsed from a pdf, and many mistakes may remain. You are very welcome to contribute! 
+Here is what you can do:
+</p>
+
+<ul>
+  <li>Fix a mistake in one of the tables: edit the corresponding csv file</li>
+  <li>Add a missing pdf: just add it in the pdf/ repository naming it refnumber.pdf (eg 84a.pdf or 26.pdf), and a link will automatically be generated</li>
+  <li>Add a missing link to ecocyc: add a new line to ecocyc.csv linking the name used in our tables with and an ecocyc ID, and a link will automatically be generated</li>
+</ul>
+
+<p>
+After doing these any of these changes, you can just run make to update larossa.html. If you are satisfied with the outcome, send a patch / a pull request.
+Other contributions and suggestions of improvement are also very welcome!
+</p>
 
 </div></body>
 </html>
