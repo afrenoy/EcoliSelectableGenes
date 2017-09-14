@@ -31,18 +31,17 @@ def printtable1(ftab1):
     tab=[translate(t) for t in f.readlines()]
     f.close()
 
-    print('<h1><a id="tab1"></a>%s</h1>'%tab[0],file=output)
-    print('<table id="table1">',file=output)
-
-    print('<col class="type">\n<col class="selection">\n<col class="gene">',file=output)
+    print('<table>',file=output)
+    print('<caption><span class="anchor" id="table1"></span><h1>%s</h1></caption>'%tab[0],file=output)
+    print('<col class="selection">\n<col class="gene">\n<col class="type">\n',file=output)
 
     tokens=tab[1].split(';')
-    print('<tr><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2]),file=output)
+    print('<tr><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[1],tokens[2],tokens[0]),file=output)
 
     for line in tab[2:]:
         tokens=line.split(';')
         assert(len(tokens)==3)
-        print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[0],tokens[1],formatgene(tokens[2])),file=output)
+        print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[1],formatgene(tokens[2]),tokens[0]),file=output)
     print('</table>',file=output)
     return(output.getvalue())
 
@@ -53,9 +52,8 @@ def printtable2(ftab2):
     tab=g.readlines()
     g.close()
 
-    print('<h1><a id="tab2"></a>%s</h1>'%tab[0].rstrip('\n'),file=output)
-    print('<table id="table2">',file=output)
-
+    print('<table>',file=output)
+    print('<caption><span class="anchor" id="table2"></span><h1>%s</h1></caption>'%tab[0].rstrip('\n'),file=output)
     print('<col class="gene">\n<col class="organism">\n<col class="selection">\n<col class="references">\n<col class="alteration">',file=output)
     
     tokens=tab[1].rstrip('\n').split(';')
@@ -96,9 +94,8 @@ def printtableref(fref):
     refs=h.readlines()
     h.close()
 
-    print('<h1><a id="ref"></a>References</h1>',file=output)
-    print('<table id="table3">',file=output)
-    
+    print('<table>',file=output)
+    print('<caption><span class="anchor" id="ref"></span><h1>References</h1></caption>',file=output)
     print('<col class="refnumber">\n<col class="reftitle">\n<col class="reflink">\n<col class="refpdf">',file=output)
     print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%("Nº","title","link","pdf"),file=output)
     
@@ -113,15 +110,15 @@ def printtableref(fref):
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%(strquery.replace(' ','%20'))
         pdf='pdf/%s.pdf'%tokens[0]
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
-        print('<tr><td><a id="ref%s"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar,pdflink),file=output)
+        print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar,pdflink),file=output)
         refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>',file=output)
     return(output.getvalue())
 
 output=io.StringIO()
 print('<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n',file=output)
-print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#tab1">Selections giving rise to mutants</a></li><li><a href="#tab2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>\n<div id="main">',file=output)
-print('<h1 id="about">About this document</h1>\n<p>\nThis is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>\nThe pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.\n</p>\n<p>\nThe raw data can be downloaded as csv files:\n</p>\n<ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>',file=output)
+print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li></ul></nav></div>\n<div id="main">',file=output)
+print('<h1><span class="anchor" id="about"></span>About this document</h1>\n<p>\nThis is data from chapter 139 of E coli and Salmonella, reproduced without permission. <br>\nThe pdf has been converted to html and parsed using a few bash and python scripts availabe on <a href="http://github.com/frenoy/ecosal">github</a>.\n</p>\n<p>\nThe raw data can be downloaded as csv files:\n</p>\n<ul><li><a href="table1-4.csv">Table 1</a>: Selections giving rise to mutants</li><li><a href="table2-4.csv">Table 2</a>: Genes for which selections exist</li><li><a href="references-4.csv">Table 3</a>: References</li></ul>',file=output)
 print(printtable1(sys.argv[1]),file=output)
 print(printtable2(sys.argv[2]),file=output)
 print(printtableref(sys.argv[3]),file=output)

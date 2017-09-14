@@ -1,22 +1,30 @@
+/*
+ * body {
+  overflow: scroll;
+}  
+*/
+
 #main {
-  position: absolute;
-  top: 4%;
-  height:96%;
-  overflow: auto;
+  margin-top:5em;
+  width:100%;
 }
 
-nav ul {
+nav {
   position:fixed;
   top:0;
   left:0;
   margin:0;
   padding:0;
-  height:4%;
-  list-style-type: none;
+  height:4em;
   width:100%;
   overflow: hidden;
   background-color: #333333;
   z-index:1;
+}
+
+nav ul {
+  vertical-align: bottom;
+  list-style-type: none;
 }
 
 nav li {
@@ -26,63 +34,79 @@ nav li {
 nav li a {
   color: white;
   padding: 16px;
-  font-size:200%;
+  font-size:150%;
   text-decoration:none;
 }
 
-#table1 td, #table2 td {
-  padding: 0px 10px;
+.anchor {
+  position: absolute;
+  margin: -4.5em;
 }
 
-#table1 {
-  width: 1400;
+h1 {
+  font-size:150%;
+}
+
+table { 
+  table-layout:fixed;
+}
+
+caption {
+  padding: 10px 0px;
+  text-align: left;
+}
+
+th {
+  padding: 2px 10px;
+  text-align: left;
+}  
+
+td {
+  padding: 2px 10px;
+  word-wrap:break-word;
+}
+
+tr:nth-child(even) {
+  background-color: #F5F5F5;
 }
 
 .type {
-  width: 30%;
+  width: 20em;
 }
 
 .selection {
-  width: 50%;
+  width: 30em;
 }
 
 .gene {
-  width: 10%;
+  width: 10em;
 }
 
 .references {
-  width: 13%;
+  width: 10em;
 }
 
 .organism {
-  width: 13%;
+  width: 6em;
 }
 
 .alteration {
-  width: 13%;
+  width: 6em;
 }
 
 .refnumber {
-  width: 10px;
+  width: 3em;
 }
 
 .reftitle {
-  width: 80%;
-}
-
-.reftitle td {
-  padding: 0px 10px;
+  width: 80em;
 }
 
 .reflink {
-  width: 10%;
+  width: 8em;
 }
 
 .refpdf {
-  width: 10%;
+  width: 3em;
 }
 
-/*
-li a:hover {
-  background-color: #111111;
-}*/
