@@ -22,6 +22,6 @@ references-4.csv: references.html supref.txt
 	cat references.html|gsed 's/^\(\&\#160;[ ]*\)\+//g' |sed 's/\&\#160;/ /g' > references-1.html
 	cat references-1.html |tr '\n' ';' |gsed 's/<br\/>;\([0-9]\{1,3\}[a]\?\.\)/}\1/g' |tr '}' '\n' > references-2.html
 	cat references-2.html |sed 's/;//g' |sed 's/<br\/>/ /g' |sed 's/$$/<br\/>/g' > references-3.html
-	cat references-3.html|sed 's/<\/b> *<b>/ /g' |gsed 's/^\([0-9]*[a]\?\)\. *<b>\([a-zA-Z ,\.’èöé-]*\)\.<\/b> *\([0-9]*\)\(.*\)<i>\([a-zA-Z \.:,é-]*\)<\/i>\( *<b>\|[^<]*<br\)/\1;\2;\3;\4;\5\6/g' |sed 's/<br\/>//g' > references-4.csv
+	cat references-3.html|sed 's/<\/b> *<b>/ /g' |gsed 's/^\([0-9]*[a]\?\)\. *<b>\([a-zA-Z ,\.’èöé-]*\)\.<\/b> *\([0-9]*\)\(.*\)<i>\([a-zA-Z \.:,é-]*\)<\/i>\( *<b>\|[^<]*<br\)/\1;\2;\3;\4;\5\6/g' |sed 's/<br\/>//g' |sed 's/<b>//g' |sed 's/<\/b>//g' > references-4.csv
 	cat supref.txt >> references-4.csv
 

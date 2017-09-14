@@ -110,7 +110,7 @@ def printtableref(fref):
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%(strquery.replace(' ','%20'))
         pdf='pdf/%s.pdf'%tokens[0]
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
-        print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s <i>%s</i>. %s</td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],gscholar,pdflink),file=output)
+        print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s. <i>%s</i>. %s <span class="journal">%s</span></td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],tokens[4].rstrip('\n'),gscholar,pdflink),file=output)
         refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
     print('</table>',file=output)
     return(output.getvalue())
