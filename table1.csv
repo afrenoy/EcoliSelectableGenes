@@ -1,47 +1,47 @@
 Selections giving rise to mutants of *E. coli* and *S. typhimurium*
 Type;Selection purpose and technique;Mutant gene
-Expansion of metabolic capacity;Acetate + gluconate as C source in *ppc*;gntR
-Expansion of metabolic capacity;Acetate + gluconate as C source in *ppc*;gntS
-Expansion of metabolic capacity;Acetyl(*N*)histidine + ornithine satisfaction of *his*;argB
-Expansion of metabolic capacity;Acetyl(*N*)histidine + ornithine satisfaction of *his*;argC
-Expansion of metabolic capacity;Acetyl(*N*)histidine + ornithine satisfaction of *his*;argE
-Expansion of metabolic capacity;Acetyl(*N*)histidine + ornithine satisfaction of *his*;argH
-Expansion of metabolic capacity;Acetylhistidine satisfaction of *his*;argR
-Expansion of metabolic capacity;Acetyl(*N*)lactonate as sole N source ;*lacI,* operator
-Expansion of metabolic capacity;Acetylmethionine satisfaction of *met*;argR
-Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of *car* (*pyrA*);argA
-Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of *car* (*pyrA*);argB
-Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of *car* (*pyrA*);argC
-Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of *car* (*pyrA*);argD
-Expansion of metabolic capacity;Adenosine as C source in *upp deoD*;xapR
+Expansion of metabolic capacity;Acetate + gluconate as C source in <em>ppc</em>;gntR
+Expansion of metabolic capacity;Acetate + gluconate as C source in <em>ppc</em>;gntS
+Expansion of metabolic capacity;Acetyl(<em>N</em>)histidine + ornithine satisfaction of <em>his</em>;argB
+Expansion of metabolic capacity;Acetyl(<em>N</em>)histidine + ornithine satisfaction of <em>his</em>;argC
+Expansion of metabolic capacity;Acetyl(<em>N</em>)histidine + ornithine satisfaction of <em>his</em>;argE
+Expansion of metabolic capacity;Acetyl(<em>N</em>)histidine + ornithine satisfaction of <em>his</em>;argH
+Expansion of metabolic capacity;Acetylhistidine satisfaction of <em>his</em>;argR
+Expansion of metabolic capacity;Acetyl(<em>N</em>)lactonate as sole N source ;lacI, operator
+Expansion of metabolic capacity;Acetylmethionine satisfaction of <em>met</em>;argR
+Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of <em>car</em> (<em>pyrA</em>);argA
+Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of <em>car</em> (<em>pyrA</em>);argB
+Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of <em>car</em> (<em>pyrA</em>);argC
+Expansion of metabolic capacity;Acetylornithine + uracil satisfaction of <em>car</em> (<em>pyrA</em>);argD
+Expansion of metabolic capacity;Adenosine as C source in <em>upp deoD</em>;xapR
 Expansion of metabolic capacity;Aminobutyrate as N source;gabC
 Expansion of metabolic capacity;Arabinitol (D) resistance;mtlA
-Expansion of metabolic capacity;Arabinose (L) as C source in *cya* or *crp*;rpoD
-Expansion of metabolic capacity;Arabinose (L) as C source in presence of *lac* operon inducer;lacY
+Expansion of metabolic capacity;Arabinose (L) as C source in <em>cya</em> or <em>crp</em>;rpoD
+Expansion of metabolic capacity;Arabinose (L) as C source in presence of <em>lac</em> operon inducer;lacY
 Expansion of metabolic capacity;Arabinose (D) as C source;fucA
 Expansion of metabolic capacity;Arabitol as C source;gatACD
-Expansion of metabolic capacity;Arabitol (D) as C source in *fuc*;dgd
+Expansion of metabolic capacity;Arabitol (D) as C source in <em>fuc</em>;dgd
 Expansion of metabolic capacity;Arbutin as a C source;bglBC
-Expansion of metabolic capacity;Arbutin as C source);*osmZ* (*bglY)*
+Expansion of metabolic capacity;Arbutin as C source);osmZ (bglY)
 Expansion of metabolic capacity;Arginine as N source;hisP
-Expansion of metabolic capacity;Arginine-independent growth of *pyrH* in presence of uracil;pyrB
-Expansion of metabolic capacity;Arginine-independent growth of *pyrH* in presence of uracil;pyrC
-Expansion of metabolic capacity;Arginine-independent growth of *pyrH* in presence of uracil;pyrD
-Expansion of metabolic capacity;Arginine-resistant, proline-independent growth of ∆*pro*;argR
+Expansion of metabolic capacity;Arginine-independent growth of <em>pyrH</em> in presence of uracil;pyrB
+Expansion of metabolic capacity;Arginine-independent growth of <em>pyrH</em> in presence of uracil;pyrC
+Expansion of metabolic capacity;Arginine-independent growth of <em>pyrH</em> in presence of uracil;pyrD
+Expansion of metabolic capacity;Arginine-resistant, proline-independent growth of ∆<em>pro</em>;argR
 Expansion of metabolic capacity;β-Glycerol-phosphate as C source in presence of high phosphate;phoA
 Expansion of metabolic capacity;β-Glycerol-phosphate as C source in presence of high phosphate;phoR
 Expansion of metabolic capacity;β-Glycerol-phosphate as C source in presence of high phosphate;phoS
 Expansion of metabolic capacity;β-Glycerol-phosphate as C source in presence of high phosphate;phoT
-Expansion of metabolic capacity;Biotin sulfoxide utilization in *chl bio*;chlE
-Expansion of metabolic capacity;Branched-chain amino acid satisfaction of ∆*ilvDC hisT*;ilvA
-Expansion of metabolic capacity;Butyrate as C source in *fadR*(Con);atoC
+Expansion of metabolic capacity;Biotin sulfoxide utilization in <em>chl bio</em>;chlE
+Expansion of metabolic capacity;Branched-chain amino acid satisfaction of ∆<em>ilvDC hisT</em>;ilvA
+Expansion of metabolic capacity;Butyrate as C source in <em>fadR</em>(Con);atoC
 Expansion of metabolic capacity;Butyrate or valerate as better C source;iclR
 Expansion of metabolic capacity;Cellobiose as C source;celABCDF
 Expansion of metabolic capacity;Chemostat growth improved;mut
 Expansion of metabolic capacity;Citrate as C source;cit
 Expansion of metabolic capacity;Citrate as C source in presence of low cAMP;cpd
 Expansion of metabolic capacity;D-Amino acid satisfaction of amino acid auxotrophy;dadA
-Expansion of metabolic capacity;DAP-independent growth of ∆(*mal-asd*) in the presence of serine, methionine,and glycine D-Histidine + glycylglutamine satisfaction of *his* auxotrophs;glnA
+Expansion of metabolic capacity;DAP-independent growth of ∆(<em>mal-asd</em>) in the presence of serine, methionine,and glycine D-Histidine + glycylglutamine satisfaction of <em>his</em> auxotrophs;glnA
 Expansion of metabolic capacity;Decanoate as C source;fadR
 Expansion of metabolic capacity;Deoxyadenosine (low) satisfaction of purine requirement;add
 Expansion of metabolic capacity;Deoxyadenosine + hypoxanthine satisfaction of purine requirement;add
@@ -49,98 +49,98 @@ Expansion of metabolic capacity;Diamino (2,6)purine satisfaction of purine auxot
 Expansion of metabolic capacity;Erythromycin growth dependence;mac
 Expansion of metabolic capacity;Ethanol as C source;adh
 Expansion of metabolic capacity;Ethyleneglycol as C source in propanediol utilizer;fucA
-Expansion of metabolic capacity;Fructose as C source in *ptsF* or *ptsM*;srlD
+Expansion of metabolic capacity;Fructose as C source in <em>ptsF</em> or <em>ptsM</em>;srlD
 Expansion of metabolic capacity;Fructose 1-phosphate as C source;uhpR
 Expansion of metabolic capacity;Fucose (L) as C source in propanediol utilizer;fucA
-Expansion of metabolic capacity;Fucose + arabinose-supported growth in *galP*;mglA
-Expansion of metabolic capacity;Fucose + arabinose-supported growth in *galP*;mglB
-Expansion of metabolic capacity;Fucose + arabinose-supported growth in *galP*;mglC
-Expansion of metabolic capacity;Galactose as C source for *gal* (leader)::IS;rho
+Expansion of metabolic capacity;Fucose + arabinose-supported growth in <em>galP</em>;mglA
+Expansion of metabolic capacity;Fucose + arabinose-supported growth in <em>galP</em>;mglB
+Expansion of metabolic capacity;Fucose + arabinose-supported growth in <em>galP</em>;mglC
+Expansion of metabolic capacity;Galactose as C source for <em>gal</em> (leader)::IS;rho
 Expansion of metabolic capacity;Galacturonide as C source;uidA
 Expansion of metabolic capacity;Galacturonide as C source;uidR
-Expansion of metabolic capacity;Glucanate as C source in *eda*;edd
+Expansion of metabolic capacity;Glucanate as C source in <em>eda</em>;edd
 Expansion of metabolic capacity;Glucosamine as C source;ptsG
 Expansion of metabolic capacity;Glucosamine 6-phosphate as C source;uhpR
-Expansion of metabolic capacity;Glucosamine as anaerobic C source in *ptsG*;dgsA
+Expansion of metabolic capacity;Glucosamine as anaerobic C source in <em>ptsG</em>;dgsA
 Expansion of metabolic capacity;Glucose 1-phosphate as C source;uhpR
-Expansion of metabolic capacity;Glucose as C source in ∆*ptsHI*;galC
-Expansion of metabolic capacity;Glucose as C source in *ppc*;iclR
-Expansion of metabolic capacity;Glucose as C source in ∆*ptsHI*;galR
-Expansion of metabolic capacity;Glucosides (β) as C source;*gyrA* (*hisU*)
-Expansion of metabolic capacity;Glucosides (β) as C source;*gyrB* (*hisW)*
+Expansion of metabolic capacity;Glucose as C source in ∆<em>ptsHI</em>;galC
+Expansion of metabolic capacity;Glucose as C source in <em>ppc</em>;iclR
+Expansion of metabolic capacity;Glucose as C source in ∆<em>ptsHI</em>;galR
+Expansion of metabolic capacity;Glucosides (β) as C source;gyrA (hisU)
+Expansion of metabolic capacity;Glucosides (β) as C source;gyrB (hisW)
 Expansion of metabolic capacity;Glutamate as C source;gadS
 Expansion of metabolic capacity;Glutamate as C source;gltH
 Expansion of metabolic capacity;Glutamate as C source;gltS
 Expansion of metabolic capacity;Glutamate as C source at 42°C;gltR
 Expansion of metabolic capacity;Glutamine as C source;glnP
-Expansion of metabolic capacity;Glycerol as C source in *ppc*;iclR
-Expansion of metabolic capacity;Glycerol + gluconate as C source in *eda*;gntM
-Expansion of metabolic capacity;Glycerol + methylglucuronide as C source in *eda*;gurBCD
-Expansion of metabolic capacity;Glycerol 3-phosphate as C source in *glpT*;ugpAB
-Expansion of metabolic capacity;Hemin satisfaction of *hemA* auxotroph;hemB
-Expansion of metabolic capacity;Hemin satisfaction of *hemA* auxotroph;rfa
+Expansion of metabolic capacity;Glycerol as C source in <em>ppc</em>;iclR
+Expansion of metabolic capacity;Glycerol + gluconate as C source in <em>eda</em>;gntM
+Expansion of metabolic capacity;Glycerol + methylglucuronide as C source in <em>eda</em>;gurBCD
+Expansion of metabolic capacity;Glycerol 3-phosphate as C source in <em>glpT</em>;ugpAB
+Expansion of metabolic capacity;Hemin satisfaction of <em>hemA</em> auxotroph;hemB
+Expansion of metabolic capacity;Hemin satisfaction of <em>hemA</em> auxotroph;rfa
 Expansion of metabolic capacity;Hexuronate as C source in noninducible strain;exuR
-Expansion of metabolic capacity;Histidinal satisfaction of *his* auxotroph requirement at 30°C;*his* structural genes
-Expansion of metabolic capacity;Histidinal satisfaction of *his* auxotroph requirement at 30°C;hisG
-Expansion of metabolic capacity;Histidine (D) satisfaction of *his* auxotroph requirement;*his* structural genes
-Expansion of metabolic capacity;Histidine (D) satisfaction of *his* auxotroph requirement;hisG
-Expansion of metabolic capacity;Histidine (D) satisfaction of *his* auxotroph requirement;dhuA
+Expansion of metabolic capacity;Histidinal satisfaction of <em>his</em> auxotroph requirement at 30°C;his structural genes
+Expansion of metabolic capacity;Histidinal satisfaction of <em>his</em> auxotroph requirement at 30°C;hisG
+Expansion of metabolic capacity;Histidine (D) satisfaction of <em>his</em> auxotroph requirement;his structural genes
+Expansion of metabolic capacity;Histidine (D) satisfaction of <em>his</em> auxotroph requirement;hisG
+Expansion of metabolic capacity;Histidine (D) satisfaction of <em>his</em> auxotroph requirement;dhuA
 Expansion of metabolic capacity;Histidine as C source;hut
 Expansion of metabolic capacity;Histidine as N source;hut
-Expansion of metabolic capacity;Improved growth in *icd*;gltA
-Expansion of metabolic capacity;Inosine as C source in *upp deoD*;xapR
+Expansion of metabolic capacity;Improved growth in <em>icd</em>;gltA
+Expansion of metabolic capacity;Inosine as C source in <em>upp deoD</em>;xapR
 Expansion of metabolic capacity;Inosine as improved C source;deoR
 Expansion of metabolic capacity;Keto(2)-3-deoxygalactonate as C source;kdgR
 Expansion of metabolic capacity;Keto(2)-3-deoxygalactonate as C source;dgoR
 Expansion of metabolic capacity;Lactate + fumarate as anaerobic energy source;chlABDE
-Expansion of metabolic capacity;Lactate + nitrate as anaerobic energy source (*chl* to *chl*+);chlE
-Expansion of metabolic capacity;Lactitol as C source;*lacI,* operator
-Expansion of metabolic capacity;Lactobionic acid as C source;*lacI,* operator
+Expansion of metabolic capacity;Lactate + nitrate as anaerobic energy source (<em>chl</em> to <em>chl</em>+);chlE
+Expansion of metabolic capacity;Lactitol as C source;lacI, operator
+Expansion of metabolic capacity;Lactobionic acid as C source;lacI, operator
 Expansion of metabolic capacity;Lactobionic acid as C source;lacZ
-Expansion of metabolic capacity;Lactose utilization after conjugation of F′*lac* into *Salmonella* sp.;hsd
-Expansion of metabolic capacity;Lactose utilization in ∆*lacZ*;ebgA
-Expansion of metabolic capacity;Leucine (D) satisfaction of *leu* auxotrophs;*lrp* (*livR, lstR, lss, mbl, oppl)*
+Expansion of metabolic capacity;Lactose utilization after conjugation of F′<em>lac</em> into <em>Salmonella</em> sp.;hsd
+Expansion of metabolic capacity;Lactose utilization in ∆<em>lacZ</em>;ebgA
+Expansion of metabolic capacity;Leucine (D) satisfaction of <em>leu</em> auxotrophs;lrp (livR, lstR, lss, mbl, oppl)
 Expansion of metabolic capacity;Lyxose (D) as C source;manC
 Expansion of metabolic capacity;Malate (L) as improved C source;dct
 Expansion of metabolic capacity;Malate (D) as C source;dml
-Expansion of metabolic capacity;Maltose as C source in *malT*;malP
-Expansion of metabolic capacity;Maltose as C source in *malT*;malQ
-Expansion of metabolic capacity;Maltose utilization in *malT*;bymA
+Expansion of metabolic capacity;Maltose as C source in <em>malT</em>;malP
+Expansion of metabolic capacity;Maltose as C source in <em>malT</em>;malQ
+Expansion of metabolic capacity;Maltose utilization in <em>malT</em>;bymA
 Expansion of metabolic capacity;Mannitol (limiting) as C source;mtlC
 Expansion of metabolic capacity;Mannose as C source;ptdG
-Expansion of metabolic capacity;Melibiose as C source;*lacI,* operator
-Expansion of metabolic capacity;Melibiose as C source and acetyl(*N*)lactonate as N source;*lacI,* operator
+Expansion of metabolic capacity;Melibiose as C source;lacI, operator
+Expansion of metabolic capacity;Melibiose as C source and acetyl(<em>N</em>)lactonate as N source;lacI, operator
 Expansion of metabolic capacity;Methyl-β-galactoside-supported growth;mglD
 Expansion of metabolic capacity;Methylgalacturonide as C source;uidA
 Expansion of metabolic capacity;Methylgalacturonide as C source;uidR
 Expansion of metabolic capacity;Methylgalacturonide as C source;uxuR
 Expansion of metabolic capacity;Methyl(β)glucoside as C source;bglT
 Expansion of metabolic capacity;Methylglucuronide + glycerol-supported growth;uidA
-Expansion of metabolic capacity;Neolactose as C source;*lacI,* operator
+Expansion of metabolic capacity;Neolactose as C source;lacI, operator
 Expansion of metabolic capacity;Nicotinamide as sole N source;pncA
-Expansion of metabolic capacity;Phenylgalactoside as C source;*lacI,* operator
+Expansion of metabolic capacity;Phenylgalactoside as C source;lacI, operator
 Expansion of metabolic capacity;Proline as sole N source with glucose as C source;putA
-Expansion of metabolic capacity;Proline-independent growth of *proAB*;argD
+Expansion of metabolic capacity;Proline-independent growth of <em>proAB</em>;argD
 Expansion of metabolic capacity;Propanediol as C source;fucA
 Expansion of metabolic capacity;Propionate as C source;prp
-Expansion of metabolic capacity;Raffinose as C source in *lacI*;*mel* (generic)
-Expansion of metabolic capacity;Raffinose as C source;*lacI,* operator
+Expansion of metabolic capacity;Raffinose as C source in <em>lacI</em>;mel (generic)
+Expansion of metabolic capacity;Raffinose as C source;lacI, operator
 Expansion of metabolic capacity;Ribitol utilization;gatACD
-Expansion of metabolic capacity;Salicin as C source;*bglB,C*
+Expansion of metabolic capacity;Salicin as C source;bglB,C
 Expansion of metabolic capacity;Salicin as C source;osmZ
 Expansion of metabolic capacity;Serine (L) as C source;cpxA
 Expansion of metabolic capacity;Serine (L) as C source;ecfB
 Expansion of metabolic capacity;Sorbose (L) as C source in crosses with wild strains;sorAT
-Expansion of metabolic capacity;Streptomycin independence of *rpsL*;rpsD
-Expansion of metabolic capacity;Streptomycin independence of *rpsL*;rpsE
+Expansion of metabolic capacity;Streptomycin independence of <em>rpsL</em>;rpsD
+Expansion of metabolic capacity;Streptomycin independence of <em>rpsL</em>;rpsE
 Expansion of metabolic capacity;Succinate as improved C source;cpd
-Expansion of metabolic capacity;Succinate-independent growth in *lpd*;sdh
+Expansion of metabolic capacity;Succinate-independent growth in <em>lpd</em>;sdh
 Expansion of metabolic capacity;Sucrose as C source;dsdA
 Expansion of metabolic capacity;Sucrose as C source;dsdC
 Expansion of metabolic capacity;Threonine as N source;ilvA
 Expansion of metabolic capacity;Tyramine as N source;tyn
 Expansion of metabolic capacity;Uridine as C source, improved utilization;cytR
-Expansion of metabolic capacity;Valerate as C source in *fadR*(Con);atoC
+Expansion of metabolic capacity;Valerate as C source in <em>fadR</em>(Con);atoC
 Expansion of metabolic capacity;Xylitol as C source in propanediol utilizer;fucA
 Resistance to inorganic chemicals;Acid resistance;atr
 Resistance to inorganic chemicals;Acid resistance;phoE
@@ -150,7 +150,7 @@ Resistance to inorganic chemicals;Arsenate resistance;phoS
 Resistance to inorganic chemicals;Arsenate resistance;phoT
 Resistance to inorganic chemicals;Arsenate resistance;pstABCS
 Resistance to inorganic chemicals;Arsenate resistance;pit
-Resistance to inorganic chemicals;Azide resistance;*atpA–atpE*
+Resistance to inorganic chemicals;Azide resistance;atpA–atpE
 Resistance to inorganic chemicals;Azide resistance;cysB
 Resistance to inorganic chemicals;Azide resistance;cysK
 Resistance to inorganic chemicals;Azide resistance;secA
@@ -165,7 +165,7 @@ Resistance to inorganic chemicals;Chromate resistance;cysD
 Resistance to inorganic chemicals;Chromate resistance;cysH
 Resistance to inorganic chemicals;Chromate resistance;cysI
 Resistance to inorganic chemicals;Chromate resistance;cysJ
-Resistance to inorganic chemicals;Copper resistance in *ompC*;ompF
+Resistance to inorganic chemicals;Copper resistance in <em>ompC</em>;ompF
 Resistance to inorganic chemicals;Copper resistance;ompR
 Resistance to inorganic chemicals;Diazoborine resistance;envM
 Resistance to inorganic chemicals;Lithium resistance (multicopy);nhaA
@@ -182,20 +182,20 @@ Resistance to inorganic chemicals;Osmotolerance;proB
 Resistance to inorganic chemicals;Peroxide resistance;oxyR
 Resistance to inorganic chemicals;Selenate resistance;cysA
 Resistance to inorganic chemicals;Selenate resistance;cysB
-Resistance to inorganic chemicals;Selenate resistance in *cysM*;cysB
+Resistance to inorganic chemicals;Selenate resistance in <em>cysM</em>;cysB
 Resistance to inorganic chemicals;Selenate resistance;cysK
 Resistance to inorganic chemicals;Selenate resistance;cysL
 Resistance to inorganic chemicals;Selenite resistance;cysK
 Resistance to inorganic chemicals;Selenite resistance;gshA
 Resistance to inorganic chemicals;Selenite resistance;gshB
 Resistance to inorganic chemicals;Tellurite resistance;phoB
-Resistance to inorganic chemicals;Tributyl tin resistance;*atpA–atpE*
-Resistance to biological and organic chemicals;Acetylnorvaline resistance in *argR*(Con);argE
-Resistance to biological and organic chemicals;Acetylnorvaline resistance in *argR*(Con);argR
+Resistance to inorganic chemicals;Tributyl tin resistance;atpA–atpE
+Resistance to biological and organic chemicals;Acetylnorvaline resistance in <em>argR</em>(Con);argE
+Resistance to biological and organic chemicals;Acetylnorvaline resistance in <em>argR</em>(Con);argR
 Resistance to biological and organic chemicals;Acridine resistance;dnaE
 Resistance to biological and organic chemicals;Actinomycin D resistance in the presence of EDTA;pldA
-Resistance to biological and organic chemicals;Adenine resistance in *hpt gpt*;apt
-Resistance to biological and organic chemicals;Adenine resistance in *hpt gpt*;purR
+Resistance to biological and organic chemicals;Adenine resistance in <em>hpt gpt</em>;apt
+Resistance to biological and organic chemicals;Adenine resistance in <em>hpt gpt</em>;purR
 Resistance to biological and organic chemicals;Alafosfalin resistance;pepA
 Resistance to biological and organic chemicals;Alafosfalin resistance;tpp
 Resistance to biological and organic chemicals;Alanyl-2-aminopropionate resistance;oppA
@@ -207,14 +207,14 @@ Resistance to biological and organic chemicals;Albomycin resistance;pepN
 Resistance to biological and organic chemicals;Albomycin resistance;sidCF
 Resistance to biological and organic chemicals;Albomycin resistance;sidK
 Resistance to biological and organic chemicals;Albomycin resistance;tonB
-Resistance to biological and organic chemicals;Aldohexuronate resistance in *eda*;exuT
-Resistance to biological and organic chemicals;Aldohexuronate resistance in *eda*;exuR
+Resistance to biological and organic chemicals;Aldohexuronate resistance in <em>eda</em>;exuT
+Resistance to biological and organic chemicals;Aldohexuronate resistance in <em>eda</em>;exuR
 Resistance to biological and organic chemicals;Allyl alcohol resistance;adhE
 Resistance to biological and organic chemicals;Amidinopenicillin tolerance;sloB
 Resistance to biological and organic chemicals;Amikacin resistance;cpxA
-Resistance to biological and organic chemicals;Amino(2)purine resistance in *dam*;mutH
-Resistance to biological and organic chemicals;Amino(2)purine resistance in *dam*;mutL
-Resistance to biological and organic chemicals;Amino(2)purine resistance in *dam*;mutS
+Resistance to biological and organic chemicals;Amino(2)purine resistance in <em>dam</em>;mutH
+Resistance to biological and organic chemicals;Amino(2)purine resistance in <em>dam</em>;mutL
+Resistance to biological and organic chemicals;Amino(2)purine resistance in <em>dam</em>;mutS
 Resistance to biological and organic chemicals;Amino(4)phenylalanine resistance;aroF
 Resistance to biological and organic chemicals;Amino(4)phenylalanine resistance;tyrA
 Resistance to biological and organic chemicals;Amino(4)phenylalanine resistance;tyrR
@@ -224,7 +224,7 @@ Resistance to biological and organic chemicals;Amino(6)nicotinamide resistance;p
 Resistance to biological and organic chemicals;Amino(6)nicotinamide resistance;pncB
 Resistance to biological and organic chemicals;Amino(6)nicotinamide resistance;pncX
 Resistance to biological and organic chemicals;Amino(6)nicotinate resistance;pncB
-Resistance to biological and organic chemicals;Aminobutyrate resistance;*ilv* structural genes
+Resistance to biological and organic chemicals;Aminobutyrate resistance;ilv structural genes
 Resistance to biological and organic chemicals;Aminobutyrate resistance;ilvB
 Resistance to biological and organic chemicals;Aminobutyrate resistance;ilvH
 Resistance to biological and organic chemicals;Aminobutyrate resistance;ilvI
@@ -232,11 +232,11 @@ Resistance to biological and organic chemicals;Aminoethylcysteine (thialysine) r
 Resistance to biological and organic chemicals;Aminoethylcysteine (thialysine) resistance;lysP
 Resistance to biological and organic chemicals;Aminoethylcysteine (thialysine) resistance;lysS
 Resistance to biological and organic chemicals;Aminoglycoside resistance;nek
-Resistance to biological and organic chemicals;Amino(2)hydroxy(3)pentoate resistance;*thr* structural genes
+Resistance to biological and organic chemicals;Amino(2)hydroxy(3)pentoate resistance;thr structural genes
 Resistance to biological and organic chemicals;Aminopterin resistance;thyA
-Resistance to biological and organic chemicals;Aminotriazole resistance;*amtA, amtB*
-Resistance to biological and organic chemicals;Aminotriazole resistance;*his* structural genes
-Resistance to biological and organic chemicals;Aminotriazole resistance in *relA*;gyrB
+Resistance to biological and organic chemicals;Aminotriazole resistance;amtA, amtB
+Resistance to biological and organic chemicals;Aminotriazole resistance;his structural genes
+Resistance to biological and organic chemicals;Aminotriazole resistance in <em>relA</em>;gyrB
 Resistance to biological and organic chemicals;Ampicillin resistance;ampC
 Resistance to biological and organic chemicals;Ampicillin resistance;ampD
 Resistance to biological and organic chemicals;Ampicillin resistance;ampE
@@ -248,14 +248,14 @@ Resistance to biological and organic chemicals;Ampicillin resistance;ompC
 Resistance to biological and organic chemicals;Ampicillin resistance;ompF
 Resistance to biological and organic chemicals;Ampicillin resistance;ompR
 Resistance to biological and organic chemicals;Ampicillin resistance;ptsI
-Resistance to biological and organic chemicals;Ampicillin resistance;*rfa* (general)
+Resistance to biological and organic chemicals;Ampicillin resistance;rfa (general)
 Resistance to biological and organic chemicals;Ampicillin resistance;tolD
 Resistance to biological and organic chemicals;Ampicillin resistance;tolE
 Resistance to biological and organic chemicals;Arabinitol (D) resistance;mtlA
 Resistance to biological and organic chemicals;Arbitol (D) resistance;gatACD
-Resistance to biological and organic chemicals;Arbutin resistance in *dgk*;mdoB
-Resistance to biological and organic chemicals;Arginine-resistant, proline-independent growth of ∆*pro*;argR
-Resistance to biological and organic chemicals;Auroventin resistance;*atpA–atpE*
+Resistance to biological and organic chemicals;Arbutin resistance in <em>dgk</em>;mdoB
+Resistance to biological and organic chemicals;Arginine-resistant, proline-independent growth of ∆<em>pro</em>;argR
+Resistance to biological and organic chemicals;Auroventin resistance;atpA–atpE
 Resistance to biological and organic chemicals;Aza(5)cytidine resistance;dcm
 Resistance to biological and organic chemicals;Azadeoxycytidine resistance;cdd
 Resistance to biological and organic chemicals;Aza(6)uracil resistance;gpt
@@ -268,7 +268,7 @@ Resistance to biological and organic chemicals;Azaleucine resistance;leuS
 Resistance to biological and organic chemicals;Azaleucine resistance;livG
 Resistance to biological and organic chemicals;Azaleucine resistance;livH
 Resistance to biological and organic chemicals;Azaserine + tryptophan resistance;dhuA
-Resistance to biological and organic chemicals;Azaserine + tryptophan resistance in *dhuA*;hisJ
+Resistance to biological and organic chemicals;Azaserine + tryptophan resistance in <em>dhuA</em>;hisJ
 Resistance to biological and organic chemicals;Azaserine resistance;aroP
 Resistance to biological and organic chemicals;Azaserine resistance;azaAB
 Resistance to biological and organic chemicals;Azaserine resistance;cysA
@@ -282,7 +282,7 @@ Resistance to biological and organic chemicals;Azaserine resistance;cysI
 Resistance to biological and organic chemicals;Azaserine resistance;cysJ
 Resistance to biological and organic chemicals;Azaserine resistance;cysK
 Resistance to biological and organic chemicals;Azaserine resistance;cysM
-Resistance to biological and organic chemicals;Azaserine resistance;*mut* (generic)
+Resistance to biological and organic chemicals;Azaserine resistance;mut (generic)
 Resistance to biological and organic chemicals;Azetidine carboxylate resistance;proB
 Resistance to biological and organic chemicals;Azetidine carboxylate resistance;putA
 Resistance to biological and organic chemicals;Azetidine carboxylate resistance;putP
@@ -294,7 +294,7 @@ Resistance to biological and organic chemicals;Bacteriocin 4-59 resistance;ompA
 Resistance to biological and organic chemicals;Bacteriocin 4-59 resistance;tonB
 Resistance to biological and organic chemicals;Bacteriocin JF246 resistance;ompA
 Resistance to biological and organic chemicals;Baikiain resistance in constitutive background;putA
-Resistance to biological and organic chemicals;β-Glycerol-phosphate resistance in *glpD*;phoA
+Resistance to biological and organic chemicals;β-Glycerol-phosphate resistance in <em>glpD</em>;phoA
 Resistance to biological and organic chemicals;Beta-lactam conjugate resistance;fhuA
 Resistance to biological and organic chemicals;Beta-lactam resistance (see mecillinam resistance);crp
 Resistance to biological and organic chemicals;Beta-lactam resistance;cyaA
@@ -316,7 +316,7 @@ Resistance to biological and organic chemicals;Canavanine + thiouracil resistanc
 Resistance to biological and organic chemicals;Canavanine resistance;argS
 Resistance to biological and organic chemicals;Canavanine resistance;argP
 Resistance to biological and organic chemicals;Canavanine resistance;argR
-Resistance to biological and organic chemicals;CCCP resistance;*atpA–atpE*
+Resistance to biological and organic chemicals;CCCP resistance;atpA–atpE
 Resistance to biological and organic chemicals;CCCP resistance due to gene dosage;emrB
 Resistance to biological and organic chemicals;Cephalosporin E-0702 resistance;tonB
 Resistance to biological and organic chemicals;Cephalothin resistance;rfa
@@ -327,8 +327,8 @@ Resistance to biological and organic chemicals;Chloramphenicol resistance;rrn
 Resistance to biological and organic chemicals;Chloramphenicol resistance;ompF
 Resistance to biological and organic chemicals;Chloramphenicol resistance;ompR
 Resistance to biological and organic chemicals;Chloro(β)-D-alanine resistance;dadA
-Resistance to biological and organic chemicals;Chloro(β)-D-alanine resistance;*metC* (*ecfA*)
-Resistance to biological and organic chemicals;Chloro-3-hydroxyacetone resistance in *uhp*(Con);uhpT
+Resistance to biological and organic chemicals;Chloro(β)-D-alanine resistance;metC (ecfA)
+Resistance to biological and organic chemicals;Chloro-3-hydroxyacetone resistance in <em>uhp</em>(Con);uhpT
 Resistance to biological and organic chemicals;Chloroacetaldehyde resistance;adhCE
 Resistance to biological and organic chemicals;Chloroacetate(β) resistance;cbt
 Resistance to biological and organic chemicals;Chlorobiocin resistance;gyrB
@@ -365,7 +365,7 @@ Resistance to biological and organic chemicals;Colicin I resistance;exbB
 Resistance to biological and organic chemicals;Colicin I resistance;exbC
 Resistance to biological and organic chemicals;Colicin I resistance;ecfB
 Resistance to biological and organic chemicals;Colicin Ia and Ib tolerance;tolJ
-Resistance to biological and organic chemicals;Colicin K resistance;*metC* (*ecfA*)
+Resistance to biological and organic chemicals;Colicin K resistance;metC (ecfA)
 Resistance to biological and organic chemicals;Colicin K resistance;tsx
 Resistance to biological and organic chemicals;Colicin K resistance;ompA
 Resistance to biological and organic chemicals;Colicin K tolerance;ompA
@@ -379,26 +379,26 @@ Resistance to biological and organic chemicals;Colicin M resistance;tolM
 Resistance to biological and organic chemicals;Colicin M tolerance;tolD
 Resistance to biological and organic chemicals;Coumermycin resistance;gyrB
 Resistance to biological and organic chemicals;Coumermycin resistance;hisW
-Resistance to biological and organic chemicals;Cyclopentane glycine resistance;*ilv* structural genes
+Resistance to biological and organic chemicals;Cyclopentane glycine resistance;ilv structural genes
 Resistance to biological and organic chemicals;Cyclopentane glycine resistance;ilvA
 Resistance to biological and organic chemicals;Cycloserine resistance;hipA
 Resistance to biological and organic chemicals;Cycloserine (D) resistance;cycA
 Resistance to biological and organic chemicals;Dapsone resistance;thdA
-Resistance to biological and organic chemicals;Dehydrobiotin resistance;*bio *operon
+Resistance to biological and organic chemicals;Dehydrobiotin resistance;bio operon
 Resistance to biological and organic chemicals;Dehydrobiotin resistance;bioP
 Resistance to biological and organic chemicals;Dehydrobiotin resistance;birA
-Resistance to biological and organic chemicals;Dehydroproline + azetidine carboxylate resistance at high osmolarity in *putA**putP*;proU
+Resistance to biological and organic chemicals;Dehydroproline + azetidine carboxylate resistance at high osmolarity in <em>putA</em><em>putP</em>;proU
 Resistance to biological and organic chemicals;Dehydroproline resistance;proB
-Resistance to biological and organic chemicals;Dehydroproline resistance in *putA putP*;proP
-Resistance to biological and organic chemicals;Deoxy(2)adenosine resistance in *deoC*;deoD
-Resistance to biological and organic chemicals;Deoxyadenosine + fluorouracil resistance in *upp*;deoA
-Resistance to biological and organic chemicals;Deoxyadenosine + fluorouracil resistance in *upp*;deoD
+Resistance to biological and organic chemicals;Dehydroproline resistance in <em>putA putP</em>;proP
+Resistance to biological and organic chemicals;Deoxy(2)adenosine resistance in <em>deoC</em>;deoD
+Resistance to biological and organic chemicals;Deoxyadenosine + fluorouracil resistance in <em>upp</em>;deoA
+Resistance to biological and organic chemicals;Deoxyadenosine + fluorouracil resistance in <em>upp</em>;deoD
 Resistance to biological and organic chemicals;Deoxydihydroxyphosphonyl methyl fructose resistance;uhpT
 Resistance to biological and organic chemicals;Deoxy(3)-3-fluoroglucose-independent utilization of lactate;ptsHIG
 Resistance to biological and organic chemicals;Deoxy(3)-3-fluoroglucose-independent utilization of fructose;ptsG
 Resistance to biological and organic chemicals;Deoxy(3)-3-fluoroglucose resistance;ptsI
 Resistance to biological and organic chemicals;Deoxy(2)galactitol resistance in galicitol utilizer;gatACD
-Resistance to biological and organic chemicals;Deoxy(2)galactose resistance;*gal* operon
+Resistance to biological and organic chemicals;Deoxy(2)galactose resistance;gal operon
 Resistance to biological and organic chemicals;Deoxy(2)galactose resistance;galE
 Resistance to biological and organic chemicals;Deoxy(2)galactose resistance;galK
 Resistance to biological and organic chemicals;Deoxy(2)galactose resistance;galP
@@ -409,14 +409,14 @@ Resistance to biological and organic chemicals;Deoxy(2)glucose-resistant fructos
 Resistance to biological and organic chemicals;Deoxy(2)glucose-resistant fructose utilization;ptsG
 Resistance to biological and organic chemicals;Deoxy(2)-2-iodoacetamidoglucose resistance;nagE
 Resistance to biological and organic chemicals;Diamino(2,6)purine resistance;apt
-Resistance to biological and organic chemicals;Diamino(2,6)purine resistance in *pnp*;apt
-Resistance to biological and organic chemicals;Dicyclohexylcarbodiimide resistance in *rfa*;rfb
+Resistance to biological and organic chemicals;Diamino(2,6)purine resistance in <em>pnp</em>;apt
+Resistance to biological and organic chemicals;Dicyclohexylcarbodiimide resistance in <em>rfa</em>;rfb
 Resistance to biological and organic chemicals;Dideoxy(2′,3′)thymidine resistance;tmk
 Resistance to biological and organic chemicals;Dihydroproline resistance;putP
 Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance;cls
 Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance;glpT
-Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance in *glpT*;*ugpA,B*
-Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance in *uhp*(Con);uhpT
+Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance in <em>glpT</em>;ugpA,B
+Resistance to biological and organic chemicals;Dihydroxybutylphosphonate resistance in <em>uhp</em>(Con);uhpT
 Resistance to biological and organic chemicals;Dimethyl sulfoxide resistance;pss
 Resistance to biological and organic chemicals;Dinitropyrene resistance;atoB
 Resistance to biological and organic chemicals;Dipeptide (valine containing) resistance;dppA
@@ -442,9 +442,9 @@ Resistance to biological and organic chemicals;Fluorodeoxycytidine resistance;nu
 Resistance to biological and organic chemicals;Fluoro(5)deoxyuridine resistance;tdk
 Resistance to biological and organic chemicals;Fluorodeoxyuridine resistance;nupC
 Resistance to biological and organic chemicals;Fluorodeoxyuridine resistance;nupG
-Resistance to biological and organic chemicals;Fluorodeoxyuridine + uracil resistance in *deoA*;tdk
+Resistance to biological and organic chemicals;Fluorodeoxyuridine + uracil resistance in <em>deoA</em>;tdk
 Resistance to biological and organic chemicals;Fluoro(2)-L-erythrocitrate resistance;tct
-Resistance to biological and organic chemicals;Fluoro-3-hydroxyacetone resistance in *uhp*(Con);uhpT
+Resistance to biological and organic chemicals;Fluoro-3-hydroxyacetone resistance in <em>uhp</em>(Con);uhpT
 Resistance to biological and organic chemicals;Fluorohydroxyacetone phosphate resistance;ugpAB
 Resistance to biological and organic chemicals;Fluorohydroxyacetone phosphate resistance;glpT
 Resistance to biological and organic chemicals;Fluoro(3)malate resistance;dct
@@ -460,18 +460,18 @@ Resistance to biological and organic chemicals;Fluorophenylalanine resistance;ar
 Resistance to biological and organic chemicals;Fluorophenylalanine resistance;aroP
 Resistance to biological and organic chemicals;Fluorophenylalanine resistance;tyrA
 Resistance to biological and organic chemicals;Fluoro(5)tryptophan resistance;aroP
-Resistance to biological and organic chemicals;Fluoro(6)tryptophan resistance;*trp* (generic)
+Resistance to biological and organic chemicals;Fluoro(6)tryptophan resistance;trp (generic)
 Resistance to biological and organic chemicals;Fluorotyrosine resistance;tyrR
 Resistance to biological and organic chemicals;Fluorotyrosine resistance;tyrS
 Resistance to biological and organic chemicals;Fluoro(5)uracil + fluoro(5)uridine resistance;guaB
-Resistance to biological and organic chemicals;Fluoro(5)uracil + 5′-AMP resistance in *upp*;ushA
-Resistance to biological and organic chemicals;Fluoro(5)uracil + 5-fluorouridine resistance in *udp*;pyrH
+Resistance to biological and organic chemicals;Fluoro(5)uracil + 5′-AMP resistance in <em>upp</em>;ushA
+Resistance to biological and organic chemicals;Fluoro(5)uracil + 5-fluorouridine resistance in <em>udp</em>;pyrH
 Resistance to biological and organic chemicals;Fluoro(5)uracil + nucleotide resistance;ompF
 Resistance to biological and organic chemicals;Fluoro(5)uracil + nucleotide resistance;ompR
 Resistance to biological and organic chemicals;Fluoro(5)uracil + adenosine resistance;udp
-Resistance to biological and organic chemicals;Fluorouracil + adenosine resistance in *upp deoD xapR*(Con);xapA
-Resistance to biological and organic chemicals;Fluoro(5)uracil + adenosine resistance in *upp, phoS,* or *phoT*;phoA
-Resistance to biological and organic chemicals;Fluoro(5)uracil + adenosine resistance in *upp, phoS,* or *phoT*;phoB
+Resistance to biological and organic chemicals;Fluorouracil + adenosine resistance in <em>upp deoD xapR</em>(Con);xapA
+Resistance to biological and organic chemicals;Fluoro(5)uracil + adenosine resistance in <em>upp, phoS,</em> or <em>phoT</em>;phoA
+Resistance to biological and organic chemicals;Fluoro(5)uracil + adenosine resistance in <em>upp, phoS,</em> or <em>phoT</em>;phoB
 Resistance to biological and organic chemicals;Fluoro(5)uracil and 3′-AMP resistance;cpdB
 Resistance to biological and organic chemicals;Fluoro(5)uracil + 5′-AMP + 3′-AMP resistance;crp
 Resistance to biological and organic chemicals;Fluoro(5)uracil + carbamylaspartate resistance;ubiF
@@ -482,7 +482,7 @@ Resistance to biological and organic chemicals;Fluorouracil resistance;pyrH
 Resistance to biological and organic chemicals;Fluorouracil resistance;rpoB
 Resistance to biological and organic chemicals;Fluoro(5)uridine + uracil resistance;udk
 Resistance to biological and organic chemicals;Fluoro(5)uridine resistance;udhA
-Resistance to biological and organic chemicals;Fluoro(5)uridine resistance in *upp*;udk
+Resistance to biological and organic chemicals;Fluoro(5)uridine resistance in <em>upp</em>;udk
 Resistance to biological and organic chemicals;Fluorouridine resistance;pyrH
 Resistance to biological and organic chemicals;Fluorouridine resistance;nupC
 Resistance to biological and organic chemicals;Fluorouridine resistance;nupG
@@ -496,26 +496,26 @@ Resistance to biological and organic chemicals;Fosfomycin resistance;mrb
 Resistance to biological and organic chemicals;Fosfomycin resistance;ptsI
 Resistance to biological and organic chemicals;Fosfomycin resistance;uhpT
 Resistance to biological and organic chemicals;Fucitol resistance in galactitol-utilizing strains;gatACD
-Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in *galP*;mglA
-Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in *galP*;mglB
-Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in *galP*;mglC
+Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in <em>galP</em>;mglA
+Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in <em>galP</em>;mglB
+Resistance to biological and organic chemicals;Fucose + arabinose-supported growth in <em>galP</em>;mglC
 Resistance to biological and organic chemicals;Fucose resistance (arabinose as C source);araC
-Resistance to biological and organic chemicals;Fusaric acid resistance of Tn*10* insertion mutants;tet
+Resistance to biological and organic chemicals;Fusaric acid resistance of Tn<em>10</em> insertion mutants;tet
 Resistance to biological and organic chemicals;Fusidic acid resistance;fusA
-Resistance to biological and organic chemicals;Galactose resistance in *galE*;galK
-Resistance to biological and organic chemicals;Galactose resistance in *galT*;galK
-Resistance to biological and organic chemicals;Galactose resistance in *galU*;*gal* operon
-Resistance to biological and organic chemicals;Galactose resistance in *galU*;galK
-Resistance to biological and organic chemicals;Galactose resistance in *galT+K*+*E*+/*galU* *galT+K*+*E*+ merodiploid;galR
-Resistance to biological and organic chemicals;Galactose utilization in presence of thiomethylglucoside;*gal* operon
+Resistance to biological and organic chemicals;Galactose resistance in <em>galE</em>;galK
+Resistance to biological and organic chemicals;Galactose resistance in <em>galT</em>;galK
+Resistance to biological and organic chemicals;Galactose resistance in <em>galU</em>;gal operon
+Resistance to biological and organic chemicals;Galactose resistance in <em>galU</em>;galK
+Resistance to biological and organic chemicals;Galactose resistance in <em>galT+K</em>+<em>E</em>+/<em>galU</em> <em>galT+K</em>+<em>E</em>+ merodiploid;galR
+Resistance to biological and organic chemicals;Galactose utilization in presence of thiomethylglucoside;gal operon
 Resistance to biological and organic chemicals;Gentamicin resistance;rplF
 Resistance to biological and organic chemicals;Gentamicin resistance;ubiF
 Resistance to biological and organic chemicals;Globomicin resistance;dnaE
 Resistance to biological and organic chemicals;Globomicin resistance;lpp
-Resistance to biological and organic chemicals;Glucarate (D) resistance in *ppc*;garA
-Resistance to biological and organic chemicals;Glucose + gluconate-independent motility;*pts* (general)
-Resistance to biological and organic chemicals;Glucose-resistant satisfaction of *trp* by indole + 5-methyltryptophan;tna
-Resistance to biological and organic chemicals;Glutamate (D) resistance in *gltS* (increased);gltS
+Resistance to biological and organic chemicals;Glucarate (D) resistance in <em>ppc</em>;garA
+Resistance to biological and organic chemicals;Glucose + gluconate-independent motility;pts (general)
+Resistance to biological and organic chemicals;Glucose-resistant satisfaction of <em>trp</em> by indole + 5-methyltryptophan;tna
+Resistance to biological and organic chemicals;Glutamate (D) resistance in <em>gltS</em> (increased);gltS
 Resistance to biological and organic chemicals;Glutamine (D) resistance;glnP
 Resistance to biological and organic chemicals;Glutamyl(γ)hydrazide resistance;glnF
 Resistance to biological and organic chemicals;Glutamyl(γ)hydrazide resistance;glnH
@@ -524,32 +524,32 @@ Resistance to biological and organic chemicals;Glutamyl(γ)methyl ester resistan
 Resistance to biological and organic chemicals;Glutamyl(γ)methyl ester resistance;metJ
 Resistance to biological and organic chemicals;Glutamyl(γ)methyl ester resistance;metK
 Resistance to biological and organic chemicals;Glyceraldehyde (DL) 3-phosphate resistance;glpT
-Resistance to biological and organic chemicals;Glyceraldehyde (L) 3-phosphate resistance in *uhp*(Con);uhpT
+Resistance to biological and organic chemicals;Glyceraldehyde (L) 3-phosphate resistance in <em>uhp</em>(Con);uhpT
 Resistance to biological and organic chemicals;Glyceraldehyde (L) resistance;glpF
 Resistance to biological and organic chemicals;Glyceraldehyde (L) resistance;glpK
 Resistance to biological and organic chemicals;Glycerol 3-phosphorothioate resistance;glpT
 Resistance to biological and organic chemicals;Glycine tolerance;qmeACDE
-Resistance to biological and organic chemicals;Glycylglycyl-*N*-phosphonoacetylornithine resistance;argR
+Resistance to biological and organic chemicals;Glycylglycyl-<em>N</em>-phosphonoacetylornithine resistance;argR
 Resistance to biological and organic chemicals;Glycylleucine resistance;ilvA
 Resistance to biological and organic chemicals;Glycylleucine resistance;ilvB
 Resistance to biological and organic chemicals;Glycylleucine resistance;ilvH
 Resistance to biological and organic chemicals;Glycylleucine resistance;ilvI
 Resistance to biological and organic chemicals;Glycylleucine resistance;oppA
-Resistance to biological and organic chemicals;Glycylleucine resistance in *ilv*;gleR
+Resistance to biological and organic chemicals;Glycylleucine resistance in <em>ilv</em>;gleR
 Resistance to biological and organic chemicals;Glycylglycyl histidinol phosphate ester resistance;oppA
-Resistance to biological and organic chemicals;Glycylglycyl-*N*-phosphonoacetylornithine resistance;oppA
+Resistance to biological and organic chemicals;Glycylglycyl-<em>N</em>-phosphonoacetylornithine resistance;oppA
 Resistance to biological and organic chemicals;Glyphosate resistance;aroA
-Resistance to biological and organic chemicals;Hexuronate resistance in *eda*;uxaBC
-Resistance to biological and organic chemicals;Hexuronate resistance in *eda*;uxuAB
+Resistance to biological and organic chemicals;Hexuronate resistance in <em>eda</em>;uxaBC
+Resistance to biological and organic chemicals;Hexuronate resistance in <em>eda</em>;uxuAB
 Resistance to biological and organic chemicals;Homocysteic acid resistance;gltS
 Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance;argT
 Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance;hisG
 Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance;hisJ
 Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance;hisQ
-Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance in *dhuA*;hisP
+Resistance to biological and organic chemicals;Hydrazino (α) imidazole propionic acid resistance in <em>dhuA</em>;hisP
 Resistance to biological and organic chemicals;Hydroxy (β) norvaline resistance;metL
 Resistance to biological and organic chemicals;Hydroxyaspartate resistance;pan
-Resistance to biological and organic chemicals;Hydroxybutylphosphonate resistance in *uhp*(Con);uhpT
+Resistance to biological and organic chemicals;Hydroxybutylphosphonate resistance in <em>uhp</em>(Con);uhpT
 Resistance to biological and organic chemicals;Hydroxyurea resistance;nrdA
 Resistance to biological and organic chemicals;Hydroxyurea resistance;nrdB
 Resistance to biological and organic chemicals;Indole acrylic acid resistance;aroT
@@ -559,7 +559,7 @@ Resistance to biological and organic chemicals;Iodoacetylglucosamine resistance;
 Resistance to biological and organic chemicals;Iodoacetylglucosamine resistance;nagB
 Resistance to biological and organic chemicals;Iodoacetylglucosamine resistance;nagE
 Resistance to biological and organic chemicals;Isoniazid resistance;pdx
-Resistance to biological and organic chemicals;Kanamycin resistance;*atpA–atpE*
+Resistance to biological and organic chemicals;Kanamycin resistance;atpA–atpE
 Resistance to biological and organic chemicals;Kanamycin resistance;cpxA
 Resistance to biological and organic chemicals;Kanamycin resistance;ecfB
 Resistance to biological and organic chemicals;Kanamycin resistance;hemA
@@ -578,7 +578,7 @@ Resistance to biological and organic chemicals;Kasugamycin resistance;rpsR
 Resistance to biological and organic chemicals;Kasugamycin resistance and dependence;rpsI
 Resistance to biological and organic chemicals;Keto(2)butyrate resistance;ilvA
 Resistance to biological and organic chemicals;Kirromycin resistance;tufAB
-Resistance to biological and organic chemicals;Lambda *c*II phage + rifampin coresistance;rpoB
+Resistance to biological and organic chemicals;Lambda <em>c</em>II phage + rifampin coresistance;rpoB
 Resistance to biological and organic chemicals;Lambda phage + nalidixic acid resistance;crp
 Resistance to biological and organic chemicals;Lambda phage + nalidixic acid resistance;cyaA
 Resistance to biological and organic chemicals;Levallorphan resistance;lev
@@ -599,16 +599,16 @@ Resistance to biological and organic chemicals;Mecillinam resistance;mreB
 Resistance to biological and organic chemicals;Mecillinam resistance;mreC
 Resistance to biological and organic chemicals;Mecillinam resistance;mreD
 Resistance to biological and organic chemicals;Menadionine resistance;marA
-Resistance to biological and organic chemicals;Mercaptopurine resistance in *gpt*;hpt
+Resistance to biological and organic chemicals;Mercaptopurine resistance in <em>gpt</em>;hpt
 Resistance to biological and organic chemicals;Methionine sulfoximine + methyl(α)methionine resistance;metJ
 Resistance to biological and organic chemicals;Methionine sulfoximine resistance;asm
 Resistance to biological and organic chemicals;Methionine sulfoximine resistance;glnP
 Resistance to biological and organic chemicals;Methionine sulfoximine resistance;metP
-Resistance to biological and organic chemicals;Methionine sulfoximine resistance in *glnG*;glnA
+Resistance to biological and organic chemicals;Methionine sulfoximine resistance in <em>glnG</em>;glnA
 Resistance to biological and organic chemicals;Methylammonium resistance;glnA
 Resistance to biological and organic chemicals;Methyl(3)anthranilate resistance;trpE
 Resistance to biological and organic chemicals;Methyl(3)anthranilate resistance;aroG
-Resistance to biological and organic chemicals;Methyl(α)glutamate resistance in *gltS* (increased);gltS
+Resistance to biological and organic chemicals;Methyl(α)glutamate resistance in <em>gltS</em> (increased);gltS
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of lactose;lacIO
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of maltose;malE
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of maltose;malF
@@ -616,34 +616,34 @@ Resistance to biological and organic chemicals;Methylglucoside(α)-resistant uti
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of maltose;malK
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of mannitol + lactose;ptsG
 Resistance to biological and organic chemicals;Methylglucoside(α) resistance;ptsG
-Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of glycerol in ∆*ptsHI*;crr
-Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of lactose in *ptsH*;*lacI,* operator
+Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of glycerol in ∆<em>ptsHI</em>;crr
+Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of lactose in <em>ptsH</em>;lacI, operator
 Resistance to biological and organic chemicals;Methylglucoside(α)-resistant utilization of melibiose;mel
 Resistance to biological and organic chemicals;Methylglyoxal resistance;gsh
 Resistance to biological and organic chemicals;Methyl(2)histidine resistance + aminotriazole resistance;hisR
-Resistance to biological and organic chemicals;Methyl methanesulfonate resistance in *lon*;sulA
-Resistance to biological and organic chemicals;Methyl methanesulfonate resistance in *lon*;ftsZ
+Resistance to biological and organic chemicals;Methyl methanesulfonate resistance in <em>lon</em>;sulA
+Resistance to biological and organic chemicals;Methyl methanesulfonate resistance in <em>lon</em>;ftsZ
 Resistance to biological and organic chemicals;Methyl(α)methionine resistance;metA
-Resistance to biological and organic chemicals;Methyl(α)methionine resistance;*metD* (*metP*)
+Resistance to biological and organic chemicals;Methyl(α)methionine resistance;metD (metP)
 Resistance to biological and organic chemicals;Methyl(α)methionine resistance;metK
 Resistance to biological and organic chemicals;Methyl(6)purine resistance;apt
 Resistance to biological and organic chemicals;Methyl(6)purine + hypoxanthine resistance;purA
-Resistance to biological and organic chemicals;Methyl(*o*)threonine resistance;brnQ
-Resistance to biological and organic chemicals;Methyl(4)tryptophan resistance in *aroP*;aroT
+Resistance to biological and organic chemicals;Methyl(<em>o</em>)threonine resistance;brnQ
+Resistance to biological and organic chemicals;Methyl(4)tryptophan resistance in <em>aroP</em>;aroT
 Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;mtr
 Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;aroP
-Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;*trp* (generic)
+Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;trp (generic)
 Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;trpE
 Resistance to biological and organic chemicals;Methyl(5)tryptophan resistance;trpR
 Resistance to biological and organic chemicals;Methyl(5)tryptophan + thienylalanine resistance;aroP
 Resistance to biological and organic chemicals;Methyl viologen resistance;mvrA
 Resistance to biological and organic chemicals;Methyl viologen resistance (multicopy);mvrC
 Resistance to biological and organic chemicals;Methyl viologen resistance;gor
-Resistance to biological and organic chemicals;Metronidazole resistance;*nar* (general)
+Resistance to biological and organic chemicals;Metronidazole resistance;nar (general)
 Resistance to biological and organic chemicals;Microcin B17 resistance;sbmA
 Resistance to biological and organic chemicals;Microcin E492 resistance;semA
-Resistance to biological and organic chemicals;Mitomycin C resistance of *lexA*(Con);lexA
-Resistance to biological and organic chemicals;Mocimycin resistance;*tufA,B*
+Resistance to biological and organic chemicals;Mitomycin C resistance of <em>lexA</em>(Con);lexA
+Resistance to biological and organic chemicals;Mocimycin resistance;tufA,B
 Resistance to biological and organic chemicals;Nalidixic acid resistance;hisU
 Resistance to biological and organic chemicals;Nalidixic acid resistance;icdE
 Resistance to biological and organic chemicals;Nalidixic acid tolerance;sloB
@@ -657,30 +657,30 @@ Resistance to biological and organic chemicals;Neamine resistance;rpsL
 Resistance to biological and organic chemicals;Neamine resistance;rpsQ
 Resistance to biological and organic chemicals;Neamine resistance;neaB
 Resistance to biological and organic chemicals;Negamycin resistance;prfB
-Resistance to biological and organic chemicals;Neomycin resistance;*atpA–atpE*
+Resistance to biological and organic chemicals;Neomycin resistance;atpA–atpE
 Resistance to biological and organic chemicals;Neomycin resistance;ecfB
 Resistance to biological and organic chemicals;Neomycin resistance;hemA
 Resistance to biological and organic chemicals;Neomycin resistance;hemC
 Resistance to biological and organic chemicals;Neomycin resistance;hemD
 Resistance to biological and organic chemicals;Neomycin resistance;hemE
 Resistance to biological and organic chemicals;Neomycin resistance;hemG
-Resistance to biological and organic chemicals;Neomycin resistance;*metC* (*ecfA*)
+Resistance to biological and organic chemicals;Neomycin resistance;metC (ecfA)
 Resistance to biological and organic chemicals;Neomycin resistance;topA
-Resistance to biological and organic chemicals;Neomycin resistance;*ubi* (generic)
+Resistance to biological and organic chemicals;Neomycin resistance;ubi (generic)
 Resistance to biological and organic chemicals;Neutrophil granule protein resistance;pmrA
-Resistance to biological and organic chemicals;Nitro(4)pyridine *N*-oxide resistance;proA
-Resistance to biological and organic chemicals;Nitro(4)pyridine *N*-oxide resistance;proB
-Resistance to biological and organic chemicals;Nitro(*o*)-phenyl galactoside resistance;lacZ
-Resistance to biological and organic chemicals;Nitro(*o*)-phenylthiogalactoside resistance;lacY
-Resistance to biological and organic chemicals;Nitro(*o*)-phenylthiogalactoside resistance in *lacI*(Con) or *lacO*(Con) ;*lacI,* operator
+Resistance to biological and organic chemicals;Nitro(4)pyridine <em>N</em>-oxide resistance;proA
+Resistance to biological and organic chemicals;Nitro(4)pyridine <em>N</em>-oxide resistance;proB
+Resistance to biological and organic chemicals;Nitro(<em>o</em>)-phenyl galactoside resistance;lacZ
+Resistance to biological and organic chemicals;Nitro(<em>o</em>)-phenylthiogalactoside resistance;lacY
+Resistance to biological and organic chemicals;Nitro(<em>o</em>)-phenylthiogalactoside resistance in <em>lacI</em>(Con) or <em>lacO</em>(Con) ;lacI, operator
 Resistance to biological and organic chemicals;Nitrofurantoin resistance;nfnA
 Resistance to biological and organic chemicals;Nitrofurantoin resistance;nfnB
-Resistance to biological and organic chemicals;Nitrofurantoin resistance in *lon*;sulA
-Resistance to biological and organic chemicals;Nitrofurantoin resistance in *lon*;ftsZ
+Resistance to biological and organic chemicals;Nitrofurantoin resistance in <em>lon</em>;sulA
+Resistance to biological and organic chemicals;Nitrofurantoin resistance in <em>lon</em>;ftsZ
 Resistance to biological and organic chemicals;Nitrofuranzone resistance;nfsA
 Resistance to biological and organic chemicals;Nitrofuranzone resistance;nfsB
 Resistance to biological and organic chemicals;Nitrosoguanidine resistance;ada
-Resistance to biological and organic chemicals;Nitrosoguanidine resistance;*gsh* (generic)
+Resistance to biological and organic chemicals;Nitrosoguanidine resistance;gsh (generic)
 Resistance to biological and organic chemicals;Norfloxacin resistance;hipQ
 Resistance to biological and organic chemicals;Norleucine resistance;metJ
 Resistance to biological and organic chemicals;Norleucine resistance;metK
@@ -693,8 +693,8 @@ Resistance to biological and organic chemicals;Novobiocin resistance;nov
 Resistance to biological and organic chemicals;Novobiocin resistance;ompA
 Resistance to biological and organic chemicals;Oxolinic acid resistance;gyrA
 Resistance to biological and organic chemicals;Paromycin resistance or dependence;rpsL
-Resistance to biological and organic chemicals;Pentachlorophenol resistance;*atpA–atpE*
-Resistance to biological and organic chemicals;Penten(4)oate resistance in *atoC*(Con);atoC
+Resistance to biological and organic chemicals;Pentachlorophenol resistance;atpA–atpE
+Resistance to biological and organic chemicals;Penten(4)oate resistance in <em>atoC</em>(Con);atoC
 Resistance to biological and organic chemicals;Pentylpantothenamide resistance;pan
 Resistance to biological and organic chemicals;Peptide (toxic, valine containing) resistance;pepA
 Resistance to biological and organic chemicals;Peptide (toxic, valine containing) resistance;pepD
@@ -707,12 +707,12 @@ Resistance to biological and organic chemicals;Phenethyl alcohol resistance;dnaP
 Resistance to biological and organic chemicals;Phenethyl alcohol resistance;secA
 Resistance to biological and organic chemicals;Phenethylyl galactoside resistance;lacY
 Resistance to biological and organic chemicals;Phenethylyl galactoside resistance;lacZ
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacP lacI*(nonsense) *supE*;hisT
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacP lacI*(nonsense) *supE*;prfA
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacP lacI*(nonsense) *supE*;rpsL
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacI *q/*lacP lacI*(nonsense) *supL*;lysS
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacI *q/*lacP lacI*(nonsense) *supL*;strM
-Resistance to biological and organic chemicals;Phenyl galactoside resistance of *lacI *q/*lacP lacI*(nonsense) *supL*;trmE
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacP lacI</em>(nonsense) <em>supE</em>;hisT
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacP lacI</em>(nonsense) <em>supE</em>;prfA
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacP lacI</em>(nonsense) <em>supE</em>;rpsL
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacI </em>q/<em>lacP lacI</em>(nonsense) <em>supL</em>;lysS
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacI </em>q/<em>lacP lacI</em>(nonsense) <em>supL</em>;strM
+Resistance to biological and organic chemicals;Phenyl galactoside resistance of <em>lacI </em>q/<em>lacP lacI</em>(nonsense) <em>supL</em>;trmE
 Resistance to biological and organic chemicals;Phenyl galactoside resistance;lacY
 Resistance to biological and organic chemicals;Phenyl galactoside resistance;lacZ
 Resistance to biological and organic chemicals;Phenylalanylleucine resistance;ilvB
@@ -725,28 +725,28 @@ Resistance to biological and organic chemicals;Pseudomonic acid resistance;ileS
 Resistance to biological and organic chemicals;Psicofuranine resistance;guaAB
 Resistance to biological and organic chemicals;Psoralen + UV irradiation resistance;puvA
 Resistance to biological and organic chemicals;Pyrithiamine resistance;thi
-Resistance to biological and organic chemicals;Quinaldic acid resistance of Tn*10* insertion mutants;tet
+Resistance to biological and organic chemicals;Quinaldic acid resistance of Tn<em>10</em> insertion mutants;tet
 Resistance to biological and organic chemicals;Quinolone resistance;gyrA
-Resistance to biological and organic chemicals;Ribitol resistance in *araC*(Con);araB
-Resistance to biological and organic chemicals;Ribitol resistance in *araC*(Con);araC
+Resistance to biological and organic chemicals;Ribitol resistance in <em>araC</em>(Con);araB
+Resistance to biological and organic chemicals;Ribitol resistance in <em>araC</em>(Con);araC
 Resistance to biological and organic chemicals;Rifampin + kasugamycin dependence;ridA
 Resistance to biological and organic chemicals;Rifampin dependence;ridB
 Resistance to biological and organic chemicals;Rifampin resistance;crp
 Resistance to biological and organic chemicals;Rifampin resistance;cyaA
 Resistance to biological and organic chemicals;Rifampin resistance;rpoB
-Resistance to biological and organic chemicals;Rifampin resistance in *rpoB*+/*rpoB* (*rif*) diploids;rpoB
+Resistance to biological and organic chemicals;Rifampin resistance in <em>rpoB</em>+/<em>rpoB</em> (<em>rif</em>) diploids;rpoB
 Resistance to biological and organic chemicals;Salicylate resistance;pan
 Resistance to biological and organic chemicals;Serine (D) resistance;cycA
-Resistance to biological and organic chemicals;Serine + methionine + glycine resistance in *relA*;glyA
+Resistance to biological and organic chemicals;Serine + methionine + glycine resistance in <em>relA</em>;glyA
 Resistance to biological and organic chemicals;Serine hydroxamate resistance;serA
 Resistance to biological and organic chemicals;Serine hydroxamate resistance;serS
 Resistance to biological and organic chemicals;Serine resistance;sbaA
 Resistance to biological and organic chemicals;Serine resistance;thrA
-Resistance to biological and organic chemicals;Serine resistance in *relA*;crp
-Resistance to biological and organic chemicals;Serine resistance in *relA*;cyaA
-Resistance to biological and organic chemicals;Serine resistance in *relA*;relA
-Resistance to biological and organic chemicals;Serine resistance in *relA*;rpoB
-Resistance to biological and organic chemicals;Serine resistance in *relA*;rpoC
+Resistance to biological and organic chemicals;Serine resistance in <em>relA</em>;crp
+Resistance to biological and organic chemicals;Serine resistance in <em>relA</em>;cyaA
+Resistance to biological and organic chemicals;Serine resistance in <em>relA</em>;relA
+Resistance to biological and organic chemicals;Serine resistance in <em>relA</em>;rpoB
+Resistance to biological and organic chemicals;Serine resistance in <em>relA</em>;rpoC
 Resistance to biological and organic chemicals;Showdomycin resistance;nupC
 Resistance to biological and organic chemicals;Showdomycin resistance;pnp
 Resistance to biological and organic chemicals;Siderophore–beta-lactam conjugate resistance;cirA
@@ -761,13 +761,13 @@ Resistance to biological and organic chemicals;Spectinomycin resistance and sucr
 Resistance to biological and organic chemicals;Spectinomycin resistance and sucrose dependence;rpsE
 Resistance to biological and organic chemicals;Streptolydigin resistance;rpoB
 Resistance to biological and organic chemicals;Streptomycin + cAMP resistance;crp
-Resistance to biological and organic chemicals;Streptomycin resistance;*hem* (generic)
+Resistance to biological and organic chemicals;Streptomycin resistance;hem (generic)
 Resistance to biological and organic chemicals;Streptomycin resistance;rpsL
 Resistance to biological and organic chemicals;Streptomycin resistance;strB
 Resistance to biological and organic chemicals;Streptomycin resistance;strC
 Resistance to biological and organic chemicals;Streptomycin resistance;strM
 Resistance to biological and organic chemicals;Streptomycin resistance;ubiF
-Resistance to biological and organic chemicals;Streptomycin resistance;*mut* (generic)
+Resistance to biological and organic chemicals;Streptomycin resistance;mut (generic)
 Resistance to biological and organic chemicals;Streptomycin resistance;topA
 Resistance to biological and organic chemicals;Streptovaricin resistance;rpoB
 Resistance to biological and organic chemicals;Streptozotocin resistance;fba
@@ -782,7 +782,7 @@ Resistance to biological and organic chemicals;Sulfanilamide + hypoxanthine resi
 Resistance to biological and organic chemicals;Sulfanilamide + hypoxanthine resistance;pspABCDE
 Resistance to biological and organic chemicals;Sulfanilamide resistance;folP
 Resistance to biological and organic chemicals;Sulfanilamide resistance;gpt
-Resistance to biological and organic chemicals;Sulfometuron methyl + valine resistance;*ilv* structural genes
+Resistance to biological and organic chemicals;Sulfometuron methyl + valine resistance;ilv structural genes
 Resistance to biological and organic chemicals;Sulfometuron methyl + valine resistance;ilvG
 Resistance to biological and organic chemicals;Sulfonamide resistance;folA
 Resistance to biological and organic chemicals;Sulfonamide resistance;pab
@@ -809,31 +809,31 @@ Resistance to biological and organic chemicals;Thiomaltose resistance;malF
 Resistance to biological and organic chemicals;Thiomaltose resistance;malG
 Resistance to biological and organic chemicals;Thiomaltose resistance;malK
 Resistance to biological and organic chemicals;Thiomaltose resistance;malT
-Resistance to biological and organic chemicals;Thiomethylgalactoside-independent utilization of galactose in *galR*(Con);galR
+Resistance to biological and organic chemicals;Thiomethylgalactoside-independent utilization of galactose in <em>galR</em>(Con);galR
 Resistance to biological and organic chemicals;Thiopeptin resistance;rplE
 Resistance to biological and organic chemicals;Thiosine resistance;argP
-Resistance to biological and organic chemicals;Thymidine resistance in *deoC*;deoA
-Resistance to biological and organic chemicals;Thymidine resistance in *deoC*;deoB
-Resistance to biological and organic chemicals;Thymineless death prevention by low thymine levels in *thyA*;deoB
-Resistance to biological and organic chemicals;Thymineless death prevention by low thymine levels in *thyA*;deoC
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;recF
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;recJ
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;recO
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;recQ
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;alaS
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;pheS
-Resistance to biological and organic chemicals;Thymineless death resistance in *thyA*;valS
+Resistance to biological and organic chemicals;Thymidine resistance in <em>deoC</em>;deoA
+Resistance to biological and organic chemicals;Thymidine resistance in <em>deoC</em>;deoB
+Resistance to biological and organic chemicals;Thymineless death prevention by low thymine levels in <em>thyA</em>;deoB
+Resistance to biological and organic chemicals;Thymineless death prevention by low thymine levels in <em>thyA</em>;deoC
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;recF
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;recJ
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;recO
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;recQ
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;alaS
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;pheS
+Resistance to biological and organic chemicals;Thymineless death resistance in <em>thyA</em>;valS
 Resistance to biological and organic chemicals;Tiamulin resistance;rplC
 Resistance to biological and organic chemicals;Tiamulin resistance;rplD
 Resistance to biological and organic chemicals;Triazole resistance;cysB
 Resistance to biological and organic chemicals;Triazole resistance;cysE
 Resistance to biological and organic chemicals;Triazole resistance;cysG
 Resistance to biological and organic chemicals;Triazole resistance;trzA
-Resistance to biological and organic chemicals;Triazole resistance in *cysM*;cysB
-Resistance to biological and organic chemicals;Triazole resistance in *cysM*;cysE
+Resistance to biological and organic chemicals;Triazole resistance in <em>cysM</em>;cysB
+Resistance to biological and organic chemicals;Triazole resistance in <em>cysM</em>;cysE
 Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;gyrA
 Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;gyrB
-Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;*his* structural genes
+Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;his structural genes
 Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;hisR
 Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;hisS
 Resistance to biological and organic chemicals;Triazolealanine + aminotriazole resistance;hisT
@@ -844,20 +844,20 @@ Resistance to biological and organic chemicals;Trifluoroleucine resistance;flrB
 Resistance to biological and organic chemicals;Trifluoroleucine resistance;ileR
 Resistance to biological and organic chemicals;Trifluoroleucine resistance;leuA
 Resistance to biological and organic chemicals;Trifluoroleucine resistance;leuJ
-Resistance to biological and organic chemicals;Trifluoroleucine resistance;*leu* (generic)
+Resistance to biological and organic chemicals;Trifluoroleucine resistance;leu (generic)
 Resistance to biological and organic chemicals;Trifluoroleucine resistance;leuS
 Resistance to biological and organic chemicals;Trilysine resistance;oppA
 Resistance to biological and organic chemicals;Trimethoprim resistance;folA
 Resistance to biological and organic chemicals;Trimethoprim resistance;thyA
 Resistance to biological and organic chemicals;Triornithine resistance;oppA
-Resistance to biological and organic chemicals;Triornithine resistance in *opp*;tpp
+Resistance to biological and organic chemicals;Triornithine resistance in <em>opp</em>;tpp
 Resistance to biological and organic chemicals;Tripeptide (toxic amino acid containing) resistance;oppAE
 Resistance to biological and organic chemicals;Tripeptide (toxic amino acid containing) resistance;tppA
 Resistance to biological and organic chemicals;Tripeptide (toxic amino acid containing) resistance;tppB
 Resistance to biological and organic chemicals;Tryptophan analog resistance;aroH
-Resistance to biological and organic chemicals;Uncoupler resistances;*atpA–atpE*
-Resistance to biological and organic chemicals;Uridine resistance of *thyA deoB*;deoR
-Resistance to biological and organic chemicals;Valine resistance;*ilv* structural genes
+Resistance to biological and organic chemicals;Uncoupler resistances;atpA–atpE
+Resistance to biological and organic chemicals;Uridine resistance of <em>thyA deoB</em>;deoR
+Resistance to biological and organic chemicals;Valine resistance;ilv structural genes
 Resistance to biological and organic chemicals;Valine resistance;ilvB
 Resistance to biological and organic chemicals;Valine resistance;ilvF
 Resistance to biological and organic chemicals;Valine resistance;ilvG
@@ -872,33 +872,33 @@ Resistance to biological and organic chemicals;Valine resistance;brnQ
 Resistance to biological and organic chemicals;Vinylglycolate resistance;dld
 Resistance to biological and organic chemicals;Vinylglycolate resistance;lct
 Resistance to biological and organic chemicals;Xylitol resistance;fruA
-Resistance to biological and organic chemicals;Xylose resistance in *fda*;xylE
+Resistance to biological and organic chemicals;Xylose resistance in <em>fda</em>;xylE
 Resistance to biological and organic chemicals;Xylose (D) + cAMP resistance;cxm
 Resistance to biological agents;9NA phage resistance;pmi
-Resistance to biological agents;9NA phage resistance in *galE*;kdsA
+Resistance to biological agents;9NA phage resistance in <em>galE</em>;kdsA
 Resistance to biological agents;Bf23 phage resistance;btuB
 Resistance to biological agents;C21 phage resistance;rfaD
-Resistance to biological agents;Chi phage resistance;*fliC (hag)*
+Resistance to biological agents;Chi phage resistance;fliC (hag)
 Resistance to biological agents;Chi phage resistance;motA
 Resistance to biological agents;Chi phage resistance;motB
 Resistance to biological agents;ES18 phage resistance;fhuA
-Resistance to biological agents;ES18 phage resistance;*prbA,B*
+Resistance to biological agents;ES18 phage resistance;prbA,B
 Resistance to biological agents;ES18 phage resistance;sidK
 Resistance to biological agents;ES18 phage resistance;tonB
 Resistance to biological agents;Felix O phage resistance;galE
 Resistance to biological agents;Felix O phage resistance;galU
-Resistance to biological agents;Felix O phage resistance;*rfaC,D,E,F,H*
+Resistance to biological agents;Felix O phage resistance;rfaC,D,E,F,H
 Resistance to biological agents;Filamentous phage tolerance;tolR
 Resistance to biological agents;Filamentous phage tolerance;tolQ
 Resistance to biological agents;HK009 phage resistance;prh
 Resistance to biological agents;HK068 phage resistance;prk
-Resistance to biological agents;Host range phage (from *Serratia marcescens*) resistance;ompC
+Resistance to biological agents;Host range phage (from <em>Serratia marcescens</em>) resistance;ompC
 Resistance to biological agents;K10 phage resistance;lamB
 Resistance to biological agents;K3 phage resistance;ompA
 Resistance to biological agents;Lambda + 434 phage resistance;mopA
 Resistance to biological agents;Lambda + 434 phage resistance;mopB
-Resistance to biological agents;Lambda *c*II + rifampin coresistance;rpoB
-Resistance to biological agents;Lambda mutant infection resistance;*gyrB* (*hisW*)
+Resistance to biological agents;Lambda <em>c</em>II + rifampin coresistance;rpoB
+Resistance to biological agents;Lambda mutant infection resistance;gyrB (hisW)
 Resistance to biological agents;Lambda mutant phage infection, survival of;himA
 Resistance to biological agents;Lambda mutant phage resistance;hflC
 Resistance to biological agents;Lambda mutant phage resistance;hflK
@@ -924,15 +924,15 @@ Resistance to biological agents;Lambda prophage induction, resistance to;rpsJ
 Resistance to biological agents;Lambda prophage induction, resistance to;rpsM
 Resistance to biological agents;Lambda prophage induction, survival of;nusA
 Resistance to biological agents;Lambda prophage induction, survival of;nusB
-Resistance to biological agents;Lambda *sus N7 nin-5* resistance in P2 lysogen;rho
-Resistance to biological agents;Lambda *vir* resistance after infection with heteromodified lambda *c*I857;hsd
+Resistance to biological agents;Lambda <em>sus N7 nin-5</em> resistance in P2 lysogen;rho
+Resistance to biological agents;Lambda <em>vir</em> resistance after infection with heteromodified lambda <em>c</em>I857;hsd
 Resistance to biological agents;Lambdoid phage resistance;nusB
 Resistance to biological agents;Lambdoid phage mixture coinfection resistance;dnaB
 Resistance to biological agents;Lambdoid phage mixture coinfection resistance;dnaJ
 Resistance to biological agents;Lambdoid phage mixture coinfection resistance;dnaK
-Resistance to biological agents;Lambda *c*I71 resistance;rpoD
-Resistance to biological agents;Lambda *Nmar* mutant phage resistance;rpoB
-Resistance to biological agents;Male-specific phage resistance;*arcA* (*fexA*)
+Resistance to biological agents;Lambda <em>c</em>I71 resistance;rpoD
+Resistance to biological agents;Lambda <em>Nmar</em> mutant phage resistance;rpoB
+Resistance to biological agents;Male-specific phage resistance;arcA (fexA)
 Resistance to biological agents;Me1 phage resistance;envZ
 Resistance to biological agents;Me1 phage resistance;ompC
 Resistance to biological agents;Me1 phage resistance;ompF
@@ -947,19 +947,19 @@ Resistance to biological agents;P1 phage resistance;galE
 Resistance to biological agents;P1 phage resistance;galU
 Resistance to biological agents;P1 phage resistance;lpcA
 Resistance to biological agents;P1 phage resistance;rfaD
-Resistance to biological agents;P1 phage specialized transduction of drug resistance to *Salmonella* sp.;sspA
-Resistance to biological agents;P2 *vir1* phage resistance;rpoA
+Resistance to biological agents;P1 phage specialized transduction of drug resistance to <em>Salmonella</em> sp.;sspA
+Resistance to biological agents;P2 <em>vir1</em> phage resistance;rpoA
 Resistance to biological agents;P2 phage + lambda phage coinfection resistance;dnaJ
 Resistance to biological agents;P2 phage + lambda phage coinfection resistance;dnaK
 Resistance to biological agents;P2 phage resistance;rep
 Resistance to biological agents;P22 phage resistance;galE
 Resistance to biological agents;P22 phage resistance;pmi
 Resistance to biological agents;P221 phage resistance;praAB
-Resistance to biological agents;PH105 phage resistance;*ompB* (*ompR* of *E. coli*)
+Resistance to biological agents;PH105 phage resistance;ompB (ompR of E. coli)
 Resistance to biological agents;PH105 phage resistance;ompC
 Resistance to biological agents;PH105 phage resistance;ompF
 Resistance to biological agents;PH105 phage resistance;praAB
-Resistance to biological agents;PH51 phage resistance;*ompB* (*ompR* of *E. coli*)
+Resistance to biological agents;PH51 phage resistance;ompB (ompR of E. coli)
 Resistance to biological agents;PH51 phage resistance;ompC
 Resistance to biological agents;PH51 phage resistance;ompF
 Resistance to biological agents;PH51 phage resistance;praAB
@@ -967,16 +967,16 @@ Resistance to biological agents;PH51 phage resistance;prdB
 Resistance to biological agents;φX174 phage resistance;phxB
 Resistance to biological agents;φ80 phage resistance;fhuA
 Resistance to biological agents;φ80 phage resistance;tonB
-Resistance to biological agents;Q phage resistance;*cpxA* (*ecfB, ssd, eup*)
+Resistance to biological agents;Q phage resistance;cpxA (ecfB, ssd, eup)
 Resistance to biological agents;T-even phage resistance;ompA
 Resistance to biological agents;T1 phage (UV irradiated) resistance;phr
 Resistance to biological agents;T1 phage resistance;fhuA
 Resistance to biological agents;T1 phage resistance;tonB
-Resistance to biological agents;T2 phage resistance in *ompF*+ or *ompF*;fadL
+Resistance to biological agents;T2 phage resistance in <em>ompF</em>+ or <em>ompF</em>;fadL
 Resistance to biological agents;T3 phage resistance;lpcA
 Resistance to biological agents;T4 mutant phage resistance;lit
-Resistance to biological agents;T4 phage *lig* mutant nibbling of colonies yielding *lig*-overproducing strain;lig
-Resistance to biological agents;T4 phage *lig* mutant resistance from *lig*-overproducing strain;lig
+Resistance to biological agents;T4 phage <em>lig</em> mutant nibbling of colonies yielding <em>lig</em>-overproducing strain;lig
+Resistance to biological agents;T4 phage <em>lig</em> mutant resistance from <em>lig</em>-overproducing strain;lig
 Resistance to biological agents;T4 phage resistance;lpcA
 Resistance to biological agents;T4 phage resistance;lpcB
 Resistance to biological agents;T4 phage resistance;mopA
@@ -1015,18 +1015,18 @@ Resistance to biological agents;U3 phage resistance;galE
 Resistance to biological agents;U3 phage resistance;galU
 Resistance to biological agents;U3 phage resistance;pgi
 Resistance to biological agents;U3 phage resistance;pgm
-Resistance to biological agents;U3 phage resistance;*rfa* (general)
+Resistance to biological agents;U3 phage resistance;rfa (general)
 Resistance to biological agents;UV-irradiated lytic phage resistance;uvrA
 Resistance to biological agents;UV-irradiated lytic phage resistance;uvrB
 Resistance to biological agents;UV-irradiated lytic phage resistance;uvrC
 Resistance to biological agents;UV-irradiated lytic phage resistance;uvrD
-Resistance to physical extremes;Cold resistance in *rpsE* cold-sensitive mutants;rpsB
+Resistance to physical extremes;Cold resistance in <em>rpsE</em> cold-sensitive mutants;rpsB
 Resistance to physical extremes;Cold-resistant growth;crg
-Resistance to physical extremes;Filter retention;*fts* (generic)
+Resistance to physical extremes;Filter retention;fts (generic)
 Resistance to physical extremes;Freeze-thaw resistance;envZ
 Resistance to physical extremes;Gamma irradiation resistance;garA
 Resistance to physical extremes;Gamma irradiation resistance;garB
-Resistance to physical extremes;Growth at 42°C in *his*-overexpressing strain;*his* structural genes
+Resistance to physical extremes;Growth at 42°C in <em>his</em>-overexpressing strain;his structural genes
 Resistance to physical extremes;Near-UV irradiation resistance;nuvA
 Resistance to physical extremes;Near-UV irradiation resistance;nuvC
 Resistance to physical extremes;Near-UV irradiation resistance;relA
@@ -1037,14 +1037,14 @@ Resistance to physical extremes;Osmotolerance;proA
 Resistance to physical extremes;Osmotolerance;proB
 Resistance to physical extremes;Phage (UV-irradiated T1) resistance;phr
 Resistance to physical extremes;Psoralen + UV irradiation resistance;puvA
-Resistance to physical extremes;Temperature resistance in *rpoD* (Ts);rpoH
+Resistance to physical extremes;Temperature resistance in <em>rpoD</em> (Ts);rpoH
 Resistance to physical extremes;Thermotolerance;gyrA
 Resistance to physical extremes;UV light resistance;crp
 Resistance to physical extremes;UV light resistance;cyaA
 Resistance to physical extremes;UV light resistance;envB
 Resistance to physical extremes;UV light resistance ;relA
-Resistance to physical extremes;UV irradiation resistance in *lon*;sulA
-Resistance to physical extremes;UV irradiation resistance in *lon*;ftsZ
+Resistance to physical extremes;UV irradiation resistance in <em>lon</em>;sulA
+Resistance to physical extremes;UV irradiation resistance in <em>lon</em>;ftsZ
 Resistance to physical extremes;UV light + bromodeoxyuridine resistance;tdk
 Resistance to physical extremes;UV light + bromodeoxyuridine resistance;ung
 Resistance to physical extremes;UV light + psoralen resistance;puvA

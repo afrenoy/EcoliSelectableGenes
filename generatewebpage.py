@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 
-import markdown
 import re
 import io
-
-def translate(string):
-    return markdown.markdown(string).replace('<p>','').replace('</p>','')
 
 # From a gene name, get a string with a link to ecocyc if relevant
 def getallgenes(ecocycfile):
@@ -34,7 +30,7 @@ def formatgene(gene,allgenes):
 def printtable1(ftab1,allgenes):
     output=io.StringIO()
     f=open(ftab1,'r')
-    tab=[translate(t) for t in f.readlines()]
+    tab=f.readlines()
     f.close()
 
     print('<table>',file=output)
@@ -65,8 +61,6 @@ def printtable2(ftab2,allgenes):
     print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
 
     for line in tab[2:]:
-        if line.count(';')==3: # For many entries, no value is provided for the selected 'alteration'
-            line=line.rstrip('\n')+'; \n'
         print('<tr>',end='',file=output)
         tokens=line.rstrip('\n').split(';')
         print('<td>%s</td><td>%s</td><td>%s</td>'%(formatgene(tokens[0],allgenes),tokens[1],tokens[2]),end='',file=output)
