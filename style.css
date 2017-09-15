@@ -15,32 +15,36 @@ nav {
   left:0;
   margin:0;
   padding:0;
-  height:4em;
+  height:3rem;
   width:100%;
   overflow: hidden;
   background-color: #333333;
   z-index:1;
+  font-size:125%;
 }
 
 nav ul {
-  vertical-align: bottom;
   list-style-type: none;
+  margin:0px 0px 0px 25px;
+  padding:0px;
+  height:100%;
 }
 
 nav li {
   float: left;
+  height:100%;
 }
 
-nav li a {
+nav a {
+  line-height:3rem;
   color: white;
-  padding: 16px;
-  font-size:150%;
+  padding: 0px 25px 0px 0px;
   text-decoration:none;
 }
 
 .anchor {
   position: absolute;
-  margin: -4.5em;
+  margin: -3.5rem;
 }
 
 h1 {
@@ -49,6 +53,23 @@ h1 {
 
 #about, #contribute {
   max-width:50em;
+  margin: 10px 20px;
+}
+
+#table1, #table2, #references {
+  margin: 10px 20px;
+}
+
+footer {
+  margin: 20px 20px;
+  max-width:50em;
+}
+
+footer p {
+  color: grey;
+  margin: 0.7em 0em;
+  font-family: fantasy;
+  font-size: 80%;
 }
 
 table { 
@@ -103,7 +124,7 @@ tr:nth-child(even) {
 }
 
 .reftitle {
-  width: 60em;
+  width: 50em;
 }
 
 .reflink {
@@ -117,5 +138,4 @@ tr:nth-child(even) {
 .journal {
   color: grey
 }
-
 

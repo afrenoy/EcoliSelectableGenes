@@ -109,7 +109,7 @@ def printtableref(fref):
         gscholar='https://scholar.google.ch/scholar?hl=en&q=%s'%(strquery.replace(' ','%20'))
         pdf='pdf/%s.pdf'%tokens[0]
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
-        print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s. <i>%s</i>. %s <span class="journal">%s</span></td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],tokens[4].rstrip('\n'),gscholar,pdflink),file=output)
+        print('<tr><td>%s</td><td><a id="ref%s" class="anchor"></a>%s. <i>%s</i>. %s <span class="journal">%s</span></td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],tokens[4].rstrip('\n'),gscholar,pdflink),file=output)
         #refparser.getsource(gscholar,tokens[0]) # If uncommented, parse google scholar and try to download the pdf from there or from sci-hub.
     print('</table></div>',file=output)
     return(output.getvalue())
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     print(printtable2('table2.csv',allgenes),file=output)
     print(printtableref('references.csv'),file=output)
     print(open('contribute.html','r').read(),file=output)
-    print('</div></body>\n</html>',file=output)
+    print('</div>%s</body>\n</html>'%open('footer.html','r').read(),file=output)
 
     outputfile=open('index.html','w')
     outputfile.write(output.getvalue())
