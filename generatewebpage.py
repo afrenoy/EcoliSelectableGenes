@@ -124,7 +124,7 @@ if __name__ == "__main__":
     print(printtable2('table2.csv',allgenes),file=output)
     print(printtableref('references.csv'),file=output)
     print(open('contribute.html','r').read(),file=output)
-    print('</div>%s</body>\n</html>'%open('footer.html','r').read(),file=output)
+    print('</div>\n%s</body>\n</html>'%open('footer.html','r').read(),file=output)
 
     outputfile=open('index.html','w')
     outputfile.write(output.getvalue())
