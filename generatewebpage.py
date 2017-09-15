@@ -2,6 +2,8 @@
 
 import re
 import io
+import os
+import refparser
 
 # From a gene name, get a string with a link to ecocyc if relevant
 def getallgenes(ecocycfile):
@@ -87,8 +89,6 @@ def printtable2(ftab2,allgenes):
 # References
 def printtableref(fref):
     output=io.StringIO()
-    import refs as refparser
-    import os
     h=open(fref,'r')
     refs=h.readlines()
     h.close()
@@ -110,7 +110,7 @@ def printtableref(fref):
         pdf='pdf/%s.pdf'%tokens[0]
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
         print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s. <i>%s</i>. %s <span class="journal">%s</span></td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],tokens[4].rstrip('\n'),gscholar,pdflink),file=output)
-        refparser.getsource(gscholar,tokens[0]) # Try to download the pdf / find doi / bibtex record / ...
+        #refparser.getsource(gscholar,tokens[0]) # If uncommented, parse google scholar and try to download the pdf from there or from sci-hub.
     print('</table>',file=output)
     return(output.getvalue())
 
