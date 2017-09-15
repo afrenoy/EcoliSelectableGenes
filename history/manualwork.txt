@@ -1,0 +1,26 @@
+## Table 1
+
+# Producing a csv file that still needs a little bit of work by hand
+cat table1-0.html |gsed 's/^\(\&\#160;\)\{3\}\(.*\)<br\/>/\2}/g' |gsed 's/\(\&\#160;\)\+/ /g' |tr '\n' { |sed 's/}{/;/g' |tr { '\n' |sed 's/<br\/>//g' > table1-1.csv
+
+
+## Table 2
+
+# Remove weird spaces
+cat table2-0.html |gsed 's/^\(\&\#160;[ ]*\)\+//g' |sed 's/\&\#160;/ /g' > table2-1.html
+# -> Be careful to correct by hand problems with 'Selection' taking multiple lines in the pdf, and same for 'References'!!
+# -> And also remove all ';' by hand, we will use it as the field separator!
+# -> And be careful about 'structural genes' taking several lines in 'Gene' field, and about 'Generic', and weird "
+
+
+## References
+
+# By hand: remove '(London)' after Nature, '(Tokyo)', '(Paris)', '(ed.)'...
+# Remove weird spaces
+cat references.html|gsed 's/^\(\&\#160;[ ]*\)\+//g' |sed 's/\&\#160;/ /g' > references-1.html
+# Remove ; by hand
+# Ref 124,129,154,583 -> miss page number
+
+# Download table https://ecocyc.org/group?id=biocyc17-25757-3697467103 from ecocyc, containing all known genes in the database, providing a link between gene name and ecocyc ID.
+# And transform it into a csv file with only the columns we care about
+cut -d '  ' -f 1,2,3 ecocyc-allgenes.txt |tr '    ' ',' |tr -d '"' > ecocyc.csv

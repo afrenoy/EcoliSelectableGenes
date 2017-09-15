@@ -35,8 +35,8 @@ def printtable1(ftab1,allgenes):
     tab=f.readlines()
     f.close()
 
-    print('<table>',file=output)
-    print('<caption><span class="anchor" id="table1"></span><h1>%s</h1></caption>'%tab[0],file=output)
+    print('<div id="table1"><table>',file=output)
+    print('<caption><span class="anchor" id="table1-anchor"></span><h1>%s</h1></caption>'%tab[0],file=output)
     print('<col class="selection">\n<col class="gene">\n<col class="type">\n',file=output)
 
     tokens=tab[1].split(';')
@@ -46,7 +46,7 @@ def printtable1(ftab1,allgenes):
         tokens=line.split(';')
         assert(len(tokens)==3)
         print('<tr><td>%s</td><td>%s</td><td>%s</td></tr>'%(tokens[1],formatgene(tokens[2],allgenes),tokens[0]),file=output)
-    print('</table>',file=output)
+    print('</table></div>',file=output)
     return(output.getvalue())
 
 # Table 2
@@ -56,8 +56,8 @@ def printtable2(ftab2,allgenes):
     tab=g.readlines()
     g.close()
 
-    print('<table>',file=output)
-    print('<caption><span class="anchor" id="table2"></span><h1>%s</h1></caption>'%tab[0].rstrip('\n'),file=output)
+    print('<div id="table2"><table>',file=output)
+    print('<caption><span class="anchor" id="table2-anchor"></span><h1>%s</h1></caption>'%tab[0].rstrip('\n'),file=output)
     print('<col class="gene">\n<col class="organism">\n<col class="selection">\n<col class="references">\n<col class="alteration">',file=output)
     tokens=tab[1].rstrip('\n').split(';')
     print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%(tokens[0],tokens[1],tokens[2],tokens[3],tokens[4]),file=output)
@@ -83,7 +83,7 @@ def printtable2(ftab2,allgenes):
             print('<a href="#ref%s">%s</a> '%(ref,ref),end='',file=output)
         print('</td><td>%s</td>'%tokens[4],end='',file=output)
         print('</tr>',file=output)
-    print('</table>',file=output)
+    print('</table></div>',file=output)
     return(output.getvalue())
 
 # References
@@ -93,8 +93,8 @@ def printtableref(fref):
     refs=h.readlines()
     h.close()
 
-    print('<table>',file=output)
-    print('<caption><span class="anchor" id="ref"></span><h1>References</h1></caption>',file=output)
+    print('<div id="references"><table>',file=output)
+    print('<caption><span class="anchor" id="references-anchor"></span><h1>References</h1></caption>',file=output)
     print('<col class="refnumber">\n<col class="reftitle">\n<col class="reflink">\n<col class="refpdf">',file=output)
     print('<tr><th>%s</th><th>%s</th><th>%s</th><th>%s</th></tr>'%("Nº","title","link","pdf"),file=output)
     
@@ -111,13 +111,13 @@ def printtableref(fref):
         pdflink=('<a href="%s">pdf</a>'%pdf if os.path.exists(pdf) else '')
         print('<tr><td><a id="ref%s" class="anchor"></a>%s</td><td>%s. <i>%s</i>. %s <span class="journal">%s</span></td><td><a href="%s">google scholar</a></td><td>%s</td></tr>'%(tokens[0],tokens[0],tokens[1],tokens[2],tokens[3],tokens[4].rstrip('\n'),gscholar,pdflink),file=output)
         #refparser.getsource(gscholar,tokens[0]) # If uncommented, parse google scholar and try to download the pdf from there or from sci-hub.
-    print('</table>',file=output)
+    print('</table></div>',file=output)
     return(output.getvalue())
 
 if __name__ == "__main__":
     output=io.StringIO() # The buffer in which we will write the html
     print('<!DOCTYPE html>\n<html lang="en">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<title>Larossa</title>\n\t<link rel="stylesheet" href="style.css">\n</head>\n<body>\n',file=output)
-    print('<div id="menu"><nav><ul><li><a href="#about">About</a></li><li><a href="#table1">Selections giving rise to mutants</a></li><li><a href="#table2">Genes for which selections exist</a></li><li><a href="#ref">References</a></li><li><a href="#contribute">Contribute</a></li></ul></nav></div>\n<div id="main">',file=output)
+    print('<div id="menu"><nav><ul><li><a href="#about-anchor">About</a></li><li><a href="#table1-anchor">Selections giving rise to mutants</a></li><li><a href="#table2-anchor">Genes for which selections exist</a></li><li><a href="#references-anchor">References</a></li><li><a href="#contribute-anchor">Contribute</a></li></ul></nav></div>\n<div id="main">',file=output)
     print(open('about.html','r').read(),file=output)
     allgenes=getallgenes('ecocyc.csv') # Load the mapping between ecocyc IDs and gene names so we can add links to ecocyc in the tables
     print(printtable1('table1.csv',allgenes),file=output)
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     print(open('contribute.html','r').read(),file=output)
     print('</div></body>\n</html>',file=output)
 
-    outputfile=open('larossa.html','w')
+    outputfile=open('index.html','w')
     outputfile.write(output.getvalue())
     outputfile.close()
 

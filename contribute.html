@@ -1,17 +1,24 @@
-<h1><span class="anchor" id="contribute"></span>Contribute to this document</h1>
+<div id="contribute">
+<h1><span class="anchor" id="contribute-anchor"></span>Contribute to free <em>E. coli</em> knowledge!</h1>
 
 <p>
-These data were automatically extracted and parsed from a pdf, and many mistakes may remain. You are very welcome to contribute! 
+These data were automatically extracted and parsed from the pdf, using a few bash and python scripts. 
+Many mistakes may remain, either introduced by our parsing or present in the original book. Moreover finding a pdf for each reference requires manual work in many cases. You are very welcome to contribute! <br> 
+</p>
+
+<p>
 Here is what you can do:
 </p>
 
 <ul>
-  <li>Fix a mistake in one of the tables: edit the corresponding csv file</li>
-  <li>Add a missing pdf: just add it in the pdf/ repository naming it refnumber.pdf (eg 84a.pdf or 26.pdf), and a link will automatically be generated</li>
-  <li>Add a missing link to ecocyc: add a new line to ecocyc.csv linking the name used in our tables with and an ecocyc ID, and a link will automatically be generated</li>
+  <li>Fix a mistake in one of the tables: just edit the corresponding csv file (<code>table1.csv</code>, <code>table2.csv</code> or <code>references.csv</code>), and the webpage will be updated automatically</li>
+  <li>Add a missing pdf: just add it in the <code>pdf/</code> directory, naming it <code>refnumber.pdf</code> (eg <code>84a.pdf</code> or <code>26.pdf</code>), and a link will automatically be generated</li>
+  <li>Add a missing link to ecocyc: add a new line to <code>ecocyc.csv</code> linking the name used in our tables with and an ecocyc ID, and a link will automatically be generated</li>
 </ul>
 
 <p>
-After doing these any of these changes, you can just run make to update larossa.html. If you are satisfied with the outcome, send a patch / a pull request.
+After doing any of these changes, you can just run <code>make</code> to update the main file <code>index.html</code>. If you are satisfied with the outcome, send a patch / a pull request. <br>
 Other contributions and suggestions of improvement are also very welcome!
 </p>
+</div>
+

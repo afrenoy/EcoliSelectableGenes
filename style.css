@@ -47,6 +47,10 @@ h1 {
   font-size:150%;
 }
 
+#about, #contribute {
+  max-width:50em;
+}
+
 table { 
   table-layout:fixed;
 }
@@ -99,7 +103,7 @@ tr:nth-child(even) {
 }
 
 .reftitle {
-  width: 80em;
+  width: 60em;
 }
 
 .reflink {

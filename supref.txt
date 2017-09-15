@@ -1,5 +1,0 @@
-869;Comai, L.;1985;Inhibition resistant 5-enolpyruvyl-3-phosphoshikimate synthetase, production and use.;US Patent US4535060
-870;Lin, S. C. L., D. T. Palmer, and H. I. Miller;1986;Phage resistant E. Coli bacterium and method for making the same.;European Patent EP0183469A1
-871;Miller, E. S.;1984;Thesis.;Purdue University
-872;Epelbaum, S., Z. Barak, R. Larossa, and D. Chipman;0000;Unpublished data.;XXXX
-873;Freitag, C. S.;1982;Thesis.;North Carolina State University
