@@ -11,13 +11,13 @@ Start by cloning the git repository from <a href="https://github.com/afrenoy/Eco
 </p>
 
 <ul>
-  <li>Fix a mistake in one of the tables: just edit the corresponding csv file (<code>table1.csv</code>, <code>table2.csv</code> or <code>references.csv</code>), and the webpage will be updated automatically</li>
-  <li>Add a missing pdf: just add it in the <code>pdf/</code> directory, naming it <code>refnumber.pdf</code> (eg <code>84a.pdf</code> or <code>26.pdf</code>), and a link will automatically be generated</li>
-  <li>Add a missing link to ecocyc: add a new line to <code>ecocyc.csv</code> linking the name used in our tables with and an ecocyc ID, and a link will automatically be generated</li>
+  <li>Fix a mistake in one of the tables: just edit the corresponding csv file (<code>table1.csv</code>, <code>table2.csv</code> or <code>references.csv</code>), and the webpage will be updated when running <code>./generatewebpage.py</code></li>
+  <li>Add a missing pdf: just add it in the <code>pdf/</code> directory, naming it <code>refnumber.pdf</code> (eg <code>84a.pdf</code> or <code>26.pdf</code>), and a link will automatically be generated when running <code>./generatewebpage.py</code></li>
+  <li>Add a missing link to <a href="https://ecocyc.org/">EcoCyc</a>: add a new line to <code>ecocyc.csv</code> linking the name used in our tables with and an EcoCyc ID, and a link will automatically be generated when running <code>./generatewebpage.py</code></li>
 </ul>
 
 <p>
-After doing any of these changes, you can just run <code>make</code> to update the main file <code>index.html</code>. If you are satisfied with the outcome, send a patch / a pull request. <br>
+After doing any of these changes, you can just run <code>./generatewebpage.py</code> to update the main file <code>index.html</code>. If you are satisfied with the outcome, send a patch / a pull request. <br>
 Other contributions and suggestions of improvement are also very welcome!
 </p>
 </div>

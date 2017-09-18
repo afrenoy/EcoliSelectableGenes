@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Larossa</title>
+	<meta name="description" content="E. coli and Salmonella: tables from chapter 139 (selections giving rise to mutants, genes for which selections exist) in a parsable format, with links to EcoCyc and PDFs">
+	<title>Mutant selection tables for E. coli and Salmonella</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
 <a href="https://openlibrary.org/books/OL8575023M"><em>Escherichia coli and Salmonella</em></a> is the bible of microbiology. It contains data daily used by many researchers. The chapter 139 (<em>Mutant Selections Linking Physiology, Inhibitors, and Genotypes</em>), by Robert A. LaRossa, contains two famous tables listing all genes for which a positive or negative selection has been reported in the litterature. While a pdf is available from <a href="http://www.asmscience.org/files/Chapter_139_Mutant_Selections_Linking_Physiology.pdf">ASM</a>, its format makes it hard to use. Moreover it contains small mistakes that could easily be corrected (eg typos in the reference table). Eventually academics may want to collectively keep updating this table with more recent litterature.
 </p>
 <p>
-For these reasons, I extracted these two tables from the pdf and created this easily searchable and parsable webpage, with links between gene names and ecocyc, and between reference number and full bibliographic information (including a pdf when available). 
+For these reasons, I extracted these two tables from the pdf and created this easily parsable and updatable webpage, with links between gene names and EcoCyc, and between reference number and full bibliographic information (including a pdf when available). 
 </p>
 <p>
 The raw data can also be downloaded as csv files:
@@ -27,7 +28,7 @@ The raw data can also be downloaded as csv files:
   <li>Bibliographic references: <a href="#references-anchor">view online</a> or <a href="references.csv">downlad raw data</a></li>
 </ul>
 <p>
-Anybody can <a href="#contribute">contribute</a> to this document.<br>
+And importantly, anybody can <a href="#contribute">contribute</a> to this document!<br>
 <p>
 </div>
 
@@ -4096,13 +4097,13 @@ Start by cloning the git repository from <a href="https://github.com/afrenoy/Eco
 </p>
 
 <ul>
-  <li>Fix a mistake in one of the tables: just edit the corresponding csv file (<code>table1.csv</code>, <code>table2.csv</code> or <code>references.csv</code>), and the webpage will be updated automatically</li>
-  <li>Add a missing pdf: just add it in the <code>pdf/</code> directory, naming it <code>refnumber.pdf</code> (eg <code>84a.pdf</code> or <code>26.pdf</code>), and a link will automatically be generated</li>
-  <li>Add a missing link to ecocyc: add a new line to <code>ecocyc.csv</code> linking the name used in our tables with and an ecocyc ID, and a link will automatically be generated</li>
+  <li>Fix a mistake in one of the tables: just edit the corresponding csv file (<code>table1.csv</code>, <code>table2.csv</code> or <code>references.csv</code>), and the webpage will be updated when running <code>./generatewebpage.py</code></li>
+  <li>Add a missing pdf: just add it in the <code>pdf/</code> directory, naming it <code>refnumber.pdf</code> (eg <code>84a.pdf</code> or <code>26.pdf</code>), and a link will automatically be generated when running <code>./generatewebpage.py</code></li>
+  <li>Add a missing link to <a href="https://ecocyc.org/">EcoCyc</a>: add a new line to <code>ecocyc.csv</code> linking the name used in our tables with and an EcoCyc ID, and a link will automatically be generated when running <code>./generatewebpage.py</code></li>
 </ul>
 
 <p>
-After doing any of these changes, you can just run <code>make</code> to update the main file <code>index.html</code>. If you are satisfied with the outcome, send a patch / a pull request. <br>
+After doing any of these changes, you can just run <code>./generatewebpage.py</code> to update the main file <code>index.html</code>. If you are satisfied with the outcome, send a patch / a pull request. <br>
 Other contributions and suggestions of improvement are also very welcome!
 </p>
 </div>
