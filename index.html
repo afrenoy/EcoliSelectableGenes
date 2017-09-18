@@ -8,34 +8,33 @@
 </head>
 <body>
 
-<div id="menu"><nav><ul><li><a href="#about-anchor">About</a></li><li><a href="#table1-anchor">Selections giving rise to mutants</a></li><li><a href="#table2-anchor">Genes for which selections exist</a></li><li><a href="#references-anchor">References</a></li><li><a href="#contribute-anchor">Contribute</a></li></ul></nav></div>
+<div id="menu"><nav><ul><li><a href="#about-this-document">About</a></li><li><a href="#table1-selections-giving-rise-to-mutants">Selections giving rise to mutants</a></li><li><a href="#table2-genes-for-which-selections-exist">Genes for which selections exist</a></li><li><a href="#references-table">References</a></li><li><a href="#how-to-contribute">Contribute</a></li></ul></nav></div>
 <div id="main">
 <div id="about">
-<h1><span class="anchor" id="about-anchor"></span>About this document</h1>
+<h1><span class="anchor" id="about-this-document"></span>About this document</h1>
 
 <p>
-<a href="https://openlibrary.org/books/OL8575023M"><em>Escherichia coli and Salmonella</em></a> is the bible of microbiology. It contains data daily used by many researchers. The chapter 139 (<em>Mutant Selections Linking Physiology, Inhibitors, and Genotypes</em>), by Robert A. LaRossa, contains two famous tables listing all genes for which a positive or negative selection has been reported in the litterature. While a pdf is available from <a href="http://www.asmscience.org/files/Chapter_139_Mutant_Selections_Linking_Physiology.pdf">ASM</a>, its format makes it hard to use. Moreover it contains small mistakes that could easily be corrected (eg typos in the reference table). Eventually academics may want to collectively keep updating this table with more recent litterature.
+<a href="https://openlibrary.org/books/OL8575023M"><em>Escherichia coli and Salmonella</em></a> is the bible of microbiology. It contains data daily used by many researchers. The chapter 139 (<em>Mutant Selections Linking Physiology, Inhibitors, and Genotypes</em>), by Robert A. LaRossa, contains two famous tables listing all genes for which a positive or negative selection has been reported in the litterature. While a pdf is available from <a href="http://www.asmscience.org/files/Chapter_139_Mutant_Selections_Linking_Physiology.pdf">ASM</a>, its format makes it hard to use. Moreover it contains small mistakes that could easily be corrected (eg typos in the reference table). Eventually academics may want to collectively keep updating these tables with more recent litterature.
 </p>
 <p>
-For these reasons, I extracted these two tables from the pdf and created this easily parsable and updatable webpage, with links between gene names and EcoCyc, and between reference number and full bibliographic information (including a pdf when available). 
+For these reasons, I extracted the two tables from the pdf and created this easily parsable and updatable webpage, with links between gene names and EcoCyc, and between reference number and full bibliographic information (including a pdf when available). 
 </p>
 <p>
 The raw data can also be downloaded as csv files:
 </p>
 <ul>
-  <li>Selections giving rise to mutants: <a href="#table1-anchor">view online</a> or <a href="table1.csv">download raw data</a></li>
-  <li>Genes for which selections exist: <a href="#table2-anchor">view online</a> or <a href="table2.csv">download raw data</a></li>
-  <li>Bibliographic references: <a href="#references-anchor">view online</a> or <a href="references.csv">downlad raw data</a></li>
+  <li>Selections giving rise to mutants: <a href="#table1-selections-giving-rise-to-mutants">view online</a> or <a href="table1.csv">download raw data</a></li>
+  <li>Genes for which selections exist: <a href="#table2-genes-for-which-selections-exist">view online</a> or <a href="table2.csv">download raw data</a></li>
+  <li>Bibliographic references: <a href="#references-table">view online</a> or <a href="references.csv">downlad raw data</a></li>
 </ul>
 <p>
-And importantly, anybody can <a href="#contribute">contribute</a> to this document!<br>
+And importantly, anybody can <a href="#how-to-contribute">contribute</a> to this document!<br>
 <p>
 </div>
 
 
 <div id="table1"><table>
-<caption><span class="anchor" id="table1-anchor"></span><h1>Selections giving rise to mutants of <em>E. coli</em> and <em>S. typhimurium</em>
-</h1></caption>
+<caption><span class="anchor" id="table1-selections-giving-rise-to-mutants"></span><h1>Selections giving rise to mutants of <em>E. coli</em> and <em>S. typhimurium</em></h1></caption>
 <col class="selection">
 <col class="gene">
 <col class="type">
@@ -2153,13 +2152,13 @@ And importantly, anybody can <a href="#contribute">contribute</a> to this docume
 </table></div>
 
 <div id="table2"><table>
-<caption><span class="anchor" id="table2-anchor"></span><h1>Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i></h1></caption>
+<caption><span class="anchor" id="table2-genes-for-which-selections-exist"></span><h1>Genes for which selections exist in <i>E. coli</i> and <i>S. typhimurium</i></h1></caption>
 <col class="gene">
 <col class="organism">
 <col class="selection">
 <col class="references">
 <col class="alteration">
-<tr><th>Gene</th><th>Organism</th><th>Selection</th><th>References</th><th>Alteration</th></tr>
+<tr><th>Gene</th><th>Organism</th><th>Selection</th><th>References</th><th>Alteration<a href="#alterations">*</a></th></tr>
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG10027">ackA</a></td><td>E, S</td><td>Fluoroacetate resistance</td><td><a href="#ref96">96</a> <a href="#ref281">281</a> <a href="#ref463">463</a> <a href="#ref797">797</a> </td><td>L</td></tr>
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG10029">ada</a></td><td>E</td><td>Nitrosoguanidine resistance</td><td><a href="#ref693">693</a> </td><td> </td></tr>
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG10030">add</a></td><td>E</td><td>Deoxyadenosine + hypoxanthine satisfaction of <em>purB</em> requirement</td><td><a href="#ref370">370</a> </td><td>L</td></tr>
@@ -3198,10 +3197,12 @@ And importantly, anybody can <a href="#contribute">contribute</a> to this docume
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG11146">xapR</a></td><td>E</td><td>Adenosine as C source in <em>upp deoD</em></td><td><a href="#ref111">111</a> </td><td>C</td></tr>
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG11146">xapR</a></td><td>E</td><td>Inosine as C source in <em>upp deoD</em></td><td><a href="#ref111">111</a> </td><td>C</td></tr>
 <tr><td><a class="gene" href="http://ecocyc.org/gene?orgid=ECOLI&id=EG11076">xylE</a></td><td>E</td><td>Xylose resistance in <em>fda</em></td><td><a href="#ref175">175</a> </td><td>L</td></tr>
-</table></div>
+</table>
+<p><span id="alterations" class="anchor"></span>* Alterations:<br> S, structure;<br> FBI, site of feedback inhibition;<br> D, increased gene dosage;<br> C, constitutive gene expression;<br> Q, altered amount of gene product;<br> G, gain of function;<br> L, loss of function.</p>
+</div>
 
 <div id="references"><table>
-<caption><span class="anchor" id="references-anchor"></span><h1>References</h1></caption>
+<caption><span class="anchor" id="references-table"></span><h1>References</h1></caption>
 <col class="refnumber">
 <col class="reftitle">
 <col class="reflink">
@@ -4085,7 +4086,7 @@ And importantly, anybody can <a href="#contribute">contribute</a> to this docume
 </table></div>
 
 <div id="contribute">
-<h1><span class="anchor" id="contribute-anchor"></span>Contribute to free <em>E. coli</em> (and <em>Salmonella</em>) knowledge!</h1>
+<h1><span class="anchor" id="how-to-contribute"></span>Contribute to free <em>E. coli</em> (and <em>Salmonella</em>) knowledge!</h1>
 
 <p>
 These data were automatically extracted and parsed from the pdf, using a few bash and python scripts. 
