@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import re
 import magic
 import urllib.request
+import shutil
 
 
 def checkpdf(output):
@@ -50,6 +51,32 @@ def getpdffromscihub(doi, output):
         os.remove(output)
         return False
     return True
+
+
+def cleanpdffromscihub(pdffile):
+    f = open(pdffile, 'r+b')
+    lines = f.readlines()
+    f.close()
+    beghtml=[n for (n,l) in enumerate(lines) if '<html>'.encode() in l]
+    endhtml=[n for (n,l) in enumerate(lines) if '</html>'.encode() in l]
+    if beghtml:
+        print("Found html code in pdf %s, attempting to remove" % pdffile)
+        assert(len(beghtml)==1)
+        assert(len(endhtml)==1)
+        assert(beghtml[0]==1)  # Because the actual first line will be <!DOCTYPE html>
+        g = open(pdffile+'-tmp', 'w+b')
+        for l in lines[endhtml[0]+1:]:
+            g.write(l)
+        g.close()
+        shutil.move(pdffile+'-tmp', pdffile)
+        # Since we're here try to find the doi...
+        for l in lines[beghtml[0]:endhtml[0]]:
+            searchdoi = re.search('10\.1[0-9]{3}(/|%2F)[^/ ?"]*', str(l))
+            if searchdoi:
+                doi = searchdoi.group(0).split('.pdf')[0]
+                doitable = open('doi', 'a')
+                doitable.write(pdffile + ' ' + doi + '\n')
+                doitable.close()
 
 
 def parsehtmlfromgs(nref):
